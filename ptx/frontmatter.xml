@@ -14,28 +14,31 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
 
 <frontmatter xml:id="frontmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <titlepage>
+    <bibinfo>
         <author>
             <personname>Katherine Yoshiwara</personname>
             <department>Department of Mathematics</department>
             <institution>Los Angeles Pierce College</institution>
 <!--            <email>kyoshiwara@hotmail.com</email>  -->
         </author>
+        <date><today /></date>    
 
-        <date><today /></date>
-
-    </titlepage>
-
-    <colophon>
         <copyright>
-            <year>2020</year>
+            <year>2025</year>
             <holder>Katherine Yoshiwara</holder>
             <minilicense>GFDL License</minilicense>
             <shortlicense>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license is included in the appendix entitled <q>GNU Free Documentation License.</q>  All trademarks<trademark /> are the registered<registered /> marks of their respective owners.</shortlicense>
         </copyright>
+    </bibinfo>
+    <titlepage>
+        <titlepage-items/>
+    </titlepage>
+
+    <colophon>
+        <colophon-item/>
     </colophon>
 
-<preface>
+<preface xml:id="preface">
 <p><pubtitle>Intermediate Algebra</pubtitle> is a textbook for students who have some acquaintance with the basic notions of variables and equations, negative numbers, and graphs, although we provide a "Toolkit" to help the reader refresh any skills that may have gotten a little rusty.  In this book we journey farther into the subject, to explore a greater variety of topics including graphs and modeling, curve-fitting, variation, exponentials and logarithms, and the conic sections. We use technology to handle data and give some instructions for using a graphing calculator, but these can easily be adapted to any other graphing utility. </p>  
 
 <p>We discuss functions and their applications, but not in the detail expected of a precalculus course; our intended audience includes students preparing for the many fields that may not use calculus but nonetheless require facility with quantitative reasoning. We aim to develop that facility in the context of modeling and problem solving.</p>

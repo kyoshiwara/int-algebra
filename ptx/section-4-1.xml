@@ -16,7 +16,9 @@ and obtain a formula for the solutions of any quadratic equation.  Here is the r
 
 <note><p>The formula gives us the solutions of a particular quadratic equation in terms of its coefficients, <m>a,~b,</m> and <m>c</m>.  We know that there should be two solutions, and the symbol <m>~\blert{\pm}~</m> is used to represent the two expressions
     <me>x=\dfrac{-b +\sqrt{b^2-4ac}}{2a}~~~\text{and}~~~x=\dfrac{-b - \sqrt{b^2-4ac}}{2a}</me>
-in a single formula.</p></note>
+in a single formula.  <m>~\alert{\text{[TK]}}~~</m></p></note>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review some properties of radicals, see <xref ref="tkSimpSq" text="custom"> Section 4.1.1 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>       
@@ -39,7 +41,7 @@ in a single formula.</p></note>
 
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>Which of the following is a correct statement of the quadratic formula?</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
         <li><p><m>x=-b \pm \dfrac{\sqrt{b^2-4ac}}{2a}</m></p></li>
         <li><p><m>x=\dfrac{-b}{2a} \pm \dfrac{\sqrt{b^2-4ac}}{2a}</m></p></li>
         <li><p><m>x=-b \pm \dfrac{b-\sqrt{4ac}}{2a}</m></p></li>
@@ -54,8 +56,10 @@ in a single formula.</p></note>
 We substitute <m>\alert{2}</m> for <m>a</m>, <m>\alert{-4}</m> for <m>b</m>, and <m>\alert{1}</m> for <m>c</m> into the quadratic formula, then simplify.
         <md><mrow> x \amp =\frac{-(\alert{-4})\pm \sqrt{(\alert{-4})^2 - 4(\alert{2})(\alert{1})}}{2(\alert{2})}</mrow>
             <mrow>\amp = \frac{4 \pm \sqrt{8}}{4}</mrow></md>
-Using a calculator, we find that the solutions are approximately <m>1.7</m> and <m>0.3</m>. These values are the <m>x</m>-intercepts of the graph of <m>~y = 2x^2 - 4x + 1,~</m> as shown in the figure.</p>
+Remeber that we cannot cancel the 4's in this expression! <m>~\alert{\text{[TK]}}~~</m> Using a calculator, we find that the solutions are approximately <m>1.7</m> and <m>0.3</m>. These values are the <m>x</m>-intercepts of the graph of <m>~y = 2x^2 - 4x + 1,~</m> as shown in the figure.</p>
 <image width="38%" source="images/fig-parabola-intercepts" ><description>parabola with irrational x-intercepts</description></image></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more about the order of operations with radicals, see <xref ref="tkOrderOp2" text="custom"> Section 4.1.2 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 1</title>
     <webwork><pg-code>
@@ -81,11 +85,13 @@ Using a calculator, we find that the solutions are approximately <m>1.7</m> and 
     </webwork></exercise>
 
 <exercise component="main"><title>Practice 1</title>
-<statement><p>Use the quadratic formula to solve <m>~x^2 - 3x = 1</m>.</p>
+<statement><p>Use the quadratic formula to solve <m>~x^2 - 3x = 1</m>. <m>~\alert{\text{[TK]}}~~</m></p>
         <p>Hint: Write the equation in standard form.</p>
             <p>Substitute <m>a = 1</m>, <m>b = -3</m>, <m>c = -1</m> into the quadratic formula.</p>
             <p>Simplify.</p></statement>
     <solution><p><m>x=\dfrac{3\pm \sqrt{13}}{2} </m></p></solution></exercise>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To see more examples of using the quadratic formula, see <xref ref="tkQuadForm" text="custom"> Section 4.1.3 </xref> of the Toolkit.</p></aside>
 </subsection>
 
 <subsection><title>Applications</title>
@@ -117,13 +123,13 @@ Factoring and extraction of roots are relatively fast and simple, but they do no
             );            
         </pg-code>
 <statement><p>Match each equation with the most efficient method of solution.
-    <ol marker="a">
+    <ol marker="a.">
         <li><p><m>6(x-4)^2=120 </m> <var name="$a" form="popup"/></p></li>
         <li><p><m>x^2-9x+20=0</m> <var name="$b" form="popup"/></p></li>
         <li><p><m>1.4x^2-6.2x+2.5=0</m> <var name="$c" form="popup"/></p></li>
         <li><p><m>x^2-20x=44</m> <var name="$d" form="popup"/></p></li>
     </ol></p>
-    <p><ol marker="I">
+    <p><ol marker="I.">
                     <li>Factoring</li>
                     <li>Extraction of roots</li>
                     <li>Completing the square </li>
@@ -131,7 +137,7 @@ Factoring and extraction of roots are relatively fast and simple, but they do no
                 </ol></p>
 </statement>
 <solution>
-            <p><ol marker="a">
+            <p><ol marker="a.">
                 <li>II</li>
                 <li>I</li>
                 <li>IV</li>
@@ -141,13 +147,13 @@ Factoring and extraction of roots are relatively fast and simple, but they do no
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>Match each equation with the most efficient method of solution.
-    <ol marker="a" cols="2">
+    <ol marker="a." cols="2">
         <li><p><m>6(x-4)^2=120 </m></p></li>
         <li><p><m>x^2-9x+20=0</m></p></li>
         <li><p><m>1.4x^2-6.2x+2.5=0</m></p></li>
         <li><p><m>x^2-20x=44</m></p></li>
     </ol></p>
-    <p><ol marker="I" cols="2">
+    <p><ol marker="I." cols="2">
                     <li><p>Factoring</p></li>
                     <li><p>Extraction of roots</p></li>
                     <li><p>Completing the square</p> </li>
@@ -159,14 +165,15 @@ Factoring and extraction of roots are relatively fast and simple, but they do no
     </statement>
 <solution><p>Suppose the width of the play area is <m>x</m> feet. Because there are three sections of fence along the width of the play area, that leaves <m>300 - 3x</m> feet of fence for its length.</p>
 <p> The area of the play area should be <m>6000</m> square feet, so we have the equation
-        <me>x(300 - 3x) = 6000</me>
-This is a quadratic equation. In standard form,
+        <md><mrow>\text{width} \times \text{length} \amp = \text{Area}</mrow>
+            <mrow>x(300 - 3x) \amp = 6000</mrow></md>        
+This is a quadratic equation. We use the distributive law and write the equation in standard form.
         <md><mrow>3x^2 - 300x + 6000 \amp= 0\amp\amp \blert{\text{Divide each term by 3.}}</mrow>
             <mrow>x^2 - 100x + 2000 \amp= 0</mrow></md>
-The left side cannot be factored, so we use the quadratic formula with <m>a = \alert{1}</m>, <m>b = \alert{-100}</m>, and <m>c = \alert{2000}</m>.
-        <md><mrow>x \amp=\frac{-(\alert{-100}) \pm\sqrt{(\alert{-100})^2 - 4(\alert{1})(\alert{2000})}}{2(\alert{1})}</mrow>
+The left side of this equation cannot be factored, so we use the quadratic formula with <m>a = 1</m>, <m>b = -100</m>, and <m>c = 2000</m>.
+        <md><mrow>x \amp=\frac{-(-100) \pm\sqrt{(-100)^2 - 4(1)(2000)}}{2(1)}</mrow>
             <mrow>\amp= \frac{100 \pm\sqrt{2000}}{2}\approx \frac{100 \pm 44.7}{2}</mrow></md>
-When we evalute this last expression, we get two different positive values, <m>x = 72.4</m> or <m>x=27.6</m>. Both values give solutions to the problem. To find the length of the playground in each case, we substitute <m>x</m> into <m>300-3x.</m>  <ul>
+When we evalute this last expression, we get two different positive values for the width of the play area, <m>x = 72.4</m> or <m>x=27.6</m>. Both values give solutions to the problem. To find the length of the playground in each case, we substitute <m>x</m> into <m>300-3x.</m>  <ul>
     <li> If the width of the play area is <m>72.4</m> feet, the length is <m>300 - 3(72.4)</m>, or <m>82.8</m> feet.</li>
     <li> If the width is <m>27.6</m> feet, the length is <m>300 - 3(27.6)</m>, or <m>217.2</m> feet.</li>
     </ul></p>
@@ -209,9 +216,9 @@ When we evalute this last expression, we get two different positive values, <m>x
 <statement><p>The height of a baseball is given by the equation
                 <md><mrow>h=-16t^2+64t+4</mrow></md>
     where <m>t</m> is the time in seconds. Find two times when the ball is at a height of 20 feet. Round your answers to two decimal places.</p>
-    <p>Hint: Set <m>h=20</m>, then write the equation in standard form.</p>
-            <p>Divide each term by <m>-16</m>.</p>
-            <p>Use the quadratic formula to solve.</p></statement>
+    <p>Hint: Step 1: Set <m>h=20</m>, then write the equation in standard form.</p>
+            <p>Step 2: Divide each term by <m>-16</m>.</p>
+            <p>Step 3: Use the quadratic formula to solve.</p></statement>
 <solution><p>0.27 sec, 3.73 sec</p></solution></exercise>   
 </subsection>
 
@@ -236,7 +243,7 @@ Although square roots <idx><h>square root</h><h>of a negative real number</h></i
 <p>Thus, the square root of any negative real number can be written as the product of a real number and <m>i</m>.  Every negative real number has two imaginary square roots.  For example, the square roots of <m>-9</m> are <m>3i</m> and <m>-3i</m>.  You can verify that
     <me>(3i)^2=9i^2=9(-1)=-9~~~\text{and}~~~(-3i)^2=(-3)^2i^2=9(-1)=-9</me></p>   
 
-<example><statement><p><ol marker="a" cols="2">
+<example><statement><p><ol marker="a." cols="2">
     <li><p><md><mrow>\sqrt{-4} \amp = \sqrt{-1}\sqrt{4}</mrow>
             <mrow> \amp = i \sqrt{4} = 2i</mrow></md></p></li>
     <li><p><md><mrow>\sqrt{-3} \amp = \sqrt{-1}\sqrt{3}</mrow>
@@ -255,11 +262,11 @@ Although square roots <idx><h>square root</h><h>of a negative real number</h></i
             $b = Compute("-25");
         </pg-code> 
 <statement><p>Simplify.</p>
-            <p><ol marker="a" cols="2">
+            <p><ol marker="a." cols="2">
             <li><p><m>-\sqrt{-36}=</m><var name="$a" width="3"/> </p></li>
             <li><p><m>(5i)^2=</m><var name="$b" width="3"/></p></li></ol></p>
 </statement>
-<solution><p><ol marker="a" cols="2">
+<solution><p><ol marker="a." cols="2">
                 <li><p><m>-6i </m></p></li>
                 <li><p><m>-25 </m></p></li></ol></p>
         </solution>
@@ -267,11 +274,11 @@ Although square roots <idx><h>square root</h><h>of a negative real number</h></i
 
 <exercise component="main"><title>Practice 3</title>
 <statement><p>Simplify.</p>
-        <p><ol marker="a" cols="2">
+        <p><ol marker="a." cols="2">
             <li><p><m>-\sqrt{-36}</m></p></li>
             <li><p><m>(5i)^2</m></p></li>
         </ol></p></statement>
-<solution><p><ol marker="a" cols="2">
+<solution><p><ol marker="a." cols="2">
                 <li><p><m>-6i </m></p></li>
                 <li><p><m>-25 </m></p></li>
     </ol></p></solution></exercise>
@@ -374,26 +381,27 @@ For example, consider the three graphs shown at right.</p>
         \amp =\frac{4\pm\sqrt{\alert{-12}}}{2}</mrow>
     <mrow>\amp~~\blert{ \text{two real solutions}}  \amp \amp ~\blert{~\text{one repeated solution}} \amp\amp ~~\blert{~\text{no real solutions}} </mrow></md></p>
 
-<p>From these examples, we see that the solutions of a quadratic equation always occur in <term>conjugate pairs</term><idx><h>conjugate pair</h></idx><idx><h>conjugate</h><h>pair</h></idx><idx><h>conjugate pair</h><seealso>complex conjugate</seealso></idx>,
+<note><p>From these examples, we see that the solutions of a quadratic equation always occur in <term>conjugate pairs</term><idx><h>conjugate pair</h></idx><idx><h>conjugate</h><h>pair</h></idx><idx><h>conjugate pair</h><seealso>complex conjugate</seealso></idx>,
     <me>\dfrac{-b}{2a}+\dfrac{\sqrt{b^2-4ac}}{2a}~~~~~~\text{and}~~~~~~\dfrac{-b}{2a}-\dfrac{\sqrt{b^2-4ac}}{2a}</me>
- For example, if we know that one solution of a particular quadratic equation is <m>3+\sqrt{2}</m>, the other solution must be <m>3-\sqrt{2}</m>. If one solution is <m>5-3i</m>, the other solution must be <m>5+3i</m>.</p>
+ For example, if we know that one solution of a particular quadratic equation is <m>3+\sqrt{2}</m>, the other solution must be <m>3-\sqrt{2}</m>. If one solution is <m>5-3i</m>, the other solution must be <m>5+3i</m>.</p></note>
 
 <p>The expression <m>~b^2-4ac~</m>, which appears under the radical in the quadratic formula, is called the <term>discriminant</term><idx>discriminant</idx>, <m>D</m>, of the equation.  The value of the discriminant determines the nature of the solutions of the equation.  In particular, if the discriminant is negative, the equation has no real-valued solutions; the solutions are complex numbers.</p>
 
 <assemblage><title>The Discriminant</title><idx>discriminant</idx><idx>complex conjugate</idx><idx><h>complex conjugate</h><seealso>conjugate pair</seealso></idx>
 <p>The <term>discriminant</term> of a quadratic equation is
-        <me>\blert{D=b^2-4ac}</me>  <ol marker="1">      
+        <me>\blert{D=b^2-4ac}</me>  <ol marker="1.">      
     <li>If <m>D \gt 0</m>,  there are two unequal real solutions.</li>
     <li>If  <m>D = 0</m>,  there is one solution of multiplicity two.</li>
     <li>If <m>D \lt 0</m>,  there are two complex conjugate solutions.</li></ol></p></assemblage>
 
-<example xml:id="example-discriminant"><statement><p>Use the discriminant to discover how many <m>x</m>-intercepts the graph has. <ol marker="a" cols="3">
+<example xml:id="example-discriminant"><statement><p>Use the discriminant to discover how many <m>x</m>-intercepts the graph has. 
+<ol marker="a." >
     <li><m>y = x^2 - x - 3 </m></li>
     <li><m>y = 2x^2 + x + 1</m></li>
     <li><m>y = x^2 - 6x + 9</m></li>
     </ol></p></statement>
 
-<solution><p>We set <m>y=0</m> and compute the discriminant for the resulting equation.<ol marker="a">
+<solution><p>We set <m>y=0</m> and compute the discriminant for the resulting equation.<ol marker="a.">
     <li><p><m>D = b^2 - 4ac = (-1)^2 - 4(1)(-3) = 13 \gt 0</m>. The equation has two real, unequal solutions, and the graph has two <m>x</m>-intercepts.</p></li>
     <li><p><m>D = b^2 - 4ac = 1^2 - 4(2)(1) = -7 \lt 0</m>.</p><p>The equation has no real solutions, so the graph has no <m>x</m>-intercepts.</p></li>
     <li><p><m>D = b^2 - 4ac = (-6)^2 - 4(1)(9) = 0</m>.</p><p> The equation has one real solution of multiplicity two, and the graph has a single <m>x</m>-intercept.</p></li></ol></p></solution></example> 
@@ -409,7 +417,7 @@ For example, consider the three graphs shown at right.</p>
           2, 
         );
     </pg-code>
-<statement><p>True or False. <ol marker="a">
+<statement><p>True or False. <ol marker="a.">
     <li><p>The discriminant is part of the quadratic formula. <var name="$True" form="popup"/></p></li>
     <li><p>We use the discriminant to calculate the solutions of a quadratic equation. <var name="$TF" form="popup"/>
         </p></li>
@@ -417,7 +425,7 @@ For example, consider the three graphs shown at right.</p>
     <li><p>If a quadratic equation won't factor, its graph has no <m>x</m>-intercepts. <var name="$TF" form="popup"/>
         </p></li></ol></p>
 </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li>True</li>
             <li>False</li>
             <li>False</li>
@@ -426,7 +434,7 @@ For example, consider the three graphs shown at right.</p>
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 3</title>
-<statement><p>True or False. <ol marker="a">
+<statement><p>True or False. <ol marker="a.">
     <li><p>The discriminant is part of the quadratic formula.</p></li>
     <li><p>We use the discriminant to calculate the solutions of a quadratic equation.</p></li>
     <li><p>If the discriminant is negative, both <m>x</m>-intercepts of the graph are negative.</p></li>
@@ -443,12 +451,12 @@ For example, consider the three graphs shown at right.</p>
             "1", );
         </pg-code>
 <statement><p>Use the discriminant to discover how many <m>x</m>-intercepts the graph of each equation has.</p>
-            <p><ol marker="a" cols="2">
+            <p><ol marker="a." cols="2">
             <li><p><m>y = x^2 + 5x + 7</m> <var name="$counta" form="popup"/></p></li>
             <li><p><m>y = -\dfrac{1}{2}x^2 + 4x - 8</m> <var name="$countb" form="popup"/></p></li></ol></p>
     </statement>
         <solution>
-            <p><ol marker="a" cols="2">
+            <p><ol marker="a." cols="2">
             <li><p>None: the discriminant is negative.</p></li>
             <li><p>One: the discriminant is 0.</p></li>
             </ol></p>
@@ -457,12 +465,12 @@ For example, consider the three graphs shown at right.</p>
 
 <exercise component="main" xml:id="exercise-discriminant"><title>Practice 5</title>
 <statement><p>Use the discriminant to discover how many <m>x</m>-intercepts the graph of each equation has.</p>
-        <p><ol marker="a" cols="2">
+        <p><ol marker="a." cols="2">
             <li><p><m>y = x^2 + 5x + 7</m></p></li>
             <li><p><m>y = -\dfrac{1}{2}x^2 + 4x - 8</m></p></li>
         </ol></p></statement>
     <solution>
-            <p><ol marker="a" cols="2">
+            <p><ol marker="a." cols="2">
             <li><p>None: the discriminant is negative.</p></li>
             <li><p>One: the discriminant is 0.</p></li>
             </ol></p></solution></exercise>

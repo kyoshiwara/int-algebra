@@ -2,22 +2,25 @@
 
 <section xml:id="Slope" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Slope</title><idx>slope</idx>
 
-<subsection><title>Glacier Melt</title>
+<introduction>
+<p>The introduction to Chapter 1 discussed the rise in sea level over the last few decades. One of the contributing factors to this rise is the melting of Earth's glaciers.</p>
 
-<p>Glaciers around the world are retreating at accelerating rates, and many lower-latitude mountain glaciers may disappear entirely within decades. The meltwater from these smaller glaciers contributed as much as 40% to the total rise in sea level over the 1990s.</p>
+<p>Glaciers around the world are retreating at accelerating rates, and many lower-latitude mountain glaciers may soon disappear entirely. The meltwater from these smaller glaciers contributed as much as 40% to the total rise in sea level over the 1990s.</p>
 
 <p>By measuring the change in ice and snow height at fixed points and multiplying by the surface area <idx><h>surface area</h></idx> of the glacier, scientists calculate the total volume <idx>volume</idx> of water lost from land-based glaciers. Dividing this volume by the surface area of the world's oceans gives the resulting change in sea level.</p>
 
-<p>The graphs below show the change in thickness of the land-based glaciers overthe past 5 years, and the rise in sea level attributed to their melting.</p>
+<p>The graphs below show the change in thickness of the land-based glaciers overthe past 5 years, and the rise in sea level attributed to their melting. In this section we consider how to measure a rate of change.</p>
 
 <image width="80%" source="images/glacier-graphs"><description>graphs of change in glacier thickness and resulting rise in sea level</description></image>
-</subsection>
+</introduction>
 
 <subsection><title>Rate of Change</title><idx>rate of change</idx>
 
-<assemblage><title>Rate</title><idx>rate</idx>
+<p>The equation we use to describe a linear model, <m>y = mx + b</m>, gives the starting value <m>b</m> of the variable <m>y</m> and the rate <m>m</m> at which <m>y</m> changes. Now we will look more closely at rates and how they appear on the graph of the model. First, let's review the notion of a ratio used as a rate. You are already familiar with several types of rates.</p>
+
+<definition><title>Rate</title><idx>rate</idx>
     <p>A <term>rate</term> is a type of ratio that compares two quantities with different units.</p>
-</assemblage>
+</definition>
 
 <exercise component="webwork"><title>QuickCheck 1</title>
 <webwork><pg-code>
@@ -34,12 +37,14 @@
 <exercise component="main"><title>QuickCheck 1</title>
 <statement><p>A ratio that compares two quantities with different units is called a <fillin characters="10"/>.</p></statement></exercise>
 
-<p>In the example below, notice that each rate has units of the form  <m>\dfrac{\text{something}}{\text{something else}} </m>, which we read as "something per something else."</p>
+<p>In the examples below, notice that each rate has units of the form  <m>\dfrac{\text{something}}{\text{something else}} </m>, which we read as "something per something else."</p>
 
-<example><statement><p>Caryn bought 7 used paperback novels for a total of $2.45. Use a ratio to calculate the price per book.</p></statement>
+<example><statement><p>Caryn bought 7 used paperback novels for a total of $2.45. Use a ratio to calculate the price per book.  <m>~\alert{\text{[TK]}}</m></p></statement>
 
-<solution><p><md><mrow>\frac{\text{total cost in dollars}}{\text{number of books}} = \frac{2.45 \text{ dollars}}{7 \text{ books}} = 0.35 \text{ dollars/book} </mrow></md></p>
+<solution><p><me>\frac{\text{total cost in dollars}}{\text{number of books}} = \frac{2.45 \text{ dollars}}{7 \text{ books}} = 0.35 \text{ dollars/book} </me></p>
 <p>The novels were priced at a rate of $0.35 per book.</p></solution></example>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more help on using ratios and rates, see <xref ref="tkUseRatios" text="custom"> Section 1.4.1 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 1</title>
 <webwork><pg-code>
@@ -54,19 +59,23 @@
         );
     </pg-code>
 <statement><p>Delbert biked 34 miles in 5 hours. Use a ratio to calculate his average speed.
-        <md><mrow>\frac{\text{distance in miles}}{\text{time in hours}}= \hphantom{"Delbert speed"}</mrow></md></p>
+        <me>\frac{\text{distance in miles}}{\text{time in hours}}= \hphantom{"Delbert speed"}</me></p>
     <p>Delbert biked at a rate of <var name="$answer" width="3"/> <var name="$units" form="popup"/></p></statement>
     <solution><p>6.8 miles per hour</p></solution>
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 1</title>
 <statement><p>Delbert biked 34 miles in 5 hours. Use a ratio to calculate his average speed.
-        <md><mrow>\frac{\text{distance in miles}}{\text{time in hours}}= \hphantom{"Delbert speed"}</mrow></md></p>
+        <me>\frac{\text{distance in miles}}{\text{time in hours}}= \hphantom{"Delbert speed"}</me></p>
     <p>Delbert biked at a rate of <fillin characters="10"/>.</p></statement>
-    <solution><p>6.8 miles per hour</p></solution></exercise>
+<answer><p>6.8 miles per hour</p></answer></exercise>
+
+<p>The rate you calculated in Practice 1, Delbert's average speed, actually compares the <em>change</em> in two variables, his distance from his starting point, and the time elapsed. This type of rate appears often in linear models.</p>  
 
 <definition><title>Rate of Change</title>
 <statement><p>A <term>rate of change</term><idx>rate of change</idx><idx><h>rate of change</h><seealso>slope</seealso></idx> is a special kind of ratio that compares the change in two quantities or variables.</p></statement></definition>
+
+<p>In the next Example we calculate speed as a rate of change, and we introduce a new notation, <m>\blert{\Delta}</m>, to help with the calculation.</p>
 
 <example xml:id="Average-speed"><statement><p>Gregor is driving across Montana. At 1 pm his trip odometer reads 189 miles, and at 4 pm it reads 360 miles. Calculate Gregor's average speed as a rate of change.</p></statement>
     
@@ -80,11 +89,12 @@
                 <cell><m>360</m></cell></row>
         </tabular>
 <p>Gregor's speed is the ratio of the distance he traveled to the time it took. The distance he traveled is the change in his odometer reading (from 189 miles to 360 miles), and the time it took is the change in the clock reading (from 1 pm to 4 pm).The units of this ratio are miles per hour.</p>
-<p>In mathematics, we use the symbol <m>\blert{\Delta}</m><idx>Delta (<m>\Delta</m>)</idx><idx><h>change in</h><see>Delta</see></idx> (delta) for <term>change in</term>. Thus
+<p>In mathematics, we use the symbol <m>\blert{\Delta}</m><idx>Delta (<m>\Delta</m>)</idx> (delta) for <term>change in</term><idx><h>change in</h><see>Delta (<m>\Delta</m>)</see></idx>. Thus
         <md><mrow>\text{distance traveled}\amp= \Delta d = 360-189 = 171 \text{ miles} </mrow>
             <mrow>\text{time elapsed}\amp= \Delta t=4-1=3 \text{ hours} </mrow></md>
 Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{time elapsed}} =\dfrac{\Delta d}{\Delta t}</m>, so
-        <md><mrow>\text{Speed}=\frac{\Delta d}{\Delta t} = \frac{171 \text{ miles}}{3 \text{ hours}}= 57 \text{ miles/hour} </mrow></md></p></solution></example>
+        <me>\text{Speed}=\frac{\Delta d}{\Delta t} = \frac{171 \text{ miles}}{3 \text{ hours}}= 57 \text{ miles/hour} </me></p>
+    </solution></example>
 
 <exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>       
@@ -104,7 +114,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>What does the symbol <m>\Delta</m> stand for?</p>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
         <li><p>A triangle</p></li>
          <li><p>Speed</p></li>
          <li><p>Change in</p></li>
@@ -123,7 +133,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
           3, 
         );
     </pg-code>
-    <statement><p>Nelson is a long-distance truck driver. On a recent trip through the Midwest, he noted these odometer readings:</p>
+<statement><p>Nelson is a long-distance truck driver. On a recent trip through the Midwest, he noted these odometer readings:</p>
         <tabular halign="right">
                 <row><cell>4 am</cell>
                     <cell>127 miles</cell></row>
@@ -144,7 +154,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
                     <cell>421 miles</cell></row>
         </tabular>
         <p>What was Nelson's average speed?</p></statement>
-    <solution><p>49 miles per hour</p></solution></exercise>
+    <answer><p>49 miles per hour</p></answer></exercise>
 
 <sidebyside widths="58% 38%" margins="0% 0%" valigns="middle middle">
     <p>How do we see the rate of change on a graph? Let's consider the example above. The graph shows Gregor's distance, <m>d</m>, at time <m>t</m>. We plot the two data points, <m>(1, 189)</m> and <m>(4, 360)</m>, and draw a straight line joining them. We can illustrate <m>\Delta d</m> and <m>\Delta t</m> by vertical and horizontal line segments, as shown on the graph.</p>
@@ -175,7 +185,9 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
         \draw [black,decorate,decoration={brace,amplitude=7pt}] (4,3.58) -- (1,3.58) node [black, below,midway, yshift=-7] {$\Delta t$};
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
-<p>The rate of change of distance with respect to time, or speed, is the ratio of <m>\Delta d</m> to <m>\Delta t</m>. It measures how much <m>d</m> changes for each unit increase in <m>t</m>, or how far Gregor travels in each hour. This quantity, the ratio <m>\dfrac{\Delta d}{\Delta t} </m>, is the <em>slope of the line</em>.</p>
+<p>The rate of change of distance with respect to time, or speed, is the ratio of <m>\Delta d</m> to <m>\Delta t</m>. It measures how much <m>d</m> changes for each unit increase in <m>t</m>, or how far Gregor travels in each hour. This quantity, the ratio <m>\dfrac{\Delta d}{\Delta t} </m>, is the <em>slope of the line</em>. <m>~\alert{\text{[TK]}}</m></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more help calculating slope from a graph, see <xref ref="tkSlopefromGraph" text="custom"> Section 1.4.2 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>       
@@ -195,7 +207,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 
 <exercise component="main"><title>QuickCheck 3</title>
 <statement><p>What feature of a graph illustrates rate of change?</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
         <li><p>The <m>y</m>-axis</p></li>
          <li><p>Slope</p></li>
          <li><p>Scales on the axes</p></li>
@@ -204,6 +216,8 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 </subsection>
 
 <subsection><title>Review of Slope</title><idx>slope</idx>
+
+<p>You may have encountered the notion of slope in previous courses. Let us see how slope is related to rate of change.</p>
 
 <assemblage><title>Slope</title><idx>slope</idx>
 <p>The <term>slope</term> of a line is a rate of change that measures the steepness of the line.</p>
@@ -230,7 +244,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 
 <exercise component="main"><title>QuickCheck 4</title>
 <statement><p>The slope of a line tells us how much the <m>y</m>-coordinate changes <fillin characters="10"/></p>
-<p><ol marker="a">
+<p><ol marker="a.">
     <li><p>from one end of the graph to the other.</p></li>
     <li><p>as we move up the <m>y</m>-axis.</p></li>
     <li><p>from one point to the next point.</p></li>
@@ -241,9 +255,9 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 
 <definition><title>Slope of a Line</title><idx>slope</idx><idx><h>slope</h><h>of a line</h></idx>
 <statement><p>
-    <md><mrow>\text{slope}=\frac{\text{change in }y\text{-coordinate}}{\text{change in }x\text{-coordinate}} </mrow></md>
-    or, in symbols
-    <md><mrow>m=\frac{\Delta y}{\Delta x} </mrow></md></p></statement>
+    <me>\text{slope}=\frac{\text{change in }y\text{-coordinate}}{\text{change in }x\text{-coordinate}} </me>
+or, in symbols
+    <me>m=\frac{\Delta y}{\Delta x} </me></p></statement>
 </definition>
 
 <p>In the definition of slope,
@@ -258,7 +272,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
             \text{negative if }y\text{ decreases} \amp \text{(we move down)}\hphantom{to left}
             \end{cases}</me></p>
 
-<p>How does slope measure the steepness of a line? Study the three examples below and notice that for each 1 unit increase in <m>x</m>:</p>
+<p>How does slope measure the steepness of a line? Study the three examples below and notice how <m>y</m> changes for each 1 unit increase in <m>x</m>.</p>
 
 <sidebyside widths="30% 30% 30%" margins="0% 0%">
     <stack>
@@ -286,8 +300,9 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
     </latex-image></image>
     
     <p><m>y</m> increases by 2 units
-    <md><mrow>m=\frac{\Delta y}{\Delta x}=\frac{2}{1}=2 </mrow></md></p>
+        <me>m=\frac{\Delta y}{\Delta x}=\frac{2}{1}=2 </me></p>
     </stack>
+    
     <stack>
          <image xml:id="fig-measure-slope-B"><description>line B</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -313,8 +328,9 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
         \end{tikzpicture}]]>
     </latex-image></image>
     <p><m>y</m> increases by <m>\frac{3}{2}</m> units
-    <md><mrow>m=\frac{\Delta y}{\Delta x}=\frac{3}{2} </mrow></md></p>
+        <me>m=\frac{\Delta y}{\Delta x}=\frac{3}{2} </me></p>
     </stack>
+
     <stack>
          <image xml:id="fig-measure-slope-C"><description>line C</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -339,22 +355,24 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
         \end{tikzpicture}]]>
     </latex-image></image>
     <p><m>y</m> decreases by 2 units
-    <md><mrow>m=\frac{\Delta y}{\Delta x}=\frac{-2}{1}=-2 </mrow></md></p>
+        <me>m=\frac{\Delta y}{\Delta x}=\frac{-2}{1}=-2 </me></p>
     </stack>
 </sidebyside>
 
 <p>From these examples, we can make the following observations:</p>
 
-<assemblage><title>Slope and Steepness</title><idx>slope</idx><p><ol marker="a">
+<assemblage><title>Slope and Steepness</title><idx>slope</idx><p>
+<ol marker="a.">
     <li><p>For positive slopes, the larger the value of <m>m</m>, the more the <m>y</m>-value increases for each unit increase in <m>x</m>, and the more we climb up as our location changes from left to right. (So graph A is steeper than graph B.)<idx><h>slope</h><h>positive</h></idx></p></li>
-    <li><p>If <m>y</m> decreases as we move from left to right, then <m>\Delta y</m> is negative when <m>\Delta x</m> is positive, so their ratio (the slope) is negative. (See graph C.)<idx><h>slope</h><h>positive</h></idx></p></li></ol></p>
-</assemblage>
+    <li><p>If <m>y</m> decreases as we move from left to right, then <m>\Delta y</m> is negative when <m>\Delta x</m> is positive, so their ratio (the slope) is negative. (See graph C.)<idx><h>slope</h><h>positive</h></idx></p></li>
+</ol></p></assemblage>
 
 <example><statement><sidebyside widths="55% 40%" margins="0% 0%">
-    <p><ol marker="a">
-        <li><p>Compute the slope of the line.</p></li>
+    <p><ol marker="a.">
+        <li><p>Compute the slope of the line.  <m>~\alert{\text{[TK]}}~~</m></p></li>
         <li><p> Illustrate the slope on the graph by drawing a vertical segment of length <m>\Delta y</m> and a horizontal segment of length <m>\Delta x</m>.</p></li>
-        <li><p>If <m>\Delta x =1</m>, what is the length of the vertical segment? </p></li></ol></p>
+        <li><p>If <m>\Delta x =1</m>, what is the length of the vertical segment? </p></li>
+    </ol></p>
             <image xml:id="fig-example-1-4-3"><description>line with different scales on axes</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -377,9 +395,9 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
             </latex-image></image></sidebyside>
     </statement>
     
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>The points <m>(20,500)</m> and <m>(40,1000) </m> lie on the graph. As we move from the first point to the second point, <m>x</m> increases by 20 units, so <m>\Delta x=20</m>, and <m>y</m> increases by 500 units, so <m>\Delta y = 500</m>. Thus
-            <md> <mrow>\frac{\Delta y}{\Delta x}=\frac{500}{20}=25 </mrow></md> </p></li>
+            <me>\frac{\Delta y}{\Delta x}=\frac{500}{20}=25 </me> </p></li>
     <li><p>The segments are shown in the graph below.</p>
         <image width="45%" xml:id="fig-example-1-4-3-ans"><description>line with different scales on axes</description>
             <latex-image>
@@ -408,9 +426,11 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
     <li><p>The slope is 25, which means that <m>y</m> increases 25 units for each 1-unit increase in <m>x</m>. So, if <m>\Delta x=1</m>, then <m>\Delta y=25</m>.</p></li>
     </ol></p></solution></example>
 
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of calculating slope, see <xref ref="tkSlopefromGraph" text="custom"> Section 1.4.2 </xref> of the Toolkit.</p></aside>
+
 <exercise component="webwork"><title>Practice 3</title>
-<introduction><image width="40%"  xml:id="fig-ex-1-4-3w"><description>negative slope line with different scales on axes</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+<introduction><image width="40%" xml:id="fig-ex-1-4-3w"><description>negative slope line with different scales on axes</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml--> 
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture} [scale=.6]
@@ -440,15 +460,17 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
             <p><m>m=</m><var name="$slope" width="3" /></p></li>
         <li><p>Illustrate the slope on the graph by drawing a vertical segment for <m>\Delta y</m> and a horizontal segment for <m>\Delta x</m>.</p></li>
         <li><p>If <m>\Delta x=1</m>, what is the length of the vertical segment?</p>
-            <p>The length is <var name="$length" width="3" /> </p></li></ol></p>
-    </statement>
+            <p>The length is <var name="$length" width="3" /> </p></li>
+        </ol></p></statement>
     <solution><p><ol>
             <li><p><m>-37.5</m></p></li>
             <li><p>A figure is below.</p></li>
-            <li><p><m>37.5</m></p></li></ol></p></solution>
+            <li><p><m>37.5</m></p></li>
+    </ol></p></solution>
 </webwork>
-<conclusion><p>Graph for part (b):</p><image width="40%"  xml:id="fig-ex-1-4-3-answ"><description>negative slope line with different scales on axes</description><latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+<conclusion><p>Graph for part (b):</p>
+    <image width="40%"  xml:id="fig-ex-1-4-3-answ"><description>negative slope line with different scales on axes</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml--> 
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture} [scale=.6]
@@ -476,7 +498,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 
 <exercise component="main"><title>Practice 3</title>
 <statement><sidebyside widths="50% 40%">
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Compute the slope of the line.</p></li>
         <li><p>Illustrate the slope on the graph by drawing a vertical segment for <m>\Delta y</m> and a horizontal segment for <m>\Delta x</m>.</p></li>
         <li><p>If <m>\Delta x=1</m>, what is the length of the vertical segment?</p></li>
@@ -502,7 +524,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
         \filldraw[red] (2,9) circle (0.15);
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside></statement>
-    <solution><p><ol marker="a">
+    <answer><p><ol marker="a.">
             <li><p><m>-37.5</m></p></li>
             <li><image width="50%" xml:id="fig-ex-1-4-3-ans"><description>negative slope line with different scales on axes</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -530,19 +552,20 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
         \end{tikzpicture}]]>
     </latex-image></image></li>
             <li><p><m>37.5</m></p></li>
-    </ol></p></solution></exercise>
+    </ol></p></answer></exercise>
 </subsection>
 
 <subsection><title>Interpreting Slope as a Rate</title>
 
-<p>The slope of a line measures the rate of change of <m>y</m> with respect to <m>x</m>.</p>
+<p>By putting together all of our discussion so far, we can now see that the slope of a line measures the rate of change of <m>y</m> with respect to <m>x</m>.</p>
 
 <example><statement><p>The graph shows the altitude, <m>a</m> (in feet), of a skier <m>t</m> minutes after getting on a ski lift.</p>
     <sidebyside widths="55% 40%" valigns="middle middle">
-    <p><ol marker="a">
+    <p><ol marker="a.">
             <li><p>Choose two points on the graph and compute the slope, including units.</p></li>
-            <li><p>Explain what the slope measures in this problem.</p></li>
-            <li><p>Write a linear model for <m>a</m> in terms of <m>t</m>.</p></li></ol></p>
+            <li><p>Explain what the slope measures in this problem. <m>~\alert{\text{[TK]}}</m></p></li>
+            <li><p>Write a linear model for <m>a</m> in terms of <m>t</m>.</p></li>
+    </ol></p>
         <image xml:id="fig-ski-lift"><description>altitude vs time</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
@@ -563,18 +586,20 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
             \end{tikzpicture}]]>
         </latex-image></image></sidebyside></statement>
     
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
     <li><p>We choose the points <m>(2,400)</m> and <m>(4, 700)</m>, as shown on the graph. Then
-            <md><mrow>m=\frac{\Delta a}{\Delta t} = \frac{300 \text{ feet}}{2 \text{ minutes}} = 150 \text{ feet/minute} </mrow></md></p></li>
+            <me>m=\frac{\Delta a}{\Delta t} = \frac{300 \text{ feet}}{2 \text{ minutes}} = 150 \text{ feet/minute} </me></p></li>
     <li><p>The slope gives the rate of change of altitude with respect to time. The skier rises at a rate of 150 feet per minute.</p></li>
     <li><p>A linear model has the form
-            <md><mrow>y = (\text{starting value}) + (\text{rate}) \times t </mrow></md>
+            <me>y = (\text{starting value}) + (\text{rate}) \times t </me>
     From the graph, we see that at <m>t = 0</m> the skier's altitude was <m>a = 100</m>, and we calculated the rate of change of altitude as 150 feet per minute. Substituting these values into the formula, we find
-                <md><mrow>a = 100 + 150t</mrow></md></p></li>
+            <me>a = 100 + 150t</me></p></li>
     </ol></p></solution></example>
 
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more help interpretine slope, see <xref ref="tkInterpSlope" text="custom"> Section 1.4.3 </xref> of the Toolkit.</p></aside>
+
 <assemblage><title>Slope as a Rate of Change</title><idx><h>slope</h><h>rate of change</h></idx>
-<p><ol marker="1">
+<p><ol marker="1.">
     <li><p>The slope of a line measures the <term>rate of change</term> of <m>y</m> with respect to <m>x</m>.</p></li>
     <li><p>The units of <m>\Delta y</m> and <m>\Delta x</m> can help us interpret the slope as a rate.</p></li>
 </ol></p>
@@ -620,24 +645,26 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
               0, 
             );            
         </pg-code>
-    <statement><p>The graph shows the amount of garbage <m>G</m> (in tons) that has been deposited at a dumpsite <m>t</m> years after new regulations go into effect.<ol marker="a">
+    <statement><p>The graph shows the amount of garbage <m>G</m> (in tons) that has been deposited at a dumpsite <m>t</m> years after new regulations go into effect.
+    <ol marker="a.">
         <li><p>Choose two points on the graph and compute the slope, including units.</p>
             <p>The slope is <var name="$m" width="3"/><var name="$units" form="buttons"/></p></li>
         <li><p>Explain what the slope measures in this problem.
                         <var name="$explain" form="buttons"/></p></li>
         <li><p>Choose two different points and compute the slope again. Do you get the same value as before?</p>
-                <p>The slope is <var name="$m" width="3"/><var name="$units" form="buttons"/></p></li></ol></p>
-        </statement>
-    <solution><p><ol marker="a">
+                <p>The slope is <var name="$m" width="3"/><var name="$units" form="buttons"/></p></li>
+    </ol></p></statement>
+    <solution><p><ol marker="a.">
             <li><p>12.5 tons per year</p></li>
             <li><p>The slope gives the rate at which garbage is accumulating.</p></li>
-            <li><p>The slope is the same using any two points on the line.</p></li></ol></p></solution>
+            <li><p>The slope is the same using any two points on the line.</p></li>
+    </ol></p></solution>
     </webwork></exercise>
 
 <exercise component="main"><title>Practice 4</title>
 <statement><p>The graph shows the amount of garbage <m>G</m> (in tons) that has been deposited at a dumpsite <m>t</m> years after new regulations go into effect.</p>
 <sidebyside widths="50% 35%">
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Choose two points on the graph and compute the slope, including units.</p></li>
         <li><p>Explain what the slope measures in this problem.</p></li>
         <li><p>Choose two different points and compute the slope again. Do you get the same value as before?</p></li>
@@ -661,13 +688,16 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
             \filldraw[red] (4,6) circle (.12);
             \end{tikzpicture}]]>
         </latex-image></image></sidebyside></statement>
-    <solution><p><ol marker="a">
+    <answer><p><ol marker="a.">
             <li><p>12.5 tons per year</p></li>
             <li><p>The slope gives the rate at which garbage is accumulating.</p></li>
-            <li><p>The slope is the same using any two points on the line.</p></li></ol></p></solution></exercise>
+            <li><p>The slope is the same using any two points on the line.</p></li>
+        </ol></p></answer></exercise>
 </subsection>
 
 <subsection><title>Lines Have Constant Slope</title>
+
+<p>You have probably already noticed the following important fact about lines.</p>
 
 <assemblage><title>Lines Have Constant Slope</title>
     <p>The slope of a line is constant: no matter which two points you pick to compute the slope, you will always get the same value.</p></assemblage>
@@ -704,6 +734,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
        <mrow>\frac{2}{3} \amp= \frac{\Delta y}{9} \amp\amp \blert{\text{Solve for }\Delta y.} </mrow>
        <mrow>\Delta y \amp = 9 \left(\frac{2}{3} \right)=6</mrow></md></p>
 <p>You can use the graph to check this result for yourself; try starting at the point <m>(-6,-3) </m>.</p>
+
 <p>The fact that lines have constant slope has two important consequences. First because <m>m</m> is constant for a given line, we can use the formula <m>m=\dfrac{\Delta y}{\Delta x} </m>to find <m>\Delta y</m> when we know <m>\Delta x </m>, or to find <m>\Delta x </m> when we know <m>\Delta y </m>.</p>
 
 <exercise component="webwork"><title>QuickCheck 5</title>
@@ -725,7 +756,7 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 
 <exercise component="main"><title>QuickCheck 5</title>
 <statement><p>What formula can we use to find <m>\Delta y</m> when we know <m>\Delta x</m>, or <m>\Delta x</m> when we know <m>\Delta y</m>?</p>
-<p><ol marker="a" cols="2">
+<p><ol marker="a." cols="2">
         <li><p>The equation of the line</p></li>
         <li><p>The general linear formula</p></li>
         <li><p>The slope formula</p></li>
@@ -769,8 +800,8 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
 
 <exercise component="main"><title>Practice 5</title>
 <statement><p>A wheelchair ramp can have a slope of no more than 24%, or 0.24. What height can the wheelchair ramp climb over a horizontal distance of 10 feet?</p>
-<p>Hint: Do we know the value of <m>\Delta y</m> or of <m>\Delta x</m>?</p></statement>
-<solution><p>2.4 ft</p></solution></exercise>
+    <p>Hint: Do we know the value of <m>\Delta y</m> or of <m>\Delta x</m>?</p></statement>
+<answer><p>2.4 ft</p></answer></exercise>
     
 <p>Here is a second consequence of the fact that lines have constant slope: We can tell whether a collection of data points lies on a straight line by computing slopes. If the slopes between pairs of data points are all the same, the points lie on a straight line.</p>
 
@@ -787,13 +818,12 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
     <statement><p>How can we can tell whether a collection of data points lies on a straight line?</p>
         <p><var name="$Pick" form="buttons"/></p>      
     </statement>
-    <solution><p>Calculate the slopes between points.</p>
-    </solution>
+    <solution><p>Calculate the slopes between points.</p></solution>
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 6</title>
 <statement><p>How can we can tell whether a collection of data points lies on a straight line?</p>
-<p><ol marker="a">
+<p><ol marker="a.">
         <li><p>Plot them and look at the graph.</p></li>
         <li><p>Calculate the slopes between points.</p></li>
         <li><p>Find an equation for the line.</p></li>
@@ -819,8 +849,9 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
         </tabular></statement>
     
 <solution><p>We compute the slope between each consecutive pair of points. In each case
-            <md><mrow>m=\frac{\Delta y}{\Delta x}=\frac{-2}{3} </mrow></md>
-    Because the slope is the same for all pairs of points, the table could be linear.</p></solution></example>
+            <me>m=\frac{\Delta y}{\Delta x}=\frac{-2}{3} </me>
+    Because the slope is the same for all pairs of points, the table could be linear.</p>
+</solution></example>
 
 <exercise component="webwork"><title>Practice 6</title>
 <webwork><pg-code>
@@ -876,7 +907,16 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
                  <cell>24</cell></row>
          </tabular>
     <p>Hint: Calculate the slopes between points.</p></statement>
-<solution><p>No, the slope between points is not constant.</p></solution></exercise>
+<answer><p>No, the slope between points is not constant.</p></answer></exercise>
+
+<p>To summarize, here are two ways that we can use the slope to study a model.</p>
+
+<assemblage><title>Two Uses for Slope</title>
+<p><ul>
+    <li><p>If we know the slope of a line, we can use the formula <m>m=\dfrac{\Delta y}{\Delta x} </m>to find <m>\Delta y</m> when we know <m>\Delta x </m>, or to find <m>\Delta x </m> when we know <m>\Delta y </m>.</p></li>
+    <li><p>To test whether a collection of data points lies on a straight line, we can compute slopes. If the slopes between all pairs of data points are the same, the points lie on a straight line.</p></li>
+</ul></p></assemblage>
+
 </subsection>
 
 <xi:include href="./section-1-4-exercises.xml" />           

@@ -87,8 +87,8 @@
             mychecker($xn2) );
         </pg-code> 
         <statement>
-            <p><ol marker="a">
-                <li><p>Find one <m>y</m>-value that satisfies the inequality <m>y - 3x \lt 6</m> for each of the <m>x</m>-values in the table.</p><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+            <p><ol marker="a.">
+                <li><p>Find one <m>y</m>-value that satisfies the inequality <m>y - 3x \lt 6</m> for each of the <m>x</m>-values in the table.</p><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                     <row>
                         <cell><m>x</m></cell>
                         <cell><m>1</m></cell>
@@ -99,13 +99,13 @@
                         <cell><var name="$y1" width="2"  evaluator="$my_evaluator"/> </cell>
                         <cell><var name="$y0" width="2"  evaluator="$my_eval2"/></cell>
                         <cell><var name="$yn2" width="2"  evaluator="$my_eval3"/></cell></row>
-                </tabular></sidebyside></li>
+                </tabular></li>
                 <li><p>Graph the line <m>y - 3x = 6</m>. Then plot your solutions from part (a) on the same grid.</p></li>
             </ol></p>
         </statement>
         <solution>
-            <p><ol marker="a" cols="2">
-            <li><sidebyside><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+            <p><ol marker="a." cols="2">
+            <li><tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
                 <row>
                     <cell><m>x</m></cell>
                     <cell><m>1</m></cell>
@@ -116,23 +116,22 @@
                     <cell><m>\alert{5} </m></cell>
                     <cell><m>\alert{0}</m></cell>
                     <cell><m>\alert{-3}</m></cell></row>
-                </tabular></sidebyside>
+                </tabular>
                 <p>(Many answers are possible.) </p></li>
                 <li><p>A graph is below.</p></li>
             </ol></p>
         </solution>
     </webwork>
     <conclusion>
-        <sidebyside width="30%"><image source="images/fig-ex-2-5-1"><description>linear inequality in two variables</description></image></sidebyside>
+        <image source="images/fig-ex-2-5-1" width="30%"><description>linear inequality in two variables</description></image>
     </conclusion>
 </exercise>
 
-<sidebyside widths="47% 50%" margins="0% 0%" valigns="middle middle">
     <p>
         The graph of the inequality must show all the points whose coordinates are solutions. We found some solutions to the inequality <m>x + y \ge 10,000</m> in the Example above by choosing a value for <m>x</m>  and solving for <m>y</m>. A more efficient way to find all the solutions of the inequality is to start with the graph of the corresponding equation
         <md><mrow>y = -x + 10,000</mrow></md>
     </p>
-     <image xml:id="fig-example-2-5-1b">
+     <image xml:id="fig-example-2-5-1b" width="50%">
         <description>linear inequality, 2 variables</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -155,7 +154,7 @@
         \end{tikzpicture}]]>
         </latex-image>
     </image>
-</sidebyside>
+
 <p>
     The graph is a straight line with slope <m>-1</m>. Any point above this line has a <m>y</m>-coordinate greater than <m>-x + 10,000</m> and hence satisfies the inequality. Thus, the graph of the inequality includes all the points on or above the line <m>y = -x + 10,000</m>, as shown by the shaded region in the figure. You can check that the shaded points are also solutions to the original inequality, <m>x + y \ge 10,000</m>. For example, the point <m>(-1000, ~12,000)</m> does satisfy the inequality, because
     <md><mrow>-1000 + 12,000 \ge 10,000</mrow></md>
@@ -272,11 +271,11 @@
                 );
     </pg-code>
     <statement><p>Graph the solutions of the inequality <m>4x - 2y \lt -8</m>.</p>
-            <sidebyside widths="35% 35%" margins="5% 5%">
+            <sidebyside widths="35% 35%" margins="15% 15%">
                 <image pg-name="$gr[0]"/>
                 <image pg-name="$gr[1]"/>
             </sidebyside>
-            <sidebyside widths="35% 35%" margins="5% 5%">
+            <sidebyside widths="35% 35%" margins="15% 15%">
                 <image pg-name="$gr[2]"/>
                 <image pg-name="$gr[3]"/>
             </sidebyside>
@@ -312,7 +311,7 @@
         );
     </pg-code>
     <statement>
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li><p>
                 The solutions of a linear inequality in two variables consist of a boundary
                 line and a <var name="$a" form="popup"/>.
@@ -329,7 +328,7 @@
         </ol></p>
     </statement>
     <solution>
-        <p><ol marker="a">
+        <p><ol marker="a.">
             <li><p>half-plane</p></li>
             <li><p>strict </p></li>
             <li><p>reverse</p></li>
@@ -373,7 +372,7 @@
 <assemblage>
     <title>To Graph an Inequality Using a Test Point:</title>
     <p>
-        <ol marker="1">
+        <ol marker="1.">
             <li><p>
                 Graph the corresponding equation to obtain the boundary line.
             </p></li>
@@ -382,7 +381,7 @@
             </p></li>
             <li><p>
                 Substitute the coordinates of the test point into the inequality.
-                <ol marker="a">
+                <ol marker="a.">
                     <li><p>
                         If the resulting statement is true, shade the half-plane that includes the test point.
                     </p></li>
@@ -460,17 +459,17 @@
     </pg-code>
     <statement>
         <p>
-            Graph the solutions of the inequality <m> y \gt \dfrac{-3}{2}x</m><ol marker="1">
+            Graph the solutions of the inequality <m> y \gt \dfrac{-3}{2}x</m><ol marker="1.">
                 <li><p>Graph the line <m>y = \dfrac{-3}{2}x</m>. (Use the slope-intercept method.)</p></li>
                 <li><p>Choose a test point. (Do not choose <m>(0, 0)</m>!)</p></li>
                 <li><p>Decide which side of the line to shade. <var name="$where" form="popup"/> </p></li>
                 <li><p>Should the boundary line be dashed or solid? <var name="$which" form="popup"/></p></li>
             </ol></p>
-            <sidebyside widths="35% 35%" margins="5% 5%">
+            <sidebyside widths="35% 35%" margins="15% 15%">
                 <image pg-name="$gr[3]"/>
                 <image pg-name="$gr[2]"/>
             </sidebyside>
-            <sidebyside widths="35% 35%" margins="5% 5%">
+            <sidebyside widths="35% 35%" margins="15% 15%">
                 <image pg-name="$gr[1]"/>
                 <image pg-name="$gr[0]"/>
             </sidebyside>
@@ -581,11 +580,11 @@
                 );
     </pg-code>
     <statement><p>Graph  <m>-1\lt y \le 4 </m> in the plane.</p>
-            <sidebyside widths="35% 35%" margins="5% 5%">
+            <sidebyside widths="35% 35%" margins="15% 15%">
                 <image pg-name="$gr[0]"/>
                 <image pg-name="$gr[1]"/>
             </sidebyside>
-            <sidebyside widths="35% 35%" margins="5% 5%">
+            <sidebyside widths="35% 35%" margins="15% 15%">
                 <image pg-name="$gr[2]"/>
                 <image pg-name="$gr[3]"/>
             </sidebyside>
@@ -683,7 +682,7 @@
             <md>
                 <mrow>3y-2x \amp\le 2</mrow>
                 <mrow>y \amp\gt x-1</mrow>
-            </md><ol marker="1">
+            </md><ol marker="1.">
             <li><p>Graph the boundary line <m>3y-2x = 2</m>.</p></li>
             <li><p>Lightly shade the solutions of the inequality <m>3y-2x \le 2</m>.</p></li>
             <li><p>Graph the boundary line <m>y=x-1</m>.</p></li>

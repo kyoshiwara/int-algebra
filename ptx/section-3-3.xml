@@ -4,12 +4,12 @@
 <section xml:id="Graphing-Parabolas"   xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Graphing Parabolas</title>
 
-<investigation><title>Perimeter and Area</title>
+<investigation xml:id="PerimArea"><title>Perimeter and Area</title>
 <sidebyside widths="65% 25%" margins="0% 0%" valigns="middle middle">
 <p>Do all rectangles with the same perimeter, say 36 inches, have the same area? Two different rectangles with perimeter 36 inches are shown. The first rectangle has base 10 inches and height 8 inches, and its area is 80 square inches. The second rectangle has base 12 inches and height 6 inches. Its area is 72 square inches.</p>
     <image source="images/fig-two-rectangles-perimeter-36"><description>graph</description></image></sidebyside>
 
-<p><ol marker="1">
+<p><ol marker="1.">
 <li><p>The table shows the bases of various rectangles, in inches. Each rectangle has a perimeter of 36 inches. Fill in the height and the area of each rectangle. (To find the height of the rectangle, reason as follows: The base plus the height makes up half of the rectangle’s perimeter.)</p>
 
 <sidebyside widths="30% 65%" margins="0% 0%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
@@ -111,10 +111,11 @@ rectangle? What is its height?</p></li>
 </ol></p></investigation>
 
 <subsection><title> Introduction </title>
-<p>The graph of the quadratic equation <m>y = ax^2 + bx + c</m> is called a <term>parabola</term><idx>parabola</idx>. Some parabolas are shown below.</p>
+ 
+<p>The graph of any quadratic equation <m>y = ax^2 + bx + c</m> is a <term>parabola</term><idx>parabola</idx> (if <m>a \not= 0</m>). In this section we'll make a systematic study of the parabolas we've met earlier in the chapter. Some typical parabolas are shown below.</p>
 	<image source="images/fig-parabola-diagram"><description>two parabolas with labeled features</description></image>
 
-<p>All these parabolas share certain features. <ul>
+<p>To begin, notice that these parabolas share certain features. <ul>
 	<li>The graph has either a highest point (if the parabola opens downward, as in figure (a) or a lowest point (if the parabola opens upward, as in figure (b). This high or low point is called the <term>vertex</term><idx><h>vertex</h><h>of a parabola</h></idx> of the graph.</li>
 	<li>The parabola is symmetric about a vertical line, called the <term>axis of symmetry</term><idx><h>axis</h><h>of symmetry</h></idx><idx><h>parabola</h><h>axis of symmetry</h></idx><idx>axis of symmetry</idx><idx><h>axis of symmetry</h><seealso>parabola</seealso></idx><idx><h>symmetry</h><see>axis of symmetry</see></idx>, that runs through the vertex.</li> 
 	<li>A parabola has a <m>y</m>-intercept<idx><em>y</em>-intercept</idx>, and it may have zero, one, or two <m>x</m>-intercepts<idx><em>x</em>-intercept</idx>.</li>
@@ -214,7 +215,7 @@ rectangle? What is its height?</p></li>
     <li>The vertex, the <m>x</m>-intercepts, and the <m>y</m>-intercept all coincide at the origin.</li>
 </ul></p></assemblage> 
  
-<example><statement><p>Sketch by hand a graph of each quadratic equation.<ol marker="a" cols="2">
+<example><statement><p>Sketch by hand a graph of each quadratic equation.<ol marker="a." cols="2">
 			<li><m>y = 2x^2</m></li>
 			<li><m>y = -\dfrac{1}{2}x^2</m></li></ol></p>
 </statement>
@@ -257,14 +258,14 @@ rectangle? What is its height?</p></li>
           1, 
         );
     </pg-code>
-    <statement><p>True or false.<ol marker="a">
+    <statement><p>True or false.<ol marker="a.">
         <li><p>If  <m>a\gt 1</m>, the graph of <m>y=ax^2</m> is wider than the basic parabola. <var name="$TF" form="popup"/></p></li>
         <li><p>The vertex of a parabola lies on its axis of symmetry. <var name="$True" form="popup"/></p></li>
         <li><p>If the <m>y</m>-intercept is negative, the parabola opens downward. <var name="$TF" form="popup"/></p></li>
         <li><p>A parabola may have one, two, or three <m>x</m>-intercepts. <var name="$TF" form="popup"/></p></li>
         </ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li><p>False</p></li>
             <li><p>True</p></li>
             <li><p>False</p></li>
@@ -274,7 +275,7 @@ rectangle? What is its height?</p></li>
 
 <exercise component="main"><title>QuickCheck 2</title>
 <statement><p>True or false.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>If  <m>a\gt 1</m>, the graph of <m>y=ax^2</m> is wider than the basic parabola.</p></li>
         <li><p>The vertex of a parabola lies on its axis of symmetry.</p></li>
         <li><p>If the <m>y</m>-intercept is negative, the parabola opens downward.</p></li>
@@ -282,9 +283,8 @@ rectangle? What is its height?</p></li>
     </ol></p></statement></exercise>
 
 <exercise component="webwork"><title>Practice 1</title>
-    <introduction><sidebyside widths="25%">
-            <image source="images/fig-parabolas-vertically-scaled2w"><description>basic parabola and four vertically scaled parabolas</description></image>
-        </sidebyside>
+    <introduction>
+            <image source="images/fig-parabolas-vertically-scaled2w" width="25%"><description>basic parabola and four vertically scaled parabolas</description></image>
     </introduction>
     <webwork><pg-code>
             $Popa = PopUp(
@@ -305,13 +305,13 @@ rectangle? What is its height?</p></li>
             );
         </pg-code>
         <statement><p>Match each parabola in the figure above with its equation. The basic parabola is shown in black.</p>
-            <p><ol marker="a">
+            <p><ol marker="a.">
             <li><p><m>y = -\dfrac{3}{4}x^2</m><var name="$Popa" form="popup"/></p> </li>
             <li><p><m>y = \dfrac{1}{4}x^2</m><var name="$Popb" form="popup"/></p></li>
             <li><p><m>y = \dfrac{5}{2}x^2</m><var name="$Popc" form="popup"/></p></li>
             <li><p><m>y = -\dfrac{5}{4}x^2</m><var name="$Popd" form="popup"/></p></li></ol></p>
         </statement>
-        <solution><p><ol marker="a" cols="4">
+        <solution><p><ol marker="a." cols="4">
                 <li><p>III</p></li>
                 <li><p>II</p></li>
                 <li><p>I</p></li>
@@ -322,14 +322,14 @@ rectangle? What is its height?</p></li>
 <exercise component="main"><title>Practice 1</title>
 <statement><sidebyside widths="50% 30%">
             <stack><p>Match each parabola with its equation. The basic parabola is shown in black.</p>
-        <p><ol marker="a" cols="2">
+        <p><ol marker="a." cols="2">
             <li><p><m>y = -\dfrac{3}{4}x^2</m></p> </li>
             <li><p><m>y = \dfrac{1}{4}x^2</m></p></li>
             <li><p><m>y = \dfrac{5}{2}x^2</m></p></li>
             <li><p><m>y = -\dfrac{5}{4}x^2</m></p></li>
         </ol></p></stack>
         <image source="images/fig-parabolas-vertically-scaled2"><description>basic parabola and four vertically scaled parabolas</description></image></sidebyside></statement>
-    <solution><p><ol marker="a" cols="4">
+    <solution><p><ol marker="a." cols="4">
                 <li><p>III</p></li>
                 <li><p>II</p></li>
                 <li><p>I</p></li>
@@ -398,12 +398,12 @@ rectangle? What is its height?</p></li>
 </ul></p></assemblage> 
 
 <example xml:id="example-parabolas-vertically-shifted"><statement><p>Sketch graphs for the following quadratic equations.
-		<ol marker="a" cols="2">
+		<ol marker="a." cols="2">
 			<li><m>y = x^2 - 2</m></li>
 			<li><m>y = -x^2 + 4</m></li>
 		</ol></p></statement>
 
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li><p>The graph of <m>y = x^2 - 2</m> is shifted downward by two units, compared to the basic parabola. The vertex is the point <m>(0, -2)</m> and the <m>x</m>-intercepts are the solutions of the equation
 				<me>0 = x^2 - 2</me>
 	or <m>\sqrt{2}</m> and <m>-\sqrt{2}</m>. The graph is shown below.</p>
@@ -432,18 +432,18 @@ rectangle? What is its height?</p></li>
               1, 
             );
         </pg-code>
-    <statement><p>Match each equation with the description of its graph.<ol marker="a">
+    <statement><p>Match each equation with the description of its graph.<ol marker="a.">
         <li><p><m>y=x^2-3 </m> <var name="$ans1" form="popup"/></p></li>
         <li><p><m>y=-3x^2</m> <var name="$ans2" form="popup"/></p></li>
         <li><p><m>y=3-x^2</m> <var name="$ans3" form="popup"/></p></li>
         <li><p><m>y=\dfrac{1}{3}x^2 </m> <var name="$ans4" form="popup"/></p></li></ol></p>
-            <p><ol marker="i">
+            <p><ol marker="i.">
                     <li><p>Wider than the basic parabola.</p></li>
                     <li><p>Shifted down 3 units from the basic parabola.</p></li>
                     <li><p>Opens downward, narrower than the basic parabola.</p></li>
                     <li><p>Opens downward, shifted up 3 units.</p></li></ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
                 <li>ii</li>
                 <li>iii</li>
                 <li>iv</li>
@@ -452,13 +452,13 @@ rectangle? What is its height?</p></li>
 </webwork></exercise>
 
 <exercise component="main"><title>QuickCheck 3</title>
-<statement><p>Match each equation with the description of its graph.<ol marker="a" cols="2">
+<statement><p>Match each equation with the description of its graph.<ol marker="a." cols="2">
         <li><p><m>y=x^2-3 </m></p></li>
         <li><p><m>y=-3x^2</m></p></li>
         <li><p><m>y=3-x^2</m></p></li>
         <li><p><m>y=\dfrac{1}{3}x^2 </m></p></li>
     </ol></p>
-    <p><ol marker="i">
+    <p><ol marker="i.">
         <li><p>Wider than the basic parabola.</p></li>
         <li><p>Shifted down 3 units from the basic parabola.</p></li>
         <li><p>Opens downward, narrower than the basic parabola.</p></li>
@@ -467,7 +467,7 @@ rectangle? What is its height?</p></li>
 
 <exercise component="webwork"><title>Practice 2</title>
     <introduction>
-        <image width="25%" source="images/fig-vertically-shifted-parabolaw" ><description>vertically shifted parabola</description></image>
+        <image width="25%" source="images/fig-vertically-shifted-parabola" ><description>vertically shifted parabola</description></image>
     </introduction>
     <webwork><pg-code>
             $f = Formula("x^2-5");
@@ -488,7 +488,7 @@ rectangle? What is its height?</p></li>
              partialCredit => 1,
             ); 
         </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
                 <li><p>Find an equation for the parabola shown above.</p>
                 <p><m>y=</m><var name="$f" width="8"/> </p></li>
                 <li><p>Give the <m>x</m>- and <m>y</m>-intercepts of the graph.</p>
@@ -496,7 +496,7 @@ rectangle? What is its height?</p></li>
                 <p><m>y</m>-intercept: <var name="$yintercepts" width="18" evaluator="$my_evaluator2"/></p></li>
                 </ol></p>        
     </statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
                 <li><p><m>y = x^2 - 5</m></p></li>
                 <li><p><m>x</m>-intercepts: <m>(-\sqrt{5},0),(\sqrt{5},0)</m>; <m>y</m>-intercept: <m>(0,-5)</m> </p></li>
             </ol></p>
@@ -505,13 +505,13 @@ rectangle? What is its height?</p></li>
 
 <exercise component="main"><title>Practice 2</title>
 <statement><sidebyside widths="50% 25%">
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>Find an equation for the parabola shown at right.</p></li>
         <li><p>Give the <m>x</m>- and <m>y</m>-intercepts of the graph.</p></li>
     </ol></p>
     <image source="images/fig-vertically-shifted-parabola" ><description>vertically shifted parabola</description></image></sidebyside></statement>
 <solution>
-    <p><ol marker="a" cols="2">
+    <p><ol marker="a." cols="2">
         <li><p><m>y = x^2 - 5</m></p></li>
         <li><p><m>x</m>-intercepts: <m>(-\sqrt{5},0),(\sqrt{5},0)</m>; <m>y</m>-intercept: <m>(0,-5)</m> </p></li>
     </ol></p></solution></exercise>
@@ -524,15 +524,20 @@ rectangle? What is its height?</p></li>
  <example><statement><p>Describe the graph of the equation
 	<me>y = 2x^2 + 8x</me></p></statement>
 
-<solution><p>The graph in the standard window is shown below. We see that the axis of symmetry for this parabola is not the <m>y</m>-axis: the graph is shifted to the left, compared to the basic parabola. We find the <m>y</m>-intercepts of the graph by setting <m>y</m> equal to zero:  
+<solution><p>The graph in the standard window is shown below. We see that the axis of symmetry for this parabola is not the <m>y</m>-axis: the graph is shifted to the left, compared to the basic parabola. We find the <m>y</m>-intercepts of the graph by setting <m>y</m> equal to zero: <m>~\alert{\text{[TK]}}</m> 
     <md><mrow>0 \amp= 2x^2 + 8x</mrow>
         <mrow>\amp= 2x(x + 4)</mrow></md>
 The solutions of this equation are <m>0</m> and <m>-4</m>, so the <m>x</m>-intercepts are the points <m>(0, 0)</m> and <m>(-4, 0)</m>.</p>
 <image width="35%" source="images/fig-GC-horizontally-shifted-parabola"  ><description>shifted parabola</description></image></solution></example>
 
-<p>We can find the vertex of the graph by using the symmetry of the parabola. The <m>x</m>-coordinate of the vertex lies exactly half-way between the <m>x</m>-intercepts, so we average their <m>x</m>-coordinates to find:
-	<me>x=\frac{1}{2}[0 + (-4)] = -2</me>
-To find the <m>y</m>-coordinate of the vertex, substitute <m>x = -2</m> into the equation for the parabola:
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review solving quadratic equations, see <xref ref="tkSolvQuadEqn" text="custom"> Section 3.3.2 </xref> of the Toolkit.</p></aside>
+
+<p>We can find the vertex of the graph by using the symmetry of the parabola. The <m>x</m>-coordinate of the vertex lies exactly half-way between the <m>x</m>-intercepts, so we average their <m>x</m>-coordinates to find: <m>~\alert{\text{[TK]}}</m>
+	<me>x=\frac{1}{2}[0 + (-4)] = -2</me></p>
+
+<aside><p><m>\alert{\text{[TK]}}~~</m>To review the average of two numbers, see <xref ref="tkAvg" text="custom"> Section 3.3.1 </xref> of the Toolkit.</p></aside>
+
+<p>To find the <m>y</m>-coordinate of the vertex, substitute <m>x = -2</m> into the equation for the parabola:
 	<md><mrow>y \amp= 2(\alert{-2})^2 + 8(\alert{-2})</mrow>
 	   <mrow>\amp= 8 - 16 = -8</mrow></md>
 Thus, the vertex is the point <m>(-2,-8)</m>.</p>
@@ -548,7 +553,7 @@ Thus, the vertex is the point <m>(-2,-8)</m>.</p>
             ); 
             $v = Point("(3,9)");
         </pg-code>
-    <statement><p><ol marker="a">
+    <statement><p><ol marker="a.">
             <li><p>Find the <m>x</m>-intercepts and the vertex of the parabola <m>y = 6x - x^2</m>.</p>
                 <p><m>x</m>-intercepts: <var name="$xintercepts" width="12" evaluator="$my_evaluator"/> Note: Use a comma to separate different points.</p>
                 <p>Vertex: <var name="$v" width="5" /></p></li>
@@ -562,7 +567,7 @@ Thus, the vertex is the point <m>(-2,-8)</m>.</p>
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 3</title>
-<statement><p><ol marker="a">
+<statement><p><ol marker="a.">
             <li><p>Find the <m>x</m>-intercepts and the vertex of the parabola <m>y = 6x - x^2</m>.</p></li>
             <li><p>Verify your answers by graphing the function in the window
                  <md><mrow>   \text{Xmin} \amp = -9.4 \amp\amp \text{Xmax} = 9.4</mrow>
@@ -581,7 +586,7 @@ Thus, the vertex is the point <m>(-2,-8)</m>.</p>
           1, 
         );
     </pg-code>
-    <statement><p>True or false.<ol marker="a">
+    <statement><p>True or false.<ol marker="a.">
         <li><p>The axis of symmetry of <m>y=ax^2+bx</m> is shifted horizontally, compared to the basic parabola. <var name="$True" form="popup"/></p></li>
         <li><p>The <m>x</m>-coordinate of the vertex is the average of the <m>x</m>-intercepts. <var name="$True" form="popup"/></p></li>
         <li><p>The <m>y</m>-coordinate of the vertex is the same as the <m>y</m>-intercept. <var name="$TF" form="popup"/>
@@ -589,7 +594,7 @@ Thus, the vertex is the point <m>(-2,-8)</m>.</p>
         <li><p>We can use extraction of roots to solve <m>ax^2+bx=0</m>. <var name="$TF" form="popup"/></p></li>
         </ol></p>
     </statement>
-    <solution><p><ol marker="a">
+    <solution><p><ol marker="a.">
             <li><p>True</p></li>
             <li><p>True</p></li>
             <li><p>False</p></li>
@@ -599,7 +604,7 @@ Thus, the vertex is the point <m>(-2,-8)</m>.</p>
 
 <exercise component="main"><title>QuickCheck 4</title>
 <statement><p>True or false.</p>
-    <p><ol marker="a">
+    <p><ol marker="a.">
         <li><p>The axis of symmetry of <m>y=ax^2+bx</m> is shifted horizontally, compared to the basic parabola.</p></li>
         <li><p>The <m>x</m>-coordinate of the vertex is the average of the <m>x</m>-intercepts.</p></li>
         <li><p>The <m>y</m>-coordinate of the vertex is the same as the <m>y</m>-intercept.</p></li>
@@ -607,7 +612,7 @@ Thus, the vertex is the point <m>(-2,-8)</m>.</p>
     </ol></p></statement></exercise>
 </subsection>
 
-<subsection><title>A Formula for the Vertex</title>
+<subsection xml:id="VertexFormula"><title>A Formula for the Vertex</title>
 
 <sidebyside widths="55% 35%"  valigns="middle middle"><p>We can find a formula for the vertex of any parabola of the form
 	<me>y = ax^2 + bx</me>
@@ -629,13 +634,15 @@ Now we have a formula for the <m>x</m>-coordinate of the vertex.</p>
 	<p>For the graph of <m>y = ax^2 + bx</m>, the <m>x</m>-coordinate of the vertex is
 		<me>\blert{x_v=\frac{-b}{2a}}</me></p></assemblage>
 
-<p>We find the <m>y</m>-coordinate of the vertex by substituting its <m>x</m>-coordinate into the equation for the parabola.</p>
+<p>We find the <m>y</m>-coordinate of the vertex by substituting its <m>x</m>-coordinate into the equation for the parabola. <m>~\alert{\text{[TK]}}~~</m></p>
 
-<example xml:id="example-parabola-vertex"><statement><p><ol marker="a">
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of finding points on a parabola, see <xref ref="tkParabPts" text="custom"> Section 3.3.3 </xref> of the Toolkit.</p></aside>
+
+<example xml:id="example-parabola-vertex"><statement><p><ol marker="a.">
 	<li>Find the vertex of the graph of <m>f(x) = -1.8x^2 - 16.2x</m>.</li>
 	<li>Find the <m>x</m>-intercepts of the graph.</li>
 	</ol></p></statement>
-<solution><p><ol marker="a">
+<solution><p><ol marker="a.">
 	<li>The <m>x</m>-coordinate of the vertex is
 			<me>x_v=\frac{-b}{2a}=\frac{-(-16.2)}{2(-1.8)}=-4.5</me>
 		To find the <m>y</m>-coordinate of the vertex, evaluate <m>f(x)</m> at <m>x = \alert{-4.5}</m>.
@@ -745,7 +752,7 @@ Now we have a formula for the <m>x</m>-coordinate of the vertex.</p>
 
     </pg-code>
     <statement><p>Match each equation with its graph.
-            <ol marker="a" cols="2">
+            <ol marker="a." cols="2">
                 <li><p><m>y=x^2-2</m> <var name="$a" form="popup"/> </p></li>
                 <li><p><m>y=-x^2-2x</m> <var name="$b" form="popup"/></p></li>
                 <li><p><m>y=x^2+2x</m> <var name="$c" form="popup"/></p></li>
@@ -753,7 +760,7 @@ Now we have a formula for the <m>x</m>-coordinate of the vertex.</p>
         </ol></p>
 
     </statement>
-    <solution><p><ol marker="a" cols="2">
+    <solution><p><ol marker="a." cols="2">
         <li>IV</li>
         <li>I</li>
         <li>II</li>
@@ -763,7 +770,7 @@ Now we have a formula for the <m>x</m>-coordinate of the vertex.</p>
 
 <exercise component="main"><title>QuickCheck 5</title>
 <statement><p>Match each equation with its graph.</p>
-        <p><ol marker="a" cols="2">
+        <p><ol marker="a." cols="2">
                 <li><p><m>y=x^2-2</m></p></li>
                 <li><p><m>y=-x^2-2x</m></p></li>
                 <li><p><m>y=x^2+2x</m></p></li>
