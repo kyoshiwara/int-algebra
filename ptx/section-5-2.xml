@@ -109,7 +109,8 @@
 <example xml:id="example-function-graph"><statement><p>The figure shows the graph of a function <m>g</m>.</p>
     <image width="35%" source="images/fig-function"><description>graph of a function</description></image>
     <p><ol marker="a.">
-        <li>Find <m>g(-2)</m> and <m>g(5)</m>.  <m>~\alert{\text{[TK]}}</m></li>
+        <li><p>Find <m>g(-2)</m> and <m>g(5)</m>.</p>
+            <aside><p><m>\alert{\text{[TK]}}~~</m>For more practice with function notation, see <xref ref="tkFncnNot" text="custom"> Section 5.2.1 </xref> of the Toolkit.</p></aside>  </li>
         <li>For what value(s) of <m>t</m> is <m>g(t) = -2</m>?</li>
         <li>What is the largest, or maximum, value of <m>g(t)</m>? For what value of <m>t</m> does the function take on its maximum value?</li>
         <li>On what intervals is <m>g</m> increasing?</li>
@@ -120,8 +121,6 @@
         <li>The highest point on the graph is <m>(1, 4)</m>, so the largest <m>y</m>-value is <m>4</m>. Thus, the maximum value of <m>g(t)</m> is <m>4</m>, and it occurs when <m>t = 1</m>.</li>
         <li>A graph is increasing if the <m>y</m>-values get larger as we read from left to right. The graph of <m>g</m> is increasing for <m>t</m>-values between <m>-4</m> and <m>1</m>, and between <m>3</m> and <m>5</m>. Thus, <m>g</m> is increasing on the intervals <m>(-4, 1)</m> and <m>(3, 5)</m>.</li>
     </ol></p></solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more practice with function notation, see <xref ref="tkFncnNot" text="custom"> Section 5.2.1 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>QuickCheck 2</title>
 <webwork><pg-code>
@@ -538,16 +537,15 @@ so <m>-3</m> is a solution. Similarly, you can check that <m>x = 1</m> and <m>x 
 <exercise component="main"><title>QuickCheck 5</title>
 <statement><p>To solve an equation graphically, it is helpful to sketch in a <fillin characters="10"/> line. We are looking for <fillin characters="10"/> values that give the required <fillin characters="10"/> value.</p></statement></exercise>
 
-<example xml:id="example-graph-to-solve-cubic2"><statement><p>Use the graph in <xref ref="example-graph-to-solve-cubic" text="type-global"/>  to solve the inequality <m>~\alert{\text{[TK]}}</m>
+<example xml:id="example-graph-to-solve-cubic2"><statement><p>Use the graph in <xref ref="example-graph-to-solve-cubic" text="type-global"/>  to solve the inequality 
     <me>-2x^3 + x^2 + 16x \ge 15</me>
 </p></statement>
 
 <solution><p>We first locate all points on the graph that have <m>y</m>-coordinates greater than or equal to <m>15</m>. The <m>x</m>-coordinates of these points are the solutions of the inequality.</p>
+    <aside><p><m>\alert{\text{[TK]}}~~</m>For more practice solving equatins and inequalities with a graph, see <xref ref="tkSolveGrph" text="custom"> Section 5.2.2 </xref> of the Toolkit.</p></aside>
 <p> The figure below shows the points in red, and their <m>x</m>-coordinates as intervals on the <m>x</m>-axis. The solutions are <m>x \le -3</m> and <m>1\le x \le 2.5</m>, or in interval notation, <m>(-\infty, -3] \cup [1, 2.5]</m>.</p>
     <image width="35%" source="images/fig-graph-to-solve-cubic2"><description>graph of cubic</description></image>
 </solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more practice solving equatins and inequalities with a graph, see <xref ref="tkSolveGrph" text="custom"> Section 5.2.2 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 6</title>
     <introduction>

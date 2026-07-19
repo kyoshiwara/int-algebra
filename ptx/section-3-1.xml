@@ -100,7 +100,9 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
 
 <example><statement><p>Graph the parabola <m>~y=x^2-4</m></p></statement>
     
-<solution><p>We make a table of values and plot the points.  <m>~\alert{\text{[TK]}}</m> The graph is shown below.</p>
+<solution><p>We make a table of values and plot the points. The graph is shown below.</p>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>To review evaluating quadratic expressions, see <xref ref="tkQuadExp" text="custom"> Section 3.1.1 </xref> of the Toolkit.</p></aside>
+
         <sidebyside widths="50% 30%" margins="0% 10%" valigns="middle middle">
             <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -138,8 +140,6 @@ where <m>a,~b,~</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></d
             \end{tikzpicture}]]>
             </latex-image></image></sidebyside>
 </solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>To review evaluating quadratic expressions, see <xref ref="tkQuadExp" text="custom"> Section 3.1.1 </xref> of the Toolkit.</p></aside>
 
  <exercise component="webwork"><title>Practice 1</title>
   <webwork><pg-code>
@@ -256,16 +256,15 @@ First, we can solve it graphically. Look again at the graph of <m>~y=x^2-4~</m> 
     </latex-image></image>    
 <p>We would like to find the <m>x</m>-values that make <m>y=5</m>. The horizontal line <m>y=5</m> intersects the graph at two points with <m>y</m>-coordinate 5, and their <m>x</m>-coordinates are the solutions of the equation. Thus, there are two solutions, namely <m>3</m> and <m>-3</m>.</p> 
 
-<p>Algebraically, we solve the equation as follows.  <m>~\alert{\text{[TK]}}</m><ul> 
+<p>Algebraically, we solve the equation as follows.  <ul> 
     <li><p>First, we isolate the variable.  We add 4 to both sides, yielding <m>~x^2=9</m>.</p></li> 
     <li><p>Because <m>x</m> is squared in this equation, we perform the opposite operation, or take square roots, <idx><h>square root</h></idx><idx>square root</idx><idx><h>root</h><h>square root</h></idx> in order to solve for <m>x</m>. 
         <md><mrow>x^2 \amp = 9  \amp \amp \blert{\text{Take square roots of both sides.}}</mrow>
             <mrow>x \amp = \pm \sqrt{9} = \pm 3 \amp \amp \blert{\text{Remember that every positive number}}</mrow>
             <mrow>\amp \amp \amp \blert{\text{has two square roots.}}</mrow></md></p></li>
     </ul>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>For more on square roots, see <xref ref="tkSqRts" text="custom"> Section 3.1.2 </xref> of the Toolkit.</p></aside> 
     The solutions are <m>3</m> and <m>-3</m>, as we saw on the graph.</p> 
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more on square roots, see <xref ref="tkSqRts" text="custom"> Section 3.1.2 </xref> of the Toolkit.</p></aside> 
 
 <note><p>Notice that we have found two solutions for this quadratic equation, whereas linear equations have at most one solution. (Sometimes they have no solution at all.) We shall see that every quadratic equation has two solutions, which may be equal. The solutions may also be complex numbers, <idx>complex number</idx> which we'll study in Chapter 4.</p></note>
 
@@ -417,7 +416,7 @@ Only the positive solution makes sense here, so Tux has approximately 1.12 secon
     <image width="90%" source="images/fig-volume-and-surface-area"><description>3D Objects</description></image>
 </assemblage>
 
-<example><statement><p>The volume of a can of soup is 582 cubic centimeters, and its height is 10.5 centimeters.  What is the radius of the can, to the nearest tenth of a centimeter?  <m>~\alert{\text{[TK]}}</m></p></statement>
+<example><statement><p>The volume of a can of soup is 582 cubic centimeters, and its height is 10.5 centimeters.  What is the radius of the can, to the nearest tenth of a centimeter? </p></statement>
     
 <solution><p>The volume of a cylinder is given by the formula  <m>V=\pi r^2h</m>. We substitute <m>\alert{582}</m> for <m>V</m> and <m>\alert{10.5}</m> for <m>h</m>, then solve for <m>r</m>.
     <md><mrow>\alert{582} \amp = \pi r^2(\alert{10.5})  \amp \amp \blert{\text{Divide both sides by}~ 10.5 \pi.}</mrow>
@@ -627,7 +626,7 @@ The solutions are <m>6</m> and <m>-2</m>. You can check that both of these solut
 
 <subsection><title>An Application: Compound Interest</title>
 
-<p>Many savings accounts offer interest compounded annually:<idx>compound interest</idx><idx><h>compound interest</h><h>principal</h></idx>  at the end of each year the interest earned is added to the principal, and the interest for the next year is computed on this larger sum of money. <m>~\alert{\text{[TK]}}</m> After <m>n</m> years, the amount of money in the account is given by the formula 
+<p>Many savings accounts offer interest compounded annually:<idx>compound interest</idx><idx><h>compound interest</h><h>principal</h></idx>  at the end of each year the interest earned is added to the principal, and the interest for the next year is computed on this larger sum of money. After <m>n</m> years, the amount of money in the account is given by the formula 
     <me>A=P(1+r)^n</me>
 where <m>P</m> is the original principal and <m>r</m> is the interest rate, expressed as a decimal fraction.</p> 
 

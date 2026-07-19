@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<section xml:id="LinMod"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Creating a Linear Model</title><idx>linear model</idx>
-<introduction>
+<section xml:id="LinMod"   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Creating a Linear Model</title><idx>linear model</idx>
 
+<introduction>
 <p>To help them understand phenomena that affect our planet, scientists study the connections between relevant variables, such as sea level. In the next investigation we consider a simpler example and look at some ways to connect the variables involved in a career choice.</p> 
 
 <investigation><title>Sales on Commission</title>
@@ -45,7 +46,7 @@
 
 <li><p>Plot your data points on a graph, using sales, <m>S</m>, on the horizontal axis and income, <m>I</m>, on the vertical axis, as shown in the figure. Connect the data points to show Delbert's monthly income for all possible monthly sales totals.</p>
 
-<image width="60%" source="images/Investigation1Grid"><description>graph</description></image></li>
+<image width="60%" source="images/Investigation1Grid"><description>grid for graph of sales versus income</description></image></li>
 
 <li><p>Add two new data points to the table by reading values from your graph.</p></li>
 
@@ -138,7 +139,8 @@
 <p>Your community decides to set up a similar program, charging a $5 subscription fee and $3 an hour for rental. (A fraction of an hour is charged as the corresponding fraction of $3).</p>
     <p><ol marker="a.">
         <li><p>Make a table of values showing the cost, <m>C</m>, of renting a bike for various lengths of time, <m>t</m>.</p></li>
-        <li><p>Plot the points on a graph. Draw a curve through the data points. <m>\alert{\text{[TK]}}~~</m></p></li>
+        <li><p>Plot the points on a graph. Draw a curve through the data points.</p>
+            <aside><p><m>\alert{\text{[TK]}}~~</m>For more help on plotting points, see <xref ref="tkPlotPoints" text="custom"> Section 1.1.2 </xref> of the Toolkit.</p></aside></li>
         <li><p>Write an equation for <m>C</m> in terms of <m>t</m>. </p></li>
     </ol></p></statement>
     
@@ -175,13 +177,11 @@
                     </tabular></li>
     <li><sidebyside widths="55% 28%" valigns="middle middle"><stack><p>Each pair of values represents a point on the graph. The first value gives the horizontal coordinate of the point, and the second value gives the vertical coordinate.</p> 
     <p>The points lie on a straight line, as shown in the figure. The line extends infinitely in only one direction, because negative values of <m>t</m> do not make sense here.</p></stack>
-            <image source="images/fig-Annelise-1"><description>graph</description></image></sidebyside></li>
+            <image source="images/fig-Annelise-1"><description>graph of cost versus time with labeled points</description></image></sidebyside></li>
     <li><p>To write an equation, we let <m>C</m> represent the cost of the rental, and we use <m>t</m> for the number of hours:</p>
         <p><md><mrow>\text{Cost}\amp=(\$5\text{ subscription})+\$3\cdot\text{(number of hours)}</mrow>
                 <mrow>C\amp=5+3\cdot t</mrow></md> </p></li>
     </ol></p></solution></example>
-
-    <aside><p><m>\alert{\text{[TK]}}~~</m>For more help on plotting points, see <xref ref="tkPlotPoints" text="custom"> Section 1.1.2 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 1</title>
     <webwork ><pg-code>
@@ -258,16 +258,15 @@
         <me>C=5+3(\alert{6})=23</me>
     A 6-hour bike ride will cost $23.  The point <m>P</m> on the graph in the figure represents the cost of a 6-hour bike ride.  The value on the <m>C</m>-axis at the same height as point <m>P</m> is 23, so a 6-hour bike ride costs $23.</p></li>
     <li><sidebyside widths="60% 35%" valigns="middle middle">
-    <p>We substitute <m>C=\alert{18.50}</m> into the equation and solve for <m>t</m>. <m>\alert{\text{[TK]}}~~</m>
+    <p>We substitute <m>C=\alert{18.50}</m> into the equation and solve for <m>t</m>. 
         <md><mrow>\alert{18.50}\amp=5+3t</mrow>
             <mrow>13.50\amp=3t</mrow>
             <mrow>t\amp=4.5</mrow></md>
     For $18.50 you can bicycle for <m>4\frac{1}{2} </m> hours. The point <m>Q</m> on the graph represents an $18.50 bike ride. The value on the <m>t</m>-axis below point <m>Q</m> is 4.5, so $18.50 will buy a 4.5 hour bike ride.</p>
-            <image source="images/fig1-2"><description>line though points</description></image></sidebyside></li>
+            <image source="images/fig1-2"><description>graph of cost versus time with showing coordinates of two points</description></image></sidebyside>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>For more help on solving linear equations, see <xref ref="tkSolveLinEq" text="custom"> Section 1.1.3 </xref> of the Toolkit.</p></aside></li>
     </ol></p>
 </solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more help on solving linear equations, see <xref ref="tkSolveLinEq" text="custom"> Section 1.1.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 2</title>
     <webwork>
@@ -356,7 +355,7 @@
                         <cell><m>8</m></cell></row>
             </tabular></li>
     <li><p>We scale the values of <m>d</m> along the horizontal axis, and the values of <m>g</m> along the vertical axis. Then we plot the points from the table and connect with a line, as shown in the figure below.</p></li>
-    <li><p>If Leon has less than 5 gallons of gasoline left, then <m>g\lt 5</m>, as shown on the <m>g</m>-axis. Using our model from part (a), we solve the inequality. <m>\alert{\text{[TK]}}</m>
+    <li><p>If Leon has less than 5 gallons of gasoline left, then <m>g\lt 5</m>, as shown on the <m>g</m>-axis. Using our model from part (a), we solve the inequality. 
                 <md><mrow>20-\frac{1}{12}d \amp \lt 5 \amp\amp\blert{\text{Subtract } 20 \text{ from both sides.}}</mrow>
                     <mrow>-\frac{1}{12}d \amp \lt -15 \amp\amp\blert{\text{Multiply by } {-12} \text{ on both sides.}} </mrow>
                     <mrow>d \amp\gt 180\amp\amp \begin{array}{l}
@@ -364,9 +363,10 @@
                         \blert{\text{the inequality when we multiplied by }{-12}. }
                     \end{array}
                 </mrow></md>
-     Leon has driven at least 180 miles. The solution is shown on the graph below.</p></li>
+     Leon has driven at least 180 miles. The solution is shown on the graph below.</p>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>For more help on solving linear inequalities, see <xref ref="tkSolveLinIneq" text="custom"> Section 1.1.4 </xref> of the Toolkit.</p></aside></li>
     </ol></p>
-     <image width="40%" xml:id="fig-Leon-gas-miles"><description>gas mileage</description><latex-image>
+     <image width="40%" xml:id="fig-Leon-gas-miles"><description>graph of gas left versus miles driven, with solution of inequality</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -392,8 +392,6 @@
         \end{tikzpicture}]]>
         </latex-image></image>
 </solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more help on solving linear inequalities, see <xref ref="tkSolveLinIneq" text="custom"> Section 1.1.4 </xref> of the Toolkit.</p></aside>
 
 <note><p>In part (d) of the previous Example we used an <term>inequality</term><idx>inequality</idx> to answer the question. We use inequalities to model English phrases such as "less than," "more than," "at least," and "at most."</p></note>
 
@@ -468,7 +466,7 @@
 <exercise component="main"><title>Practice 3</title>
 <statement><sidebyside widths="45% 45%"><stack><p>Leon forgot to reset his odometer after his last fill-up, but he thinks he has driven at least 150 miles. How much gas does he have left? Show this on the graph.</p>
 <p>Hint: Locate 150 miles on the <m>d</m>-axis. What part of the axis represents "at least" 150 miles? Find the points on the graph with <m>d</m>-coordinates at least 150. What are the <m>g</m>-coordinates of those points?</p></stack>
-    <image xml:id="fig-Leon-mileage-grid"><description>grid</description><latex-image>
+    <image xml:id="fig-Leon-mileage-grid"><description>graph of gas left versus miles driven</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -486,7 +484,7 @@
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside></statement>
     <answer><p>At most 7.5 gallon</p>
-    <image width="35%"  xml:id="fig-Leon-mileage"><description>line</description><latex-image>
+    <image width="35%"  xml:id="fig-Leon-mileage"><description>graph of gas left versus miles driven with point located</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }

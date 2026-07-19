@@ -597,7 +597,7 @@ whose graphs are shown below.</p>
 
 <p>In the examples above, exponential growth was modeled by increasing functions <idx>increasing function</idx> of the form
     <me>P(t) = P_0 b^t</me>
- where the growth factor, <m>b</m>, is a number greater than 1. If we multiply the function value by a number smaller than 1, t he function values will decrease. <m>~\alert{\text{[TK]}}~</m> Thus, if <m>0 \lt b \lt 1</m>, then <m>P(t) = P_0b^t</m> is a <em>decreasing</em> function.<idx>decreasing function</idx> In this case, we say that the function describes <term>exponential decay</term><idx>exponential decay</idx>, and the constant <m>b</m> is called the <term>decay factor</term><idx>decay factor</idx><idx><h>exponential decay</h><h>decay factor</h></idx>.</p>
+ where the growth factor, <m>b</m>, is a number greater than 1. If we multiply the function value by a number smaller than 1, t he function values will decrease. Thus, if <m>0 \lt b \lt 1</m>, then <m>P(t) = P_0b^t</m> is a <em>decreasing</em> function.<idx>decreasing function</idx> In this case, we say that the function describes <term>exponential decay</term><idx>exponential decay</idx>, and the constant <m>b</m> is called the <term>decay factor</term><idx>decay factor</idx><idx><h>exponential decay</h><h>decay factor</h></idx>.</p>
 
  <note><p>Observe that if <m>0 \lt b \lt 1</m>, then powers of <m>b</m> decrease as the exponent increases. For example, consider powers of <m>b=0.2</m>.
     <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -961,7 +961,7 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
 <example><statement><p>During a period of rapid inflation, prices rose by 12% each year. At the beginning of this time, a loaf of bread cost $2.<ol marker="a.">
     <li>Make a table showing the cost of bread over the next four years.</li>
     <li>Write a function that gives the price of a loaf of bread <m>t</m> years after inflation began.</li>
-    <li>How much did a loaf of bread cost after 6 years? After 30 months? <m>~\alert{\text{[TK]}}</m> </li>
+    <li>How much did a loaf of bread cost after 6 years? After 30 months? </li>
     <li>Graph the function found in (b).</li>
 </ol></p></statement>
 
@@ -1006,11 +1006,12 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
                     </tabular></li>
     <li>After <m>t</m> years of inflation the original price of $2 has been multiplied <m>t</m> times by a factor of 1.12. Thus, 
         <me>P(t)=2(1.12)^t</me></li>
-    <li>To find the price of bread at any time after inflation began, we evaluate the function at the appropriate value of <m>t</m>.
+    <li><p>To find the price of bread at any time after inflation began, we evaluate the function at the appropriate value of <m>t</m>.
         <me>P(\alert{6}) = 2(1.12)^{\alert{6}} \approx 3.95</me>
     After 6 years the price was $3.95.  Thirty months is 2.5 years, so we evaluate <m>P(2.5)</m>.
         <me>P(\alert{2.5}) = 2(1.12)^{\alert{2.5}} \approx 2.66</me>
-    After 30 months the price was $2.66.</li>
+    After 30 months the price was $2.66.</p>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>For some hints on evaluating expponential expressions, see <xref ref="tkSimpExp" text="custom"> Section 7.1.3 </xref> of the Toolkit.</p></aside></li>
     <li><sidebyside widths="55% 32%" margins="0% 10%" valigns="middle middle">
         <p>To graph the function
                 <md><mrow>P(t) = 2(1.12)^t</mrow></md> 
@@ -1032,8 +1033,6 @@ This formula describes exponential growth with a growth factor of <m>b=1.05</m>.
             \end{tikzpicture}]]>
             </latex-image></image></sidebyside></li>
     </ol></p></solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For some hints on evaluating expponential expressions, see <xref ref="tkSimpExp" text="custom"> Section 7.1.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>
@@ -1279,7 +1278,7 @@ In general, we have the following formula.</p>
 
 <p>We have seen that a percent increase of <m>r</m> (in decimal form) corresponds to a growth factor of <m>b=1+r</m>. A percent decrease of <m>r</m> corresponds to a decay factor <idx>decay factor </idx> of <m>b=1-r</m>. For example, if a population declines by 25% each year, then each year the new population is 75% of its previous value. So
     <me>b = 1-0.25  = 0.75</me>
-and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us the population remaining, not the amount of decline.  <m>~\alert{\text{[TK]}}</m></p>
+and <m>P(t) = P_0 (0.75)^t</m>.  Remember that multiplying by <m>b</m> gives us the population remaining, not the amount of decline.</p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review percent increase and decrease, see <xref ref="tkSolveLinIneq" text="custom"> Section 7.1.1 </xref> of the Toolkit.</p></aside>
 

@@ -174,6 +174,7 @@ So the coordinates of the vertex are <m>\left(\dfrac{1}{4},\dfrac{9}{8}\right)</
     <md><mrow>x_v \amp = \dfrac{-b}{2a} = \dfrac{-3}{2(1)} = -1.5</mrow>
         <mrow>y_v \amp = (-1.5)^2+3(-1.5)+1 =-1.25</mrow></md>
 The vertex is the point <m>(-1.5,-1.25)</m>.</p>
+
 <p>We set <m>x=0</m> to find the <m>y</m>-intercept, <m>(0,1)</m>. Now, the axis of symmetry of the parabola is the vertical line that passes through its vertex. That line is <m>x=-1.5</m>, so the <m>y</m>-intercept lies 1.5 units to the right of the axis. There must be another point on the parabola with the same <m>y</m>-coordinate as the intercept but 1.5 units to the left of the axis. This point is <m>(-3,1)</m>.</p>
 
 <p>By plotting the vertex, the <m>y</m>-intercept, and its symmetric point, we can make a quick sketch of the parabola, as shown below.</p>
@@ -198,10 +199,10 @@ The vertex is the point <m>(-1.5,-1.25)</m>.</p>
         \filldraw[red](-3,1) circle (.12) node[left, xshift=-.2cm,fill=white, inner sep=1, text=black]{$(-3,1)$};
         \end{tikzpicture}]]>
         </latex-image></image>
-<p>If we need more accuracy in our graph, we can find and plot more points, including the <m>x</m>-intercepts. <m>~\alert{\text{[TK]}}</m></p>
-</solution></example>
+<p>If we need more accuracy in our graph, we can find and plot more points, including the <m>x</m>-intercepts. </p>
 
-<aside><p><m>\alert{\text{[TK]}}~~</m>To review finding the <m>x</m>-intercepts of a parabola, see <xref ref="ParabolaX-Ints" text="custom"> Section 3.2.2 </xref>.</p></aside>
+    <aside><p><m>\alert{\text{[TK]}}~~</m>To review finding the <m>x</m>-intercepts of a parabola, see <xref ref="ParabolaX-Ints" text="custom"> Section 3.2.2 </xref>.</p></aside>
+</solution></example>
 
 <exercise component="webwork"><title>Practice 2</title>
 <webwork><pg-code>
@@ -360,17 +361,16 @@ Usually, when the price of an item increases, the number of items sold decreases
 
 <p>Because the vertex is such a useful tool, we introduce a new form for a quadratic equation. Consider the equation
     <me>y = 2(x - 3)^2 - 8</me>
-By expanding the squared expression <m>~\alert{\text{[TK]}}</m> and collecting like terms, we can rewrite the equation in standard form as
+By expanding the squared expression and collecting like terms, we can rewrite the equation in standard form as
         <md><mrow>y \amp= 2(x^2 - 6x + 9) - 8</mrow>
             <mrow>y \amp = 2x^2 - 12x + 10</mrow></md></p>
+    <aside><p><m>\alert{\text{[TK]}}~~</m>To review multiplying binomials, see <xref ref="tkProdBin" text="custom"> Section 4.2.2 </xref> of the Toolkit.</p></aside>
 <sidebyside  widths="50% 30%" margins="0% 10%"><p>The vertex of this parabola is
         <md><mrow>x_v \amp= \frac{-(-12)}{2(2)}=3</mrow>
             <mrow>y_v \amp = 2(3)^2 - 12(3) + 10=-8</mrow></md>
 and its graph is shown at right.</p>
     <image source="images/fig-vertex-form"><description>parabola
     with vertex labeled</description></image></sidebyside>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>To review multiplying binomials, see <xref ref="tkProdBin" text="custom"> Section 4.2.2 </xref> of the Toolkit.</p></aside>
 
 <p>Now notice that the coordinates of the vertex, <m>(3,-8)</m>, are apparent in the original equation; we don’t need to do any computation to find the vertex.
         <md><mrow>y = 2(x - \amp \alert{3})^2 ~~ \alert{- 8}</mrow>
@@ -447,7 +447,7 @@ which confirms that when <m>x = 4</m>, <m>y = 6</m>. Next, notice that if <m>x</
                 <li><p><m>y=-\frac{1}{2}x^2-2x+3 </m></p></li>
     </ol></p></solution></exercise>
 
-<p>Any quadratic equation in vertex form can be written in standard form by expanding, and any quadratic equation in standard form can be put into vertex form by completing the square. <m>~\alert{\text{[TK]}}</m> <idx>completing the square</idx></p>
+<p>Any quadratic equation in vertex form can be written in standard form by expanding, and any quadratic equation in standard form can be put into vertex form by completing the square. <idx>completing the square</idx></p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review completing the square, see <xref ref="SolvebyCompletingSquare" text="custom"> Section 3.4.2 </xref>.</p></aside>
 
@@ -507,7 +507,9 @@ The vertex of the parabola is <m>(1,-4)</m>.</p></solution></example>
     
 <solution><p>The vertex is the point <m>(-3,2)</m>.  We can find the <m>y</m>-intercept by setting <m>x=0</m>.
             <me>y = \dfrac{-1}{2}(\alert{0}+3)^2-2 = \dfrac{-9}{2}-2 = -6\dfrac{1}{2}</me>
-The <m>y</m>-intercept is the point <m>\left(0, -6\dfrac{1}{2}\right)</m>. The axis of symmetry is the vertical line <m>x=-3</m>, and there is a symmetric point equidistant from the axis, namely <m>\left(-6, -6\dfrac{1}{2}\right)</m>. We plot these three points and sketch the parabola through them.  <m>~\alert{\text{[TK]}}</m></p>
+The <m>y</m>-intercept is the point <m>\left(0, -6\dfrac{1}{2}\right)</m>. The axis of symmetry is the vertical line <m>x=-3</m>, and there is a symmetric point equidistant from the axis, namely <m>\left(-6, -6\dfrac{1}{2}\right)</m>. We plot these three points and sketch the parabola through them.</p>
+<aside><p><m>\alert{\text{[TK]}}~~</m>To see more examples of sketching from the vertex form, see <xref ref="tkVertForm" text="custom"> Section 4.2.1 </xref> of the Toolkit.</p></aside>
+
     <image width="30%" xml:id="y-eq-neg-half-sq-of-x-plus3-minus2"><description>parabola</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
@@ -528,8 +530,6 @@ The <m>y</m>-intercept is the point <m>\left(0, -6\dfrac{1}{2}\right)</m>. The a
             \draw[samples=65,domain={-sqrt(12)-3:sqrt(12)-3},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, { -1/2*(\x+3)^2-2 });
             \end{tikzpicture}]]>
             </latex-image></image></solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>To see more examples of sketching from the vertex form, see <xref ref="tkVertForm" text="custom"> Section 4.2.1 </xref> of the Toolkit.</p></aside>
 
 <exercise component="main"><title>Practice 6</title>
 <statement><p>Find the vertex, the <m>y</m>-intercept, and the <m>x</m>-intercepts of <m>~y=(x-2)^2-5</m>, and sketch its graph.</p></statement>
@@ -556,9 +556,10 @@ The <m>y</m>-intercept is the point <m>\left(0, -6\dfrac{1}{2}\right)</m>. The a
             \end{tikzpicture}]]>
             </latex-image></image></answer></exercise>
 
-<p>If we know the vertex of a parabola and one other point, we can use the vertex form to find its equation. <m>~\alert{\text{[TK]}}</m></p>
+<p>If we know the vertex of a parabola and one other point, we can use the vertex form to find its equation. </p>
 
-<example><statement><p>When Andre practices free-throws at the park, the ball leaves his hands at a height of 7 feet, and reaches the vertex of its trajectory 10 feet away at a height of 11 feet.<ol marker="a.">
+<example><statement><p>When Andre practices free-throws at the park, the ball leaves his hands at a height of 7 feet, and reaches the vertex of its trajectory 10 feet away at a height of 11 feet.</p>
+<p><ol marker="a.">
     <li>Find a quadratic equation for the ball's trajectory.</li>
     <li>Do you think Andre's free-throw would score on a regulation basketball court, where the hoop is 15 feet from the shooter and 10 feet high?</li>
 </ol></p></statement>
@@ -572,6 +573,8 @@ The <m>y</m>-intercept is the point <m>\left(0, -6\dfrac{1}{2}\right)</m>. The a
             <mrow>7 \amp= 100a+11</mrow>
             <mrow>a \amp = -0.04</mrow></md>
     The equation of the trajectory is <m>~y=-0.04(x-10)^2+11</m>.</p>
+    <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of finding the vertex form, see <xref ref="tkSolveforParam" text="custom"> Section 4.2.3 </xref> of the Toolkit.</p></aside>
+
     <image width="40%" source="images/fig-free-throw" ><description>parabola</description></image></li>
     <li><p> We'd like to know if the point <m>(15,10)</m> is on the trajectory of Andre's free-throw. We substitute <m>x=\alert{15}</m> into the equation. 
         <md><mrow>y \amp =-0.04(\alert{15}-10)^2+11</mrow>
@@ -579,8 +582,6 @@ The <m>y</m>-intercept is the point <m>\left(0, -6\dfrac{1}{2}\right)</m>. The a
     From our computations, we see that the point <m>(15,10)</m> is indeed on the trajectory. However, because Andre's shot will probably hit the backboard just where the hoop attaches and bounce off, so it is unlikely that his shot will score.</p> </li>
 </ol></p>
 </solution></example> 
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of finding the vertex form, see <xref ref="tkSolveforParam" text="custom"> Section 4.2.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>       

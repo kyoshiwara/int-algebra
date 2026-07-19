@@ -131,7 +131,8 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
 <answer><p><m>(5,1,-2)</m></p></answer></exercise>
 </subsection>
 
-<subsection xml:id="GaussRed"><title>Gaussian Reduction</title><idx>Gaussian reduction</idx><idx><h>Gaussian reduction</h><seealso>system of equations</seealso></idx><idx><h>system of equations</h><h>Gaussian reduction</h></idx><idx><h>linear combination</h><seealso>Gaussian reduction</seealso></idx><idx><h>system of equations</h><h>linear combination</h></idx>
+<subsection xml:id="GaussRed"><title>Gaussian Reduction</title>
+    <idx>Gaussian reduction</idx><idx><h>Gaussian reduction</h><seealso>system of equations</seealso></idx><idx><h>system of equations</h><h>Gaussian reduction</h></idx><idx><h>linear combination</h><seealso>Gaussian reduction</seealso></idx><idx><h>system of equations</h><h>linear combination</h></idx>
 
 <p>The method for solving a general <m>3 \times 3</m> linear system is called <term>Gaussian reduction</term>, after the German mathematician Carl Gauss. We use linear combinations to reduce the system to triangular form, and then use back-substitution to find the solutions.</p>
 
@@ -182,7 +183,7 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
         <li><p>To reduce a system to the special form, we use <fillin characters="10"/>.</p></li>
     </ol></p></statement></exercise>
 
-<p>To obtain the triangular form, we eliminate one of the variables from each of the three equations by considering them in pairs. This results in a <m>2\times 2</m> system that we can solve using elimination. <m>~\alert{\text{[TK]}}</m></p>
+<p>To obtain the triangular form, we eliminate one of the variables from each of the three equations by considering them in pairs. This results in a <m>2\times 2</m> system that we can solve using elimination.</p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review the method of elimination, see <xref ref="ElimMeth" text="custom"> Section 2.3 </xref> of the text.</p></aside>
 
@@ -292,7 +293,8 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
                     <mrow>\frac{2}{3}x +\frac{1}{3}y - z \amp= -1 \amp\amp (2)</mrow>
                     <mrow>3x+3y-2z \amp= 10 \amp\amp (3)</mrow></md>
         Follow the steps:<ul>
-            <li><p>Step 1: Clear the fractions from Equation (2). <m>~\alert{\text{[TK]}}</m></p></li>
+            <li><p>Step 1: Clear the fractions from Equation (2).</p>
+                <aside><p><m>\alert{\text{[TK]}}~~</m>For help on clearing fractions, see <xref ref="tkClrFrac" text="custom"> Section 2.4.2 </xref> of the Toolkit.</p></aside></li>
             <li> <p>Step 2: Eliminate <m>z</m> from Equations (1) and (2).</p></li>
             <li><p>Step 3: Eliminate <m>z</m> from Equations (1) and (3).</p></li>
             <li><p>Step 4: Eliminate <m>x</m> from your new <m>2\times 2</m> system.</p></li>
@@ -300,7 +302,7 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
         </ul></p></statement>
     <answer><p><m>(2,2,1)</m></p></answer></exercise>
 
-<aside><p><m>\alert{\text{[TK]}}~~</m>For help on clearing fractions, see <xref ref="tkClrFrac" text="custom"> Section 2.4.2 </xref> of the Toolkit.</p></aside>
+>
 </subsection>
 
 <subsection><title>Inconsistent and Dependent Systems</title>
@@ -309,7 +311,7 @@ The solution is the ordered triple <m>(-1, 3, -1)</m>. You should verify that th
     <md><mrow>0x + 0y + 0z = k, \qquad (k \ne 0)</mrow></md>
 then the system is inconsistent and has no solution. If we don’t obtain such an equation, but we do obtain one of the form
     <md><mrow>0x + 0y + 0z = 0</mrow></md>
-then the system is dependent and has infinitely many solutions. <m>~\alert{\text{[TK]}}</m><idx><h>system of equations</h><h>inconsistent</h></idx><idx><h>system of equations</h><h>dependent</h></idx></p>
+then the system is dependent and has infinitely many solutions. <idx><h>system of equations</h><h>inconsistent</h></idx><idx><h>system of equations</h><h>dependent</h></idx></p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review the inconsistent and dependent systems, see <xref ref="IncDep" text="custom"> Section 2.3 </xref> of the text.</p></aside>
 
@@ -408,24 +410,25 @@ then the system is dependent and has infinitely many solutions. <m>~\alert{\text
 <example><statement><p>One angle of a triangle measures <m>4\degree</m> less than twice the second angle, and the third angle is <m>20\degree</m> greater than the sum of the first two. Find the measure of each angle. </p></statement>
 
 <solution><p><ul>
-    <li><title>Step 1: </title>
+    <li><title>Step 1 </title>
         <p>We represent the measure of each angle by a separate variable.
                 <md><mrow>\amp\text{First angle: }\amp\amp x</mrow>
                     <mrow>\amp\text{Second angle: }\amp\amp y</mrow>
                     <mrow>\amp\text{Third angle:}\amp\amp z</mrow></md></p></li>
-    <li><title>Step 2:</title>
+    <li><title>Step 2</title>
         <p>We write the conditions stated in the problem as three equations.
             <md><mrow>\amp x\text{ is } 4\degree \text{ less than }2 \text{ times } y: \amp\amp x = 2y - 4</mrow>
                 <mrow>\amp z\text{ is } 20\degree \text{ more than } x+ y: \amp\amp z = x + y + 20</mrow>
                 <mrow>\amp \text{the sum of the angles of a triangle is } 180\degree : \amp\amp x + y + z =180</mrow></md>
             </p></li>
-    <li><title>Step 3:</title>
+    <li><title>Step 3</title>
         <p>We follow the steps for solving a <m>3\times 3</m> linear system.</p>
-                <p>1.   We write the three equations in standard form.  <m>~\alert{\text{[TK]}}</m>
+                <p>1.   We write the three equations in standard form.  
                 <md alignment="alignat">
                     <mrow>x\amp {}-{}\amp 2y\amp \amp \amp =\amp -4\amp\hphantom{blank} \amp(1)</mrow>
                     <mrow>x\amp {}+{}\amp y\amp {}-{}\amp z\amp =\amp -20\amp\hphantom{blank} \amp(2)</mrow>
                     <mrow>x\amp {}+{}\amp y\amp {}+{}\amp z\amp =\amp 180\amp\hphantom{blank} \amp(3)</mrow></md></p>
+            <aside><p><m>\alert{\text{[TK]}}~~</m>For help writing an equation in standard form, see <xref ref="tkStdForm" text="custom"> Section 2.4.1 </xref> of the Toolkit.</p></aside>
         <p>2<ndash/>3. Because Equation (1) has no <m>z</m>-term, it will be most efficient to eliminate <m>z</m> from Equations (2) and (3). We add these two equations.
                 <md alignment="alignat">
                     <mrow>x \amp {}+{} \amp y \amp {}-{} \amp z \amp {}={} \amp -20\qquad\amp\amp (2)</mrow>
@@ -447,11 +450,9 @@ then the system is dependent and has infinitely many solutions. <m>~\alert{\text
         We substitute <m>\alert{52}</m> for <m>x</m> and <m>\alert{28}</m> for <m>y</m> in Equation (3) to find
                     <md><mrow>\alert{52} + \alert{28} + z \amp= 180</mrow>
                         <mrow>z\amp=100</mrow></md></p></li>
-        <li><title>Step 4:</title>
+        <li><title>Step 4</title>
             <p>The angles measure 52°, 28°, and 100°.</p></li></ul></p>       
     </solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For help writing an equation in standard form, see <xref ref="tkStdForm" text="custom"> Section 2.4.1 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 4</title>
 <webwork><pg-code>       
@@ -475,11 +476,11 @@ then the system is dependent and has infinitely many solutions. <m>~\alert{\text
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 4</title>
-<statement><p>A farmer has 1300 acres on which to plant wheat, corn, and soybeans. The seed costs $6 for an acre of wheat, $4 for an acre of corn, and $5 for an acre of soybeans. An acre of wheat requires 5 acre-feet of water during the growing season, while an acre of corn requires 2 acre-feet and an acre of soybeans requires 3 acre-feet. If the farmer has $6150 to spend on seed and can count on 3800 acre-feet of water, how many acres of each crop should he plant in order to use all his resources? <m>~\alert{\text{[TK]}}</m></p>
+<statement><p>A farmer has 1300 acres on which to plant wheat, corn, and soybeans. The seed costs $6 for an acre of wheat, $4 for an acre of corn, and $5 for an acre of soybeans. An acre of wheat requires 5 acre-feet of water during the growing season, while an acre of corn requires 2 acre-feet and an acre of soybeans requires 3 acre-feet. If the farmer has $6150 to spend on seed and can count on 3800 acre-feet of water, how many acres of each crop should he plant in order to use all his resources? </p>
+    <aside><p><m>\alert{\text{[TK]}}~~</m>For help writing equations, see <xref ref="tkWriteSys" text="custom"> Section 2.4.3 </xref> of the Toolkit.</p></aside>
 </statement>
 <answer><p>250 acres of wheat, 600 acres of corn, 450 acres of soybeans</p></answer></exercise>
 
-<aside><p><m>\alert{\text{[TK]}}~~</m>For help writing equations, see <xref ref="tkWriteSys" text="custom"> Section 2.4.3 </xref> of the Toolkit.</p></aside>
 </subsection>
 
 <xi:include href="./section-2-4-exercises.xml" />                

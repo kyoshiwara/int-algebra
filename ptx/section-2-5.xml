@@ -8,13 +8,15 @@
 
 <subsection><title>Graphs of Inequalities in Two Variables</title>
 
-<p>Recall that a linear inequality can have many solutions. <m>~\alert{\text{[TK]}}</m> For example, the solutions of <m>x + 2 \lt 5</m> are all numbers less than <m>3</m>. So it should not be surprising that inequalities in two variables also have many solutions.</p>
+<p>Recall that a linear inequality can have many solutions. For example, the solutions of <m>x + 2 \lt 5</m> are all numbers less than <m>3</m>. So it should not be surprising that inequalities in two variables also have many solutions.</p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review solving linear inequalities, see <xref ref="tkTwoVarIneq" text="custom"> Section 2.5.1 </xref> of the Toolkit.</p></aside>
 
 <definition><statement><p>A <term>solution</term><idx>solution</idx> to an inequality in two variables is an ordered pair of numbers that satisfies the inequality.</p></statement></definition>
 
 <example xml:id="Example-inequality-1-of-2-variables-specified"><statement><p>Find a solution to the inequality <m>x + y \ge 10,000</m> for <m>x = 2000</m></p></statement>
+
+<p></p>
     
 <solution><p>For <m>x = 2000</m>, we have 
     <me>2000 + y \ge 10,000~~~~~~\text{or}~~~~~~y \ge 8000</me>
@@ -191,14 +193,13 @@ On the other hand, the point <m>(5000, 4000)</m> does not lie in the shaded regi
                 <mrow>-3y\amp\ge -4x + 12 \amp \amp \blert{\text{Divide both sides by}~ -3.}</mrow>
                 <mrow>y\amp\le \frac{4}{3}x-4</mrow></md></p>
         <sidebyside widths="70% 28%" margins="0% 0%" valigns="middle middle">
-    <p>Then we graph the corresponding line <m>~\alert{\text{[TK]}}</m>
+    <p>Then we graph the corresponding line 
                 <me>y = \frac{4}{3}x-4</me>
+            <aside><p><m>\alert{\text{[TK]}}~~</m>To review graphing lines, see <xref ref="tkGraphLine" text="custom"> Section 2.5.2 </xref> of the Toolkit.</p></aside>
         with <m>y</m>-intercept is <m>-4</m> and slope <m>m=\dfrac{4}{3}</m>. Finally, we shade the half-plane below the line. The completed graph is shown at right.</p>
     <image source="images/fig-linear-inequality2"><description>linear inequality in two variables</description></image>
         </sidebyside>
 </solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>To review graphing lines, see <xref ref="tkGraphLine" text="custom"> Section 2.5.2 </xref> of the Toolkit.</p></aside>
 
 <warning><p>Be careful when isolating <m>y</m>. Remember to reverse the direction of the inequality whenever we multiply or divide by a negative number. For example, the inequality
         <me>-2y ~ \alert{\gt} ~ 6x-8</me>
@@ -723,7 +724,8 @@ Its graph is then a region in the plane.</p>
 <p>The last two inequalities, <m>x\ge 0</m> and <m>y\ge 0</m>, restrict the solutions to the first quadrant. We graph the line <m>x-y-2 = 0</m>, and use the test point <m>(0, 0)</m> to shade the half-plane including the origin. Finally we graph the line <m>x - 2y - 6 = 0</m> and again use the test point <m>(0, 0)</m> to shade the half-plane below the line. The intersection of the shaded regions is shown at right.</p>
     <image source="images/fig-system-of-inequalities3"><description>system of four inequalities</description></image>
         </sidebyside>
-<p>To find the coordinates of the vertices <m>A</m>, <m>B</m>, <m>C</m>, and <m>D</m>, we solve simultaneously the equations of the two lines that intersect at each vertex.  <m>~\alert{\text{[TK]}}</m></p>
+<p>To find the coordinates of the vertices <m>A</m>, <m>B</m>, <m>C</m>, and <m>D</m>, we solve simultaneously the equations of the two lines that intersect at each vertex. </p>
+    <aside><p><m>\alert{\text{[TK]}}~~</m>To review solving a linear 2x2 system, see <xref ref="tkTwobyTwo" text="custom"> Section 2.5.3 </xref> of the Toolkit.</p></aside>
         <sidebyside widths="38% 25% 25%" valigns="middle middle middle" margins="5% 2%">
             <p>For <m>A</m>, we solve the system </p>
             <p><md><mrow>x \amp= 0</mrow><mrow>y\amp =0</mrow></md></p>
@@ -741,8 +743,6 @@ Its graph is then a region in the plane.</p>
             <p><md><mrow>y \amp= 0</mrow><mrow>x -y \amp= 2</mrow></md></p>
             <p>to find <m>\left(2,0 \right)</m></p></sidebyside>
 <p>The vertices are the points <m>(0, 0)</m>, <m>(0, 3)</m>, <m>\left(\dfrac{10}{3},\dfrac{4}{3} \right)</m>, and <m>(2, 0)</m>.</p></solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>To review solving a linear 2x2 system, see <xref ref="tkTwobyTwo" text="custom"> Section 2.5.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="main"><title>Practice 6</title>
 <statement><p><ol marker="a.">

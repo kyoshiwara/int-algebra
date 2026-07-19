@@ -39,7 +39,7 @@
 
 <p>In the examples below, notice that each rate has units of the form  <m>\dfrac{\text{something}}{\text{something else}} </m>, which we read as "something per something else."</p>
 
-<example><statement><p>Caryn bought 7 used paperback novels for a total of $2.45. Use a ratio to calculate the price per book.  <m>~\alert{\text{[TK]}}</m></p></statement>
+<example><statement><p>Caryn bought 7 used paperback novels for a total of $2.45. Use a ratio to calculate the price per book.</p></statement>
 
 <solution><p><me>\frac{\text{total cost in dollars}}{\text{number of books}} = \frac{2.45 \text{ dollars}}{7 \text{ books}} = 0.35 \text{ dollars/book} </me></p>
 <p>The novels were priced at a rate of $0.35 per book.</p></solution></example>
@@ -185,9 +185,10 @@ Gregor's average speed is the ratio <m>\dfrac{\text{distance traveled}}{\text{ti
         \draw [black,decorate,decoration={brace,amplitude=7pt}] (4,3.58) -- (1,3.58) node [black, below,midway, yshift=-7] {$\Delta t$};
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
-<p>The rate of change of distance with respect to time, or speed, is the ratio of <m>\Delta d</m> to <m>\Delta t</m>. It measures how much <m>d</m> changes for each unit increase in <m>t</m>, or how far Gregor travels in each hour. This quantity, the ratio <m>\dfrac{\Delta d}{\Delta t} </m>, is the <em>slope of the line</em>. <m>~\alert{\text{[TK]}}</m></p>
 
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more help calculating slope from a graph, see <xref ref="tkSlopefromGraph" text="custom"> Section 1.4.2 </xref> of the Toolkit.</p></aside>
+    <aside><p><m>\alert{\text{[TK]}}~~</m>For more help calculating slope from a graph, see <xref ref="tkSlopefromGraph" text="custom"> Section 1.4.2 </xref> of the Toolkit.</p></aside>
+
+<p>The rate of change of distance with respect to time, or speed, is the ratio of <m>\Delta d</m> to <m>\Delta t</m>. It measures how much <m>d</m> changes for each unit increase in <m>t</m>, or how far Gregor travels in each hour. This quantity, the ratio <m>\dfrac{\Delta d}{\Delta t} </m>, is the <em>slope of the line</em>. </p>
 
 <exercise component="webwork"><title>QuickCheck 3</title>
 <webwork><pg-code>       
@@ -276,7 +277,7 @@ or, in symbols
 
 <sidebyside widths="30% 30% 30%" margins="0% 0%">
     <stack>
-         <image xml:id="fig-measure-slope-A"><description>line A</description><latex-image>
+         <image xml:id="fig-measure-slope-A"><description>line of slope 2</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -304,7 +305,7 @@ or, in symbols
     </stack>
     
     <stack>
-         <image xml:id="fig-measure-slope-B"><description>line B</description><latex-image>
+         <image xml:id="fig-measure-slope-B"><description>line of slope 3/2</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -332,7 +333,7 @@ or, in symbols
     </stack>
 
     <stack>
-         <image xml:id="fig-measure-slope-C"><description>line C</description><latex-image>
+         <image xml:id="fig-measure-slope-C"><description>line of slope -2</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -369,7 +370,7 @@ or, in symbols
 
 <example><statement><sidebyside widths="55% 40%" margins="0% 0%">
     <p><ol marker="a.">
-        <li><p>Compute the slope of the line.  <m>~\alert{\text{[TK]}}~~</m></p></li>
+        <li><p>Compute the slope of the line. </p></li>
         <li><p> Illustrate the slope on the graph by drawing a vertical segment of length <m>\Delta y</m> and a horizontal segment of length <m>\Delta x</m>.</p></li>
         <li><p>If <m>\Delta x =1</m>, what is the length of the vertical segment? </p></li>
     </ol></p>
@@ -399,7 +400,7 @@ or, in symbols
     <li><p>The points <m>(20,500)</m> and <m>(40,1000) </m> lie on the graph. As we move from the first point to the second point, <m>x</m> increases by 20 units, so <m>\Delta x=20</m>, and <m>y</m> increases by 500 units, so <m>\Delta y = 500</m>. Thus
             <me>\frac{\Delta y}{\Delta x}=\frac{500}{20}=25 </me> </p></li>
     <li><p>The segments are shown in the graph below.</p>
-        <image width="45%" xml:id="fig-example-1-4-3-ans"><description>line with different scales on axes</description>
+        <image width="45%" xml:id="fig-example-1-4-3-ans"><description>line with different scales on axes, slope illustrated</description>
             <latex-image>
                     <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                     <![CDATA[\tikzset{%
@@ -563,10 +564,10 @@ or, in symbols
     <sidebyside widths="55% 40%" valigns="middle middle">
     <p><ol marker="a.">
             <li><p>Choose two points on the graph and compute the slope, including units.</p></li>
-            <li><p>Explain what the slope measures in this problem. <m>~\alert{\text{[TK]}}</m></p></li>
+            <li><p>Explain what the slope measures in this problem. </p></li>
             <li><p>Write a linear model for <m>a</m> in terms of <m>t</m>.</p></li>
     </ol></p>
-        <image xml:id="fig-ski-lift"><description>altitude vs time</description><latex-image>
+        <image xml:id="fig-ski-lift"><description>graph of altitude vs time</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -596,7 +597,7 @@ or, in symbols
             <me>a = 100 + 150t</me></p></li>
     </ol></p></solution></example>
 
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more help interpretine slope, see <xref ref="tkInterpSlope" text="custom"> Section 1.4.3 </xref> of the Toolkit.</p></aside>
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more help interpreting slope, see <xref ref="tkInterpSlope" text="custom"> Section 1.4.3 </xref> of the Toolkit.</p></aside>
 
 <assemblage><title>Slope as a Rate of Change</title><idx><h>slope</h><h>rate of change</h></idx>
 <p><ol marker="1.">
@@ -706,7 +707,7 @@ or, in symbols
     <stack><p>For the line shown in the figure, try computing the slope using the points <m>P</m> and <m>Q</m>, and then using the points <m>G</m> and <m>H</m>. In each case, you should find that the slope is <m>\frac{3}{2} </m>.</p>
     <p>Here is another way to look at slopes. If we start at any point on the line shown and move 9 units to the right, what value of <m>\Delta y</m> will bring us back to the line? We can use the slope formula with <m>\Delta x=9</m>.</p>
     </stack>
-    <image xml:id="fig-constant-slope"><description>line</description><latex-image>
+    <image xml:id="fig-constant-slope"><description>line with several points</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -913,7 +914,7 @@ or, in symbols
 
 <assemblage><title>Two Uses for Slope</title>
 <p><ul>
-    <li><p>If we know the slope of a line, we can use the formula <m>m=\dfrac{\Delta y}{\Delta x} </m>to find <m>\Delta y</m> when we know <m>\Delta x </m>, or to find <m>\Delta x </m> when we know <m>\Delta y </m>.</p></li>
+    <li><p>If we know the slope of a line, we can use the formula <m>~m=\dfrac{\Delta y}{\Delta x} ~</m> to find <m>\Delta y</m> when we know <m>\Delta x </m>, or to find <m>\Delta x </m> when we know <m>\Delta y </m>.</p></li>
     <li><p>To test whether a collection of data points lies on a straight line, we can compute slopes. If the slopes between all pairs of data points are the same, the points lie on a straight line.</p></li>
 </ul></p></assemblage>
 

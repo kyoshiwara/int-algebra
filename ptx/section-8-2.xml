@@ -180,18 +180,17 @@ where we have divided both numerator and denominator by 9. The new fraction has 
 
 <p>If the numerator or denominator of the fraction contains more than one term, it is especially important to <em>factor before reducing</em>, so that numerator and denominator are written as products of factors, instead of as sums of terms. </p>
 
-<example xml:id="example-reduce"><statement><p>Reduce each fraction. <m>~\alert{\text{[TK]}}</m></p>
+<example xml:id="example-reduce"><statement><p>Reduce each fraction.</p>
     <p><ol marker="a." cols="2">
         <li><m>\dfrac{4x+2}{4}</m></li>
         <li><m>\dfrac{9x^2+3}{6x+3}</m></li></ol></p></statement>
 
 <solution><p>First we factor the numerator and denominator. Then we divide numerator and denominator by any common factors.</p>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>To refresh your factoring skills, see <xref ref="tkFactPoly" text="custom"> Section 8.2.1 </xref> of the Toolkit.</p></aside>
     <p><ol marker="a.">
         <li><m>\dfrac{4x+2}{4} = \dfrac{\cancel{2}(2x+1)}{\cancel{2}(2)} = \dfrac{2x+1}{2}</m></li>
         <li><m>\dfrac{9x^2+3}{6x+3} = \dfrac{\cancel{3}(3x^2+1)}{\cancel{3}(2x+1)} = \dfrac{3x^2+1}{2x+1}</m></li>
     </ol></p></solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>To refresh your factoring skills, see <xref ref="tkFactPoly" text="custom"> Section 8.2.1 </xref> of the Toolkit.</p></aside>
 
 <warning><p>We cannot cancel the 4's in part (a) of the Example above, because 4 is not a factor of the entire numerator.  Thus,
         <me>\dfrac{4x+2}{4} \ne x+2</me>
@@ -393,15 +392,15 @@ Here are some examples of opposites.
         <mrow> -x+1~~~~~~~~\amp \text{and}~~~~~~~~x-1</mrow></md>
 We can cancel opposites when we reduce fractions.</p>
 
-<example><statement><p>Reduce  <m>~\dfrac{2x-4y}{6y-3x}</m> <m>~\alert{\text{[TK]}}</m> </p></statement>
+<aside><p><m>\alert{\text{[TK]}}~~</m>For more about the opposite of a binomial, see <xref ref="tkOppBin" text="custom"> Section 8.2.2 </xref> of the Toolkit.</p></aside>
+
+<example><statement><p>Reduce  <m>~\dfrac{2x-4y}{6y-3x}</m> </p></statement>
 
 <solution><p>We first factor the numerator and denominator.
     <me>\dfrac{2x-4y}{6y-3x} = \dfrac{2(x-2y)}{3(2y-x)}</me>
 We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-x)</m>.  Thus,
     <me>\dfrac{2(x-2y)}{3(2y-x)} = \dfrac{-2\cancel{(2y-x)}}{3\cancel{(2y-x)}} = \dfrac{-2}{3}</me></p></solution>
 </example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more about the opposite of a binomial, see <xref ref="tkOppBin" text="custom"> Section 8.2.2 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 6</title>
 <webwork><pg-code>
@@ -636,7 +635,7 @@ where <m>P(x)</m> and <m>Q(x)</m> are polynomials. A rational function is undefi
         <p>As the number of T-shirts increases, the average cost per shirt decreases, but eventually levels off and approaches $5 per T-shirt.</p></li>
     </ol></p></answer></exercise>
 
-<p>In <xref ref="average-tshirt-cost" text="custom" >Practice 7</xref>, the horizontal line <m>C=5</m> is a <term>horizontal asymptote</term><idx><h>asymptote</h><h>horizontal</h></idx><idx>horizontal asymptote</idx> for the graph of the function. As <m>x</m> increases, the graph approaches the line <m>C=5</m> but will never actually meet it. The average price per T-shirt will always be slightly more than $5. Horizontal asymptotes are also important in sketching the graphs of rational functions. <m>~\alert{\text{[TK]}}</m></p>
+<p>In <xref ref="average-tshirt-cost" text="custom" >Practice 7</xref>, the horizontal line <m>C=5</m> is a <term>horizontal asymptote</term><idx><h>asymptote</h><h>horizontal</h></idx><idx>horizontal asymptote</idx> for the graph of the function. As <m>x</m> increases, the graph approaches the line <m>C=5</m> but will never actually meet it. The average price per T-shirt will always be slightly more than $5. Horizontal asymptotes are also important in sketching the graphs of rational functions. </p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more about asymptotes, see <xref ref="tkAsymp" text="custom"> Section 8.2.3 </xref> of the Toolkit.</p></aside>
 

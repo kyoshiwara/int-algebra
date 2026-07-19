@@ -81,7 +81,7 @@ Thus, <m>a = 0.5</m> and <m>b = 3</m>, and the function is <m>f(x) = 0.5(3^x)</m
 
 <p>We can use the ratio method to find an exponential growth or decay model if we know two function values.</p>
 
-<example xml:id="example-cedi-inflation"><statement><p>The unit of currency in Ghana is the cedi, denoted by ¢. Beginning in 1986, the cedi underwent a period of exponential inflation. In 1993, one U.S. dollar was worth ¢720, and in 1996, the dollar was worth about ¢1620. Find a formula for the number of cedi to the dollar as a function of time since 1986. What was the annual inflation rate during the decade from 1986 to 1996? <m>~\alert{\text{[TK]}}</m></p></statement>
+<example xml:id="example-cedi-inflation"><statement><p>The unit of currency in Ghana is the cedi, denoted by ¢. Beginning in 1986, the cedi underwent a period of exponential inflation. In 1993, one U.S. dollar was worth ¢720, and in 1996, the dollar was worth about ¢1620. Find a formula for the number of cedi to the dollar as a function of time since 1986. What was the annual inflation rate during the decade from 1986 to 1996? </p></statement>
 
 <solution><p>We want to find a function <m>C(t) = ab^t</m> for the number of cedi to the dollar, where <m>t = 0</m> in 1986. We have two function values, <m>C(7) = 720</m>, and <m>C(10) = 1620</m>, and with these values we can write two equations.
     <md><mrow>ab^7 \amp = 720 </mrow>
@@ -383,7 +383,6 @@ Once again, you can check that this formula is equivalent to the decay function 
 <p>Radioactive isotopes are molecules that decay into more stable molecules, emitting radiation in the process. Although radiation in large doses is harmful to living things, radioactive isotopes are useful as tracers in medicine and industry, and as treatment against cancer. The decay laws for radioactive isotopes are often given in terms of their half-lives.</p>
 
 <example ><statement><p>Cobalt-60 is used in cold pasteurization to sterilize certain types of food. Gamma rays emitted by the isotope during radioactive decay kill any bacteria present without damaging the food. The half-life of cobalt-60 is 5.27 years.
-    <m>~\alert{\text{[TK]}}</m>
     <ol marker="a.">
 		<li>Write a decay law for cobalt-60.</li>
 		<li>What is the annual decay rate for cobalt-60?</li>

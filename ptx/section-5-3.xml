@@ -23,19 +23,17 @@ There are several other kinds of roots, one of which is called the <term>cube ro
         <mrow> -3=\sqrt[3]{-27}~~~~~~ \amp \text{because} \amp \amp (-3)^3=-27</mrow></md>       
 Simplifying radicals occupies the same position in the order of operations as computing powers:  after parentheses, and before products and quotients.</p>
 
-<example><statement><p>Simplify each expression. <m>~\alert{\text{[TK]}}</m>
+<example><statement><p>Simplify each expression. 
 <ol marker="a." cols = "2">
     <li><m>3\sqrt[3]{-8}</m></li>
     <li> <m>2-\sqrt[3]{-125}</m></li></ol></p>
 </statement>
+    <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of cube roots, see <xref ref="tkCubRt" text="custom"> Section 5.3.1 </xref> and <xref ref="tkOrderOp" text="custom"> Section 5.3.3 </xref> of the Toolkit.</p></aside>
 
 <solution><p><ol marker="a." cols="2">
     <li><m>3\sqrt[3]{-8}=3(-2)=-6</m></li>
     <li><m>2-\sqrt[3]{-125}=2-(-5)=7</m></li>
 </ol></p></solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of cube roots, see <xref ref="tkCubRt" text="custom"> Section 5.3.1 </xref>
-and <xref ref="tkOrderOp" text="custom"> Section 5.3.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title> Practice 1</title>
 <webwork>
@@ -152,19 +150,19 @@ and the calculator returns the result, 2.5. Thus, <m>\sqrt[3]{15.625} = 2.5</m>.
 
 <p>Absolute value bars act like grouping devices in the order of operations:  you should complete any operations that appear inside absolute value bars before you compute the absolute value.</p>
 
-<example xml:id="example-abs"><statement><p>Simplify each expression. <m>~\alert{\text{[TK]}}</m></p>
+<example xml:id="example-abs"><statement><p>Simplify each expression. </p>
     <p><ol marker="a." cols ="2">
         <li><p><m>\abs{3 - 8}</m></p></li>
         <li><p><m>\abs{3} - \abs{8}</m></p></li>
     </ol></p></statement>
+    <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples using absolute value, see <xref ref="tkAbsVal" text="custom"> Section 5.3.2 </xref> and <xref ref="tkOrderOp" text="custom"> Section 5.3.3 </xref> of the Toolkit.</p></aside>
+
 <solution><p><ol marker="a.">
         <li><p>We simplify the expression inside the absolute value bars first.
             <me>\abs{3 - 8} = \abs{-5} = 5</me></p></li>
         <li><p>We simplify each absolute value; then subtract.
             <me>\abs{3} - \abs{8} = 3 - 8 = -5</me></p></li>
     </ol></p></solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples using absolute value, see <xref ref="tkAbsVal" text="custom"> Section 5.3.2 </xref> and <xref ref="tkOrderOp" text="custom"> Section 5.3.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 2</title>
     <webwork><pg-code>

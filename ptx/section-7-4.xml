@@ -7,7 +7,7 @@
 
 <subsection><title>Logarithms and Exponents</title>
 
-<p>Because logarithms are actually exponents, they have several properties that can be derived from the laws of exponents. Here are the laws we will need at present. <m>~\alert{\text{[TK]}}</m> </p>
+<p>Because logarithms are actually exponents, they have several properties that can be derived from the laws of exponents. Here are the laws we will need at present.</p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review some applications of the laws of exponents, see <xref ref="tkMoreExpLaws" text="custom"> Section 7.4.1 </xref> of the Toolkit.</p></aside>
 
@@ -71,7 +71,7 @@
 
 <subsection><title>Using the Properties of Logarithms</title>
 
-<p>Of course, these properties are useful not so much for computing logs but rather for simplifying expressions that contain variables. We will use them to solve exponential equations. But first, we will practice applying the properties. <m>~\alert{\text{[TK]}}</m></p>
+<p>Of course, these properties are useful not so much for computing logs but rather for simplifying expressions that contain variables. We will use them to solve exponential equations. But first, we will practice applying the properties.</p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>At this point, it may also be helpful to compare the distributive law with the log properties. See <xref ref="tkDistLaw" text="custom"> Section 7.4.2 </xref> of the Toolkit.</p></aside>
 
@@ -196,7 +196,7 @@ Although
 We cannot simplify <m>~\dfrac{\log_{10}{(7)}}{\log_{10}{(5)}}~</m>; we must evaluate it as 
 	<me>\log_{10}{(7)} \div \log_{10}{(5)} \approx 1.2091 </me></p></warning>
 
-<example><statement><p>Solve <m>~~1640 = 80 \cdot 6^{0.03x}</m>  <m>~\alert{\text{[TK]}}</m></p></statement>
+<example><statement><p>Solve the equation <m>~~1640 = 80 \cdot 6^{0.03x}</m></p></statement>
 
 <solution><p>First we divide both sides by 80 to isolate the power.
 	<me>20.5 = 6^{0.03x}</me>

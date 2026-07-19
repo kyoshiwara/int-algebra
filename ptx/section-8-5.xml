@@ -239,7 +239,7 @@ you will find that the graphs never intersect, which means that there is no solu
     We use the distributive law to remove the parentheses and write the result in standard form:
                 <md><mrow>6x + 12 + x^2 + 2x\amp = x</mrow>
                     <mrow>x^2 + 7x + 12 \amp = 0</mrow></md>
-    This is a quadratic equation that we can solve by factoring. <m>~\alert{\text{[TK]}}</m>
+    This is a quadratic equation that we can solve by factoring. 
                 <me>(x + 3)(x + 4) = 0</me>
     so the solutions are <m>x = -3</m> and <m>x = -4</m>. Neither of these values causes either denominator to equal zero, so they are not extraneous solutions.</p></solution></example>
 
@@ -325,7 +325,7 @@ you will find that the graphs never intersect, which means that there is no solu
 
 <p>We can use graphs to solve an equation, as we see in the following Example.</p>
 
-<example><statement><p>Solve the equation graphically: <m>~\dfrac{6}{x}+1=\dfrac{1}{x+2}</m> <m>~\alert{\text{[TK]}}</m></p></statement>
+<example><statement><p>Solve the equation graphically: <m>~\dfrac{6}{x}+1=\dfrac{1}{x+2}</m></p></statement>
 
 <solution><p>We graph the two functions
             <me>Y_1=\frac{6}{x}+1 \hphantom{space}\text{and}\hphantom{space}Y_2=\frac{1}{x+2}</me>
@@ -622,7 +622,7 @@ We cannot combine the two terms containing <m>v</m> because they are not like te
     <li>solving equations with fractions</li>
 </ul></p>
 
-<p><m>\alert{\text{[TK]}}~~</m>Each type of operation has a particular method, and it may help to review which method to use on each type of operation. To practice choosing the appropriate technique, see <xref ref="tkChooseTech" text="custom"> Section 8.5.3 </xref> of the Toolkit.</p>
+<p>Each type of operation has a particular method, and it may help to review which method to use on each type of operation. To practice choosing the appropriate technique, see <xref ref="tkChooseTech" text="custom"> Section 8.5.3 </xref> of the Toolkit.</p>
 
 </subsection>
 

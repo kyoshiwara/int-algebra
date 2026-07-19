@@ -145,7 +145,7 @@ Finally, we reduce the result to obtain
 
 <p>Algebraic fractions are sometimes written using negative exponents. </p>
 
-<example xml:id="Example-negarive-exponents-for-algebraic-fractions" ><statement><p>Write each expression as a single algebraic fraction. <m>~\alert{\text{[TK]}}</m>
+<example xml:id="Example-negarive-exponents-for-algebraic-fractions" ><statement><p>Write each expression as a single algebraic fraction. 
 <ol marker="a." cols="2">
     <li><m>x^{-1}-y^{-1}</m></li>
     <li><m>(x^{-2}+y^{-2})^{-1}</m></li>
@@ -347,7 +347,7 @@ Thus, the average speed for the entire trip is
     <li>The second fraction reduces to a whole number:  <m>~\dfrac{8}{4}  = \dfrac{2}{1} = 2</m></li> 
     <li>The third fraction does not reduce, but by dividing the denominator into the numerator, we can write it as a whole number plus a proper fraction:  <m>~\dfrac{8}{3} = 2\dfrac{2}{3}</m></li></ul></p>    
 
-<p>An algebraic fraction is "improper" if the degree of the numerator is greater than the degree of the denominator. If it cannot be reduced, we can simplify the expression by treating it as a division of polynomials. The quotient will be the sum of a polynomial and a simpler algebraic fraction. <m>~\alert{\text{[TK]}}</m></p>
+<p>An algebraic fraction is "improper" if the degree of the numerator is greater than the degree of the denominator. If it cannot be reduced, we can simplify the expression by treating it as a division of polynomials. The quotient will be the sum of a polynomial and a simpler algebraic fraction.</p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review improper fractions, see <xref ref="tkImpFrac" text="custom"> Section 8.4.2 </xref> of the Toolkit.</p></aside>
 
@@ -378,7 +378,7 @@ Note that the quotient is the sum of a polynomial, <m>3x^2 - 2x</m>, and an alge
 
 <p>If the denominator is not a monomial, we use a method similar to the long division algorithm used in arithmetic.</p>
 
-<example xml:id="example-long-division"><statement><p>Divide <m>~~\dfrac{2x^2+x-7}{x+3}</m> <m>~\alert{\text{[TK]}}</m></p></statement>
+<example xml:id="example-long-division"><statement><p>Divide <m>~~\dfrac{2x^2+x-7}{x+3}</m> </p></statement>
 
 <solution><p>We first write the quotient as a division problem:
     <md><mrow>\require{enclose}x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex </mrow></md>

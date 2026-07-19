@@ -9,7 +9,7 @@
 
 <image width="70%" source="images/fig-3-cases-quadratic-system" ><description>graphs of 3 cases for quadratic system</description></image>
 
-<p>In the next Example, we use both graphical and algebraic techniques to solve the system. <m>~\alert{\text{[TK]}}~~</m></p> 
+<p>In the next Example, we use both graphical and algebraic techniques to solve the system.</p> 
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of problems that can be solved with a system of equations, see <xref ref="tkNonLinSys" text="custom"> Section 9.5.1 </xref> of the Toolkit.</p></aside>
 
@@ -178,8 +178,9 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
                 <mrow>xy\amp=2</mrow></md></p></statement>
 
 <solution><sidebyside widths="60% 35%" margins="0% 0%" valigns="middle middle">
-<p>We will use substitution to solve the system. <m>~\alert{\text{[TK]}}~~</m>  We solve the easier of the two equations (the second equation) for <m>y</m> to obtain <m>y =\dfrac{2}{x}</m>. Then we substitute <m>\dfrac{2}{x} </m> for <m>y</m> in the first equation to find
+<p>We will use substitution to solve the system. We solve the easier of the two equations (the second equation) for <m>y</m> to obtain <m>y =\dfrac{2}{x}</m>. Then we substitute <m>\dfrac{2}{x} </m> for <m>y</m> in the first equation to find
             <me>x^2+\left(\frac{2}{x} \right)^2=5 \quad\text{ or }\quad x^2+\frac{4}{x^2} =5  </me></p>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of using substitution, see <xref ref="tkSubst" text="custom"> Section 9.5.3 </xref> of the Toolkit.</p></aside>
         <image xml:id="fig-example-9-5-3"><description>circle and hyperbola</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -207,8 +208,6 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
                 <mrow>x^2-1=0\quad\text{ or }\quad x^2\amp-4=0\amp\amp \blert{\text{Solve each equation.}}</mrow>
                 <mrow>x=1, \quad x=-1,\quad x=2\amp, \quad \text{ or }\quad x=-2</mrow></md>
     Finally, substitute each of these values into <m>y=\dfrac{2}{x} </m> to find the <m>y</m>-components of each solution. The intersection points of the two graphs are <m>(1,2)</m>, <m>(-1,-2)</m>, <m>(2,1)</m>, and <m>(-2,-1)</m>. The graph of the system is shown above.</p></solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of using substitution, see <xref ref="tkSubst" text="custom"> Section 9.5.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 3</title>
     <webwork><pg-code>
@@ -245,7 +244,7 @@ elimination of variables is more efficient.</p>
 <example><statement><p>Find the solutions to the following system of equations.
             <md><mrow>x^2 - 2y^2 \amp=1</mrow>
                 <mrow>\frac{x^2}{15}+\frac{y^2}{10}\amp=1 </mrow></md>
-Verify the solutions on a graph. <m>~\alert{\text{[TK]}}~~</m></p></statement>
+Verify the solutions on a graph.</p></statement>
 
 <solution><sidebyside widths="60% 38%" margins="0% 0%" valigns="middle middle">
 <p> We multiply the first equation by 3 and the second by 60 to obtain
@@ -257,12 +256,11 @@ Adding these two equations, we have</p>
             <md><mrow>7x^2 \amp= 63</mrow>
                 <mrow>x^2\amp=9</mrow></md>
 so <m>x = \pm 3</m>. We substitute these values for <m>x</m> into either equation and solve for <m>y</m> to find the solutions <m>(3, 2)</m>, <m>(3, -2)</m>, <m>(-3, 2)</m> and <m>(-3, -2)</m>.</p>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of using elimination, see <xref ref="tkElim" text="custom"> Section 9.5.3 </xref> of the Toolkit.</p></aside>
 
 <p>The two original equations describe a hyperbola and an ellipse. We can obtain graphs on the calculator by solving each equation for <m>y</m> to get
     <me>y=\pm\sqrt{\frac{x^2-1}{2}} \quad\text{ and }\quad y=\pm\sqrt{10\left(1-\frac{x^2}{15} \right)}</me>
 Using the window <m>[-7.05,7.05] \times [-4.65,4.65]</m>, we obtain the graph shown above. The solutions of the system are the intersection points of the graphs.</p></solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of using elimination, see <xref ref="tkElim" text="custom"> Section 9.5.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>

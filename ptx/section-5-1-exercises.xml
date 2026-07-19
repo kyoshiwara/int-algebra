@@ -22,7 +22,7 @@
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 5-8, solve.</p>
-<p><m>\alert{\text{[TK]}}~~</m>To review solving nonlinear equations, see <xref ref="tkNonLinEqn" text="custom"> Section 5.1.2 </xref> of the Toolkit.</p></introduction>
+<aside><p><m>\alert{\text{[TK]}}~~</m><p>To review solving nonlinear equations, see <xref ref="tkNonLinEqn" text="custom"> Section 5.1.2 </xref> of the Toolkit.</p></p></introduction>
 
 <exercise number="5"><statement><p><m>4-5x-2x^2=1</m></p></statement>
 <answer><p><m>-3, \dfrac{1}{2}</m></p></answer></exercise>
