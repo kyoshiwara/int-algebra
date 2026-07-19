@@ -16,7 +16,7 @@ and obtain a formula for the solutions of any quadratic equation.  Here is the r
 
 <note><p>The formula gives us the solutions of a particular quadratic equation in terms of its coefficients, <m>a,~b,</m> and <m>c</m>.  We know that there should be two solutions, and the symbol <m>~\blert{\pm}~</m> is used to represent the two expressions
     <me>x=\dfrac{-b +\sqrt{b^2-4ac}}{2a}~~~\text{and}~~~x=\dfrac{-b - \sqrt{b^2-4ac}}{2a}</me>
-in a single formula.  <m>~\alert{\text{[TK]}}~~</m></p></note>
+in a single formula.</p></note>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review some properties of radicals, see <xref ref="tkSimpSq" text="custom"> Section 4.1.1 </xref> of the Toolkit.</p></aside>
 
@@ -56,10 +56,10 @@ in a single formula.  <m>~\alert{\text{[TK]}}~~</m></p></note>
 We substitute <m>\alert{2}</m> for <m>a</m>, <m>\alert{-4}</m> for <m>b</m>, and <m>\alert{1}</m> for <m>c</m> into the quadratic formula, then simplify.
         <md><mrow> x \amp =\frac{-(\alert{-4})\pm \sqrt{(\alert{-4})^2 - 4(\alert{2})(\alert{1})}}{2(\alert{2})}</mrow>
             <mrow>\amp = \frac{4 \pm \sqrt{8}}{4}</mrow></md>
-Remeber that we cannot cancel the 4's in this expression! <m>~\alert{\text{[TK]}}~~</m> Using a calculator, we find that the solutions are approximately <m>1.7</m> and <m>0.3</m>. These values are the <m>x</m>-intercepts of the graph of <m>~y = 2x^2 - 4x + 1,~</m> as shown in the figure.</p>
+Remeber that we cannot cancel the 4's in this expression!</p>
+    <aside><p><m>\alert{\text{[TK]}}~~</m>For more about the order of operations with radicals, see <xref ref="tkOrderOp2" text="custom"> Section 4.1.2 </xref> of the Toolkit.</p></aside>
+<p>Using a calculator, we find that the solutions are approximately <m>1.7</m> and <m>0.3</m>. These values are the <m>x</m>-intercepts of the graph of <m>~y = 2x^2 - 4x + 1,~</m> as shown in the figure.</p>
 <image width="38%" source="images/fig-parabola-intercepts" ><description>parabola with irrational x-intercepts</description></image></solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more about the order of operations with radicals, see <xref ref="tkOrderOp2" text="custom"> Section 4.1.2 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 1</title>
     <webwork><pg-code>
@@ -85,13 +85,12 @@ Remeber that we cannot cancel the 4's in this expression! <m>~\alert{\text{[TK]}
     </webwork></exercise>
 
 <exercise component="main"><title>Practice 1</title>
-<statement><p>Use the quadratic formula to solve <m>~x^2 - 3x = 1</m>. <m>~\alert{\text{[TK]}}~~</m></p>
-        <p>Hint: Write the equation in standard form.</p>
-            <p>Substitute <m>a = 1</m>, <m>b = -3</m>, <m>c = -1</m> into the quadratic formula.</p>
-            <p>Simplify.</p></statement>
+<statement><p>Use the quadratic formula to solve the equation <m>~x^2 - 3x = 1</m>.</p>
+        <p>Hint: <m>\blert{\text{Step 1: Write the equation in standard form.}}</m></p>
+            <p><m>\blert{\text{Step 2: Substitute}}</m> <m>\blert{~a = 1, ~b = -3, ~c = -1~}</m> <m>\blert{\text{into the quadratic formula.}}</m></p>
+            <p><m>\blert{\text{Step 3: Simplify.}}</m></p></statement>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>To see more examples of using the quadratic formula, see <xref ref="tkQuadForm" text="custom"> Section 4.1.3 </xref> of the Toolkit.</p></aside>
     <solution><p><m>x=\dfrac{3\pm \sqrt{13}}{2} </m></p></solution></exercise>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>To see more examples of using the quadratic formula, see <xref ref="tkQuadForm" text="custom"> Section 4.1.3 </xref> of the Toolkit.</p></aside>
 </subsection>
 
 <subsection><title>Applications</title>
@@ -205,9 +204,9 @@ When we evalute this last expression, we get two different positive values for t
     where <m>t</m> is the time in seconds. Find two times when the ball is at a height of 20 feet. Round your answers to two decimal places, and separate the values with a comma.</p>
     <p><m>t=</m><var name="$answer" width="15"  evaluator="$my_evaluator"/> sec.</p>
 </statement>
-    <hint><p>Set <m>h=20</m>, then write the equation in standard form.</p>
-            <p>Divide each term by <m>-16</m>.</p>
-            <p>Use the quadratic formula to solve.</p>
+    <hint><p><m>\blert{\text{Set}}</m> <m>\blert{~h=20}</m>, <m>\blert{\text{then write the equation in standard form.}}</m></p>
+            <p><m>\blert{\text{Divide each term by}~-16.}</m></p>
+            <p><m>\blert{\text{Use the quadratic formula to solve.}}</m></p>
     </hint>
 <solution><p>0.27 sec, 3.73 sec</p></solution>
 </webwork></exercise>
@@ -216,9 +215,9 @@ When we evalute this last expression, we get two different positive values for t
 <statement><p>The height of a baseball is given by the equation
                 <md><mrow>h=-16t^2+64t+4</mrow></md>
     where <m>t</m> is the time in seconds. Find two times when the ball is at a height of 20 feet. Round your answers to two decimal places.</p>
-    <p>Hint: Step 1: Set <m>h=20</m>, then write the equation in standard form.</p>
-            <p>Step 2: Divide each term by <m>-16</m>.</p>
-            <p>Step 3: Use the quadratic formula to solve.</p></statement>
+    <p>Hint:<m>~\blert{\text{Step 1: Set}}</m> <m>\blert{~h=20}</m>,<m>~\blert{\text{then write the equation in standard form.}}</m></p>
+            <p><m>\blert{\text{Step 2: Divide each term by}~-16.}</m></p>
+            <p><m>\blert{\text{Step 3: Use the quadratic formula to solve.}}</m></p></statement>
 <solution><p>0.27 sec, 3.73 sec</p></solution></exercise>   
 </subsection>
 
@@ -285,7 +284,7 @@ Although square roots <idx><h>square root</h><h>of a negative real number</h></i
 
 <p>The solutions of many quadratic equations involve imaginary numbers.</p>
  
-<example><statement><p>Solve <m>~~2x^2-x+2 = 0</m>.</p></statement>
+<example><statement><p>Solve the equation <m>~~2x^2-x+2 = 0</m>.</p></statement>
     
 <solution><p>For this equation, <m>a=\alert{2}</m>, <m>b=\alert{-1}</m>, and <m>c=\alert{2}</m>. We substitute these values into the quadratic formula to obtain
         <md><mrow>x=\frac{ -(\alert{-1}) \pm \sqrt{ (\alert{-1})^2 - 4(\alert{2}) (\alert{2})} } { 2(\alert{2}) } = \frac{1 \pm \sqrt{-15} } {4}</mrow></md>
@@ -340,7 +339,7 @@ has no <m>x</m>-intercepts, as shown below.</p>
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 4</title>
-<statement><p>Use extraction of roots to solve <m>(2x+1)^2+9=0 </m>.  Write your answers as complex numbers.</p></statement>
+<statement><p>Use extraction of roots to solve the equation <m>~(2x+1)^2+9=0 </m>.  Write your answers as complex numbers.</p></statement>
 <solution><p><m>\dfrac{-1}{2} + \dfrac{3}{2}i</m>, <m>\dfrac{-1}{2} - \dfrac{3}{2}i</m></p></solution></exercise>
 </subsection>
 

@@ -53,7 +53,7 @@ If you look at figure (b), you can see that you are taking home 8 pieces of cake
 <p>There is a shortcut for multiplying fractions that allows us to reduce the answer before we multiply. We do this by dividing out any common factors in a numerator and a denominator. For example,
     <me>\dfrac{3a}{4} \cdot \dfrac{5}{6a^2} = \dfrac{\cancel{3} \cdot \cancel{a}}{4} \cdot \dfrac{5}{\cancel{3} \cdot 2 \cdot \cancel{a} \cdot a} = \dfrac{5}{8a}</me>
 or
-    <me>\dfrac{3a}{4} \cdot \dfrac{5}{6a^2} = \dfrac{15a}{24a^2} = \dfrac{\cancel{3} \cdot 5 \cdot\cancel{a}}{\cancel{3} \cdot 8 \cdot \cancel{a} \cdot a} = \dfrac{5}{8a}</me> <m>~\alert{\text{[TK]}}~~</m></p>
+    <me>\dfrac{3a}{4} \cdot \dfrac{5}{6a^2} = \dfrac{15a}{24a^2} = \dfrac{\cancel{3} \cdot 5 \cdot\cancel{a}}{\cancel{3} \cdot 8 \cdot \cancel{a} \cdot a} = \dfrac{5}{8a}</me></p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of multiplying fractions, see <xref ref="tkMultAlgFrac" text="custom"> Section 8.3.1 </xref> of the Toolkit.</p></aside>
 
@@ -97,7 +97,7 @@ We express this rule in symbols as follows.</p>
     <me>6 \div \dfrac{2}{3} = 6 \times \dfrac{3}{2} = 9</me>
 (Hint: How many groups of two thirds can you make from six whole units?)</p>
 
-<p>Thus, to divide two algebraic fractions, we take the reciprocal of the divisor (the second fraction) and then follow the rules for multiplying fractions.  <m>~\alert{\text{[TK]}}~~</m></p>
+<p>Thus, to divide two algebraic fractions, we take the reciprocal of the divisor (the second fraction) and then follow the rules for multiplying fractions. </p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of dividing fractions, see <xref ref="tkDivAlgFrac" text="custom"> Section 8.3.2 </xref> of the Toolkit.</p></aside>
 </subsection>
@@ -232,7 +232,7 @@ Now we follow the rules for multiplication:  First, we factor each numerator and
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 2</title>
-<statement><p>Divide: <m>~\dfrac{x^2-4y^2}{4y^2} \div \dfrac{x^2-3xy+2y^2}{3xy}</m> <m>~\alert{\text{[TK]}}~~</m></p></statement>
+<statement><p>Divide: <m>~\dfrac{x^2-4y^2}{4y^2} \div \dfrac{x^2-3xy+2y^2}{3xy}</m></p></statement>
     <answer><p><m>\dfrac{3x(x+2y)}{4y(x-y)}</m></p></answer></exercise>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of multiplying and dividing algebraic fractions, see <xref ref="tkUseFact" text="custom"> Section 8.3.3 </xref> of the Toolkit.</p></aside>
@@ -714,7 +714,7 @@ You can check that both 12 and 18 divide evenly into 36.</p>
     <li>Include each different factor in the LCD as many times as it occurs in any one of the given denominators.</li>
 </ol></p></assemblage>
 
-<example xml:id="Example-find-LCD"><statement><p>Find the LCD for the fractions <m>~\dfrac{2x}{x^2-1}~</m> and <m>~\dfrac{x+3}{x^2+x}~</m>  <m>~\alert{\text{[TK]}}~~</m></p></statement>
+<example xml:id="Example-find-LCD"><statement><p>Find the LCD for the fractions and <m>~\dfrac{x+3}{x^2+x}~</m>  <m>~\alert{\text{[TK]}}~~</m></p></statement>
 
 <solution><p>We factor the denominators of each of the given fractions.
     <me>x^2-1 = (x-1)(x+1)~~~~\text{and}~~~~x^2+x = x(x+1)</me>
@@ -748,7 +748,7 @@ You can check that both 12 and 18 divide evenly into 36.</p>
     <me>\dfrac{a}{b} = \dfrac{a \cdot c}{b \cdot c},~~~~\text{if}~~~~c \ne 0</me>  
 It is the opposite of reducing a fraction, because we multiply, rather than divide, the numerator and denominator by an appropriate factor. To find the <term>building factor</term><idx>building factor</idx><idx><h>fraction</h><h>building factor</h></idx>, we compare the factors of the original denominator with those of the desired common denominator.</p>
 
-<example><statement><p>Add:  <m>~\dfrac{x-4}{x^2-2x} + \dfrac{4}{x^2-4}</m> <m>~\alert{\text{[TK]}}</m> </p></statement>
+<example><statement><p>Add:  <m>~\dfrac{x-4}{x^2-2x} + \dfrac{4}{x^2-4}</m> </p></statement>
 
 <solution><p>Step 1: Find the LCD. We factor each denominator completely.
     <md><mrow>x^2-2x \amp = x(x-2)</mrow>
@@ -758,14 +758,13 @@ The LCD is <m>~x(x-2)(x+2)</m>.</p>
     <me>\dfrac{x-4}{x(x-2)} = \dfrac{(x-4)\alert{(x+2)}}{x(x-2)\alert{(x+2)}} = \dfrac{x^2-2x+8}{x(x-2)(x+2)}</me>
 The building factor for <m>\dfrac{4}{(x-2)(x+2)}</m> is <m>\alert{x}</m>.  
     <me>\dfrac{4}{(x-2)(x+2)} = \dfrac{4\alert{x}}{(x-2)(x+2)\alert{x}}</me></p>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>For more help with building, see <xref ref="tkBuild" text="custom"> Section 8.3.5 </xref> of the Toolkit.</p></aside>
 <p>Step 3: The fractions are now like fractions, so we add them by combining their numerators.
     <md><mrow>\dfrac{x-4}{x^2-2x} + \dfrac{4}{x^2-4} \amp = \dfrac{x^2-2x+8}{x(x-2)(x+2)} + \dfrac{4x}{x(x-2)(x+2)}</mrow>
         <mrow>\amp = \dfrac{x^2+2x+8}{x(x-2)(x+2)}</mrow></md></p>
 <p>Step 4: Finally, we reduce the fraction.
     <me>\dfrac{x^2+2x+8}{x(x-2)(x+2)} = \dfrac{(x+4)\cancel{(x-2)}}{x\cancel{(x-2)}(x+2)} = \dfrac{x+4}{x(x+2)}</me></p>
 </solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more help with building, see <xref ref="tkBuild" text="custom"> Section 8.3.5 </xref> of the Toolkit.</p></aside>
 
 <warning><p>Do not reduce the built-up fractions in Step 3 -- you will just get back to the original problem. When adding fractions, we have to make the fractions "harder" before we can combine them. Don't reduce until the last step of the problem.</p></warning>
 

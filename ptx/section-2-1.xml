@@ -10,7 +10,7 @@
         
 <p>Environmentalists are concerned about the loss of biodiversity which will result from destruction of the forest, and about the release of the carbon contained within the vegetation, which could accelerate global warming.</p>
         
-<p>In Brazil, the Instituto Nacional de Pesquisas Espaciais (INPE, or National Institute of Space Research) uses Landsat satellite photos to monitor the pace of deforestation. According to their data, the original Amazon rain forest biome in Brazil of 4,100,000 square kilometers was reduced to 3,413,000 square kilometers by 2005, representing a loss of 16.8%. The figures for 1987 to 2006 are shown at right, and a plot of the data appears below.  <m>~\alert{\text{[TK]}}</m></p>
+<p>In Brazil, the Instituto Nacional de Pesquisas Espaciais (INPE, or National Institute of Space Research) uses Landsat satellite photos to monitor the pace of deforestation. According to their data, the original Amazon rain forest biome in Brazil of 4,100,000 square kilometers was reduced to 3,413,000 square kilometers by 2005, representing a loss of 16.8%. The figures for 1987 to 2006 are shown at right, and a plot of the data appears below. </p>
 </stack>
     <tabular top="minor" right="minor" left="minor" bottom="minor" halign="center">
         <row><cell>Year</cell>
@@ -59,8 +59,6 @@
 
     <image width="90%" source="images/fig-rain-forest"><description>plot of shrinking rain forest</description></image>
 
-<aside><p><m>\alert{\text{[TK]}}~~</m>To see more examples of scatterplots, see <xref ref="tkReadScat" text="custom"> Section 2.1.1 </xref> of the Toolkit.</p></aside>
-
 <p>Although the data points do not all lie exactly on a straight line, they are very close. One question we might ask is: If deforestation continues at the same rate, when will the Amazon rain forest disappear completely? In this section we learn to find a linear model that approximates a data set.</p>
 </subsection>
 
@@ -95,7 +93,7 @@
         </tabular>
         <sidebyside widths="50% 45%" margins="0% 0%" valigns="top middle"><p><ol marker="a.">
             <li><p>Let <m>t</m> represent the number of years after 1960, and plot the data. Are the data linear?</p></li>
-            <li><p>Draw a line that "fits" the data. <m>~\alert{\text{[TK]}}</m> </p></li>
+            <li><p>Draw a line that "fits" the data.  </p></li>
         </ol></p>
                 <image source="images/fig-example-2-1-1"><description>scatterplot of minimum wage</description></image>
         </sidebyside>
@@ -106,7 +104,8 @@
             <me>\dfrac{1.25-1.00}{5}=0.05~ \text{dollars per year}</me> 
     and from 1970 to 1975, the minimum wage increased at a rate of 
             <me>\dfrac{2.10-1.60}{5}=0.10~ \text{dollars per year}</me> 
-    However, the data points do appear to lie close to an imaginary line.</p></li>
+    However, the data points do appear to lie close to an imaginary line.</p>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>To see more examples of scatterplots, see <xref ref="tkReadScat" text="custom"> Section 2.1.1 </xref> of the Toolkit.</p></aside></li>
     <li><sidebyside widths="45% 51%" margins="0% 0%" valigns="top middle">
     <p>We would like to draw a line that comes as close as possible to all the data points, even though it may not pass precisely through any of them. In particular, we try to adjust the line so that we have the same number of points above the line and below the line. One possible solution is shown in the figure at right.</p>
             <image source="images/fig-example-2-1-1ans"><description>scatterplot of minimum wage</description></image>
@@ -157,7 +156,7 @@
 </webwork></exercise>
 
 <exercise component="main"><title>Practice 1</title>
-<statement><p>The regression line in the Example above appears to pass through the points <m>(5, 1.25)</m> and <m>(25, 3.35)</m>. Use those points to find an equation for the regression line. <m>~\alert{\text{[TK]}}</m></p>
+<statement><p>The regression line in the Example above appears to pass through the points <m>(5, 1.25)</m> and <m>(25, 3.35)</m>. Use those points to find an equation for the regression line. </p>
 <p>Hint: Step 1 Calculate the slope.</p>
  <p><m>~~~~~~</m> Step 2 Use the point-slope formula.</p></statement>
 <answer><p><m>y = 0.105x+0.725</m></p></answer></exercise>

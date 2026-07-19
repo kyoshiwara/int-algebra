@@ -376,7 +376,8 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
 <p>We can find coordinates of other points on an ellipse by substituting a value for one variable and solving for the other variable.</p>
 
 <example><statement><p><ol marker="a.">
-    <li><p>Find the exact coordinates of any points with <m>y</m>-coordinate 2 on the ellipse <m>~4x^2 + y^2 = 12~</m>. Plot and label those points on the ellipse.  <m>~\alert{\text{[TK]}}</m></p></li>
+    <li><p>Find the exact coordinates of any points with <m>y</m>-coordinate 2 on the ellipse <m>~4x^2 + y^2 = 12~</m>. Plot and label those points on the ellipse. </p>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>For more help finding points, see <xref ref="tkFindPts" text="custom"> Section 9.3.1 </xref> of the Toolkit.</p></aside></li>
     <li><p>Solve the equation <m>~4x^2 + y^2 = 12~</m> when <m>y = -4</m>. What do the solutions tell you about the graph of the ellipse?</p></li></ol></p></statement>
     
 <solution><p><ol marker="a.">
@@ -410,8 +411,6 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
                     <mrow>x^2\amp = -1</mrow></md>
         Because there are no real solutions, there are no points on the ellipse with <m> = -4</m>.</p></li></ol></p>
 </solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more help finding points, see <xref ref="tkFindPts" text="custom"> Section 9.3.1 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 3</title>
 <webwork><pg-code>
@@ -732,7 +731,7 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
 <p>Second-degree equations in which the coefficients of <m>x^2</m> and <m>y^2</m> have the same sign can be written in one of the standard forms for an ellipse by completing the square<idx>completing the square</idx>. The equation can be graphed easily from the standard form.</p>
 
 <example xml:id="Example-ellipse-equation-standard-form" ><statement><p><ol marker="a.">
-    <li><p>Write the equation in standard form. <m>~\alert{\text{[TK]}}</m>
+    <li><p>Write the equation in standard form. 
             <me>4x^2 + 9y^2 - 16x - 18y -11 = 0</me></p></li>
     <li>Graph the equation.</li></ol></p>
 </statement>
@@ -741,8 +740,9 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
     <li><p>We first prepare to complete the square in both <m>x</m> and <m>y</m>. Begin by factoring out the coefficients of <m>x^2</m> and <m>y^2</m>.
         <me>\alert{4}(x^2-4x \underline{\hphantom{0000}}) + \alert{9}(y^2 - 2y \underline{\hphantom{0000}}) = 11</me>
     We complete the square in <m>x</m> by adding <m>\alert{4}</m> to <m>x^2-4x</m>, and adding <m>4 \cdot \alert{4}</m>, or <m>\blert{16}</m>, to the right side of the equation. We  complete the square in <m>y</m> by adding <m>\alert{1}</m> to <m>y^2-2y</m>, and  <m>9 \cdot \alert{1}</m>, or <m>\blert{9}</m>, to the right side.
-            <me>4(x^2-4x+\alert{4}) + 9(y^2 - 2y + \alert{1}) = 11 + \blert{16} + \blert{9}</me>
-    We write each term on the left side as a perfect square to get
+            <me>4(x^2-4x+\alert{4}) + 9(y^2 - 2y + \alert{1}) = 11 + \blert{16} + \blert{9}</me></p>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of completing the square, see <xref ref="tkConCompSq" text="custom"> Section 9.3.2 </xref> of the Toolkit.</p></aside>
+    <p>We write each term on the left side as a perfect square to get
                 <md><mrow> 4(x-2)^2 + 9(y-1)^2 \amp = 36 \amp\amp \blert{\text{Divide both sides by 36.}} </mrow>
                     <mrow>\frac{(x-2)^2}{9} + \frac{(y-1)^2}{4} \amp = 1</mrow></md></p></li>
     <li><p>The graph is an ellipse with center at <m>(2, 1),~a^2=9</m>, and <m>b^2=4</m>  The vertices lie 3 units to the right and left of the center at <m>(5,1)</m> and <m>(-1,1)</m>; the covertices lie 2 units above and below the center at <m>(2,3)</m> and <m>(2,-1)</m>. The graph is shown below.</p>
@@ -765,8 +765,6 @@ where <m>A</m>,<m>B</m>, and <m>C</m> the same sign. The features of the graph a
                     \end{tikzpicture}]]>
                 </latex-image></image></li></ol></p>
 </solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of completing the square, see <xref ref="tkConCompSq" text="custom"> Section 9.3.2 </xref> of the Toolkit.</p></aside>
 
 <warning><p>When completing the square in the Example above, do not forget the coefficients you factored out in the first step. When we add 4 to complete the square in <m>x</m>, it is multiplied by a factor of 4, so we must add <m>4 \cdot 4</m> or 16 to the right side of the equation. Similarly, we must add <m>9 \cdot 1</m> or 9 to the right side when we complete the square in <m>x</m>.</p>
 </warning>

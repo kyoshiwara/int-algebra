@@ -37,11 +37,11 @@ In other words, we solved an exponential equation by computing a logarithm. We m
 		<li><p><m>\log_5 {(125)} = \alert{3}~~~</m> because <m>~~~5^\alert{3}=125</m></p></li>
 		<li><p><m>\log_4 {\left(\dfrac{1}{16}\right)} = \alert{-2}~~~</m> because <m>~~~4^{\alert{-2}}=\dfrac{1}{16}</m></p></li>
 		<li><p><m>\log_5 {\left(\sqrt{5}\right)} = \alert{\dfrac{1}{2}}~~~</m> because <m>~~~5^\alert{1/2} = \sqrt{5}</m> 
-            <m>~\alert{\text{[TK]}}~~</m></p></li>
+            <aside><p><m>\alert{\text{[TK]}}~~</m>To review writing radicals with exponents, see <xref ref="tkRadtoPowr" text="custom"> Section 7.3.1 </xref> of the Toolkit.</p></aside></li>
 	</ol></p>
     <p>We see that in each example the logarithm is the exponent we need on the given base.</p></statement></example>
 
-<aside><p><m>\alert{\text{[TK]}}~~</m>To review writing radicals with exponents, see <xref ref="tkRadtoPowr" text="custom"> Section 7.3.1 </xref> of the Toolkit.</p></aside>
+
 
 <note><p>So the request to compute a logarithm really says "Find me the exponent!"</p></note>
 
@@ -202,18 +202,17 @@ are equivalent statements. Rewriting an equation in logarithmic form is a basic 
 
 <p>We can solve an exponential equation by converting the equation to logarithmic form.</p>
 
-<example><statement><p>Solve each equation by converting to logarithmic form.</p> <m>~\alert{\text{[TK]}}</m>
+<example><statement><p>Solve each equation by converting to logarithmic form.</p>
 <p><ol marker="a." cols="2">
     <li><m>4^x = 64</m></li>
-    <li><m>4^x = 60</m></li>
+    <li><m>4^x = 60</m>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>For more help using logs, see <xref ref="tkUseLog" text="custom"> Section 7.3.3 </xref> of the Toolkit.</p></aside></li>
 </ol></p></statement>
 
 <solution><p><ol marker="a.">
     <li><p>In this case we can see by inspection that the solution is <m>3</m>, or <m>x = \log_4 {(64)}.</m></p></li>
     <li><p>The log form is <m>x = \log_4 {(60)}</m>, which is not easy to evaluate without a calculator.</p></li>
 </ol></p></solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more help examples of using logs, see <xref ref="tkUseLog" text="custom"> Section 7.3.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="main"> <title>Practice 3</title>
 <statement><p>Solve each equation by converting to logarithmic form.</p>

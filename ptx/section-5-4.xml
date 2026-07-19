@@ -482,7 +482,7 @@ where <m>k</m> and <m>n</m> are positive constants.</p>
 
 <example xml:id="example-sphere-surface-area"><statement><p>The surface area of a sphere varies directly with the <em>square</em> of its radius. A balloon of radius 5 centimeters has surface area <m>100\pi</m> square centimeters, or about 314 square centimeters. 
 <ol marker="a.">
-    <li><p>Find a formula <m>S=f(r)</m> for the surface area of a sphere as a function of its radius <m>~\alert{\text{[TK]}}</m>.</p></li>
+    <li><p>Find a formula <m>S=f(r)</m> for the surface area of a sphere as a function of its radius.</p></li>
     <li><p>What is the radius of a sphere whose surface area is <m>200\pi</m> square centimeters,or about 628 square centimeters?</p></li>
     <li><p>Sketch a graph of the function.</p></li>
 </ol></p></statement>
@@ -493,7 +493,8 @@ where <m>k</m> and <m>n</m> are positive constants.</p>
     To find the constant of variation, <m>k</m>, we substitute the values of <m>S</m> and <m>r</m>.
         <md><mrow>\alert{100\pi} \amp = k(\alert{5})^2</mrow>
             <mrow>4\pi \amp= k</mrow></md>
-    Thus, <m>~S = f(r) = 4\pi r^2</m>.</p></li>
+    Thus, <m>~S = f(r) = 4\pi r^2</m>.</p>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of direct variation, see <xref ref="tkConVar" text="custom"> Section 5.4.1 </xref> , <xref ref="tkVarGraph" text="custom"> Section 5.4.2 </xref>, and <xref ref="tkVarEqn" text="custom"> Section 5.4.3 </xref>  of the Toolkit.</p></aside></li>
     <li><p>We solve the variation equation for <m>r</m> when <m>S=200\pi</m>.
         <md><mrow>\alert{200\pi} \amp = 4\pi r^2</mrow>
             <mrow>50 \amp= r^2</mrow>
@@ -502,8 +503,6 @@ where <m>k</m> and <m>n</m> are positive constants.</p>
     <li><p>The graph has the shape of the basic function <m>y=x^2</m>, so all we need are a few points to "anchor" the graph. We know that <m>f(5)=314</m>, and <m>f(1)= 4\pi \cdot 1^2</m> or about <m>12.6</m>. A graph is shown below.</p>
         <p>(Need graph here)</p></li>
 </ol></p></solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of direct variation, see <xref ref="tkConVar" text="custom"> Section 5.4.1 </xref> , <xref ref="tkVarGraph" text="custom"> Section 5.4.2 </xref>, and <xref ref="tkVarEqn" text="custom"> Section 5.4.3 </xref>  of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 4</title>
     <webwork><pg-code>

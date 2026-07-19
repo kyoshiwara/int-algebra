@@ -4,7 +4,7 @@
 
 <subsection><title>Intercepts of a Graph</title>
 
-<p>Here is a graph of the linear equation <m>3y-4x=12</m>. Notice the points where the graph crosses the <m>x</m>- and <m>y</m>-axes. These points are called the <term>intercepts</term> of the graph.</p>
+<p>Here is a graph of the linear equation <m>~3y-4x=12</m>. Notice the points where the graph crosses the <m>x</m>- and <m>y</m>-axes. These points are called the <term>intercepts</term> of the graph.</p>
 
 <image width="32%" source="images/fig-intercepts"><description>intercepts of a line</description></image>
 
@@ -48,7 +48,7 @@
      <li><p>To find the <m>y</m>-intercept<idx><em>y</em>-intercept</idx>, we set <m>x = 0</m> and solve for <m>y</m>.</p></li>
  </ol></p></assemblage>
 
-<example xml:id="Leon-Camper-intercepts"><statement><p>In <xref ref="Leon-camper" text="type-global"/> of <xref ref="LinMod" text="type-global" />, we graphed an equation, <m>g=20-\frac{1}{12}d </m>, for the amount of gasoline, <m>g</m>, left in Leon's tank after he has driven for <m>d</m> miles. Find the intercepts of the graph.</p></statement>
+<example xml:id="Leon-Camper-intercepts"><statement><p>In <xref ref="Leon-camper" text="type-global"/> of <xref ref="LinMod" text="type-global" />, we graphed an equation, <m>~g=20-\frac{1}{12}d ~</m>, for the amount of gasoline, <m>g</m>, left in Leon's tank after he has driven for <m>d</m> miles. Find the intercepts of the graph.</p></statement>
     
 <solution><p> To find the <m>d</m>-intercept, we set <m>g = 0</m> and solve for <m>d</m>.</p>
     <p><md><mrow>\alert{0} \amp = 20-\frac{1}{12}d \amp\amp\blert{\text{Add }\frac{1}{12}d \text{ to both sides.}} </mrow>
@@ -84,12 +84,11 @@ The <m>g</m>-intercept is <m>(0, 20)</m>.</p></solution></example>
 
 <p>The intercepts of a graph give us information about the situation it models.</p>
 
-<example><statement><p>What do the intercepts of the graph in <xref ref="Leon-Camper-intercepts" text="custom" >the Example above</xref> tell us about Leon's camper?  <m>~\alert{\text{[TK]}}</m></p>
+<example><statement><p>What do the intercepts of the graph in <xref ref="Leon-Camper-intercepts" text="custom" >the Example above</xref> tell us about Leon's camper? </p>
 </statement>
 
 <solution><p>The <m>d</m>-intercept tells us that when <m>d = 240</m>, <m>g = 0</m>, or that when Leon has traveled 240 miles, he has 0 gallons of gasoline left; the fuel tank is empty.</p>
 <p> The <m>g</m>-intercept tells us that when <m>d = 0</m>, <m>g = 20</m>, or that when Leon has traveled 0 miles, he has 20 gallons of gasoline left. The fuel tank holds 20 gallons when full.</p></solution></example>
-
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more help on interpretineg the intercepts, see <xref ref="tkInterpret" text="custom"> Section 1.3.2 </xref> of the Toolkit.</p></aside>
 
@@ -170,7 +169,7 @@ The <m>g</m>-intercept is <m>(0, 20)</m>.</p></solution></example>
 and the equation in <xref ref="Leon-camper" text="type-global"/> of that section,
     <me> g=20-\frac{1}{12}d ~~~~~~~~  \text{ can be written  as }  \frac{1}{12}d+g=20 </me></p>
 
-<p>This form of a linear equation, <m>Ax +By = C</m>, is called the <term>general form</term>.</p>
+<p>This form of a linear equation, <m>~Ax +By = C</m>, is called the <term>general form</term>.</p>
 
 <definition><title>General Form for a Linear Equation</title>
     <statement><p>The <term>general form</term><idx>general form for a linear equation</idx><idx><h>linear equation</h><h>general form</h></idx> for a linear equation is
@@ -235,7 +234,7 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
                     <cell><m>18</m></cell></row>
             </tabular></li>
     <li><sidebyside widths="50% 35%" margins="0% 2%"><p>We plot the points from the table. All the solutions lie on a straight line.</p>
-            <image source="images/fig-example-advertising"><description>grid</description></image></sidebyside></li>
+            <image source="images/fig-example-advertising"><description>graph of radio vs TV ads</description></image></sidebyside></li>
         </ol></p></solution></example>
 
 <exercise component="webwork" xml:id="BreadbasketBakeryw"><title>Practice 3</title>
@@ -269,8 +268,8 @@ and the equation in <xref ref="Leon-camper" text="type-global"/> of that section
 </ol></p></assemblage>
 
 <example><statement><p><ol marker="a.">
-        <li><p>Find the <m>x</m>- and <m>y</m>-intercepts of the graph of <m>150x + 50y = 3000</m>.</p></li>
-        <li><p>Use the intercepts to graph the equation. <m>~\alert{\text{[TK]}}</m></p></li>
+        <li><p>Find the <m>x</m>- and <m>y</m>-intercepts of the graph of <m>~150x + 50y = 3000</m>.</p></li>
+        <li><p>Use the intercepts to graph the equation. </p></li>
         </ol></p></statement>
 
 <solution><p><ol marker="a.">
@@ -414,8 +413,8 @@ and the form for a linear model,
 Sometimes it is useful to convert an equation from one form to the other.</p>
 
 <example><statement><p><ol marker="a.">
-            <li><p>Write the equation <m>4x-3y=6</m> in the form for a linear model.</p></li>
-            <li><p>Write the equation <m>y=-9-\dfrac{3}{2}x</m> in general linear form.</p></li>
+            <li><p>Write the equation <m>~4x-3y=6~</m> in the form for a linear model.</p></li>
+            <li><p>Write the equation <m>~y=-9-\dfrac{3}{2}x~</m> in general linear form.</p></li>
         </ol></p></statement>
     
 <solution><p><ol marker="a.">
@@ -466,8 +465,8 @@ Sometimes it is useful to convert an equation from one form to the other.</p>
 
 <exercise component="main"><title>Practice 5</title>
 <statement><p><ol marker="a.">
-        <li><p>Write the equation <m>150x + 50y = 3000</m> in the form for a linear model.</p></li>
-        <li><p>Write the equation <m>y = 0.15x - 3.8</m> in general linear form with integer coefficients.</p></li>
+        <li><p>Write the equation <m>~150x + 50y = 3000~</m> in the form for a linear model.</p></li>
+        <li><p>Write the equation <m>~y = 0.15x - 3.8~</m> in general linear form with integer coefficients.</p></li>
     </ol></p></statement>
     <answer><p><ol marker="a.">
         <li><p><m>y=-3x+60</m></p></li>

@@ -77,7 +77,7 @@
 
 <p>A biologist wants to know the average weights of two species of birds in a wildlife preserve. She sets up a feeder whose platform is actually a scale and mounts a camera to monitor the feeder. She waits until the feeder is occupied only by members of the two species she is studying,  robins and thrushes. Then she takes a picture, which records the number of each species on the scale and the total weight registered.</p>
 
-<p>From her two best pictures, she obtains the following information. The total weight of 3 thrushes and 6 robins is 48 ounces, and the total weight of 5 thrushes and 2 robins is 32 ounces.  The biologist writes two equations about the photos. <m>~\alert{\text{[TK]}}~</m> She begins by assigning variables to the two unknown quantities:
+<p>From her two best pictures, she obtains the following information. The total weight of 3 thrushes and 6 robins is 48 ounces, and the total weight of 5 thrushes and 2 robins is 32 ounces.  The biologist writes two equations about the photos.  She begins by assigning variables to the two unknown quantities:
     <md><mrow>\amp\text{Average weight of a thrush:} ~~t </mrow>
         <mrow>\amp\text{Average weight of a robin:} ~~r </mrow></md>
     In each of the photos,
@@ -149,7 +149,7 @@ So the two equations are
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside>
 
-<p>Both equations are true, so we have found the solution: a thrush weighs 4 ounces on average, and a robin weighs 6 ounces. <m>~\alert{\text{[TK]}}</m></p>
+<p>Both equations are true, so we have found the solution: a thrush weighs 4 ounces on average, and a robin weighs 6 ounces. </p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review solutions of linear systems, see <xref ref="tkSysSoln" text="custom"> Section 2.2.2 </xref> of the Toolkit.</p></aside>
 
@@ -189,7 +189,7 @@ So the two equations are
 
 <p>We can use a calculator or graphing utility to graph the equations in a system.</p>
 
-<example><statement><p>Use your grapher to solve the system by graphing. <m>~~\alert{\text{[TK]}}</m>
+<example><statement><p>Use your grapher to solve the system by graphing. </m>
             <md><mrow>y \amp= 1.7x + 0.4</mrow>
                 <mrow>y \amp= 4.1x + 5.2</mrow></md></p></statement>
 
@@ -443,7 +443,7 @@ and use the standard window. If we trace along the graph to the intersection poi
 
 <p>A business venture calculates its <term>profit</term><idx>profit</idx> by subtracting its <term>costs</term><idx>cost</idx> from its <term>revenue</term><idx>revenue</idx>, the amount of money it takes in from sales.
     <me>\blert{\text{Profit} = \text{Revenue} -\text{Cost}}</me>
-Cost is usually calculated as the sum of fixed costs, or overhead, and variable costs, the cost of labor and materials to produce its product. Revenue is the product of the selling price per item times the number of items sold. If the company’s revenue exactly equals its costs (so that their profit is zero), we say that the business venture will <term>break even</term><idx>break even</idx>. <m>~\alert{\text{[TK]}}</m></p>
+Cost is usually calculated as the sum of fixed costs, or overhead, and variable costs, the cost of labor and materials to produce its product. Revenue is the product of the selling price per item times the number of items sold. If the company’s revenue exactly equals its costs (so that their profit is zero), we say that the business venture will <term>break even</term><idx>break even</idx>.</p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To see more examples of the profit equation, see <xref ref="tkProfit" text="custom"> Section 2.2.3 </xref> of the Toolkit.</p></aside>
 

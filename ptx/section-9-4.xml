@@ -245,10 +245,11 @@
     <me>Ax^2 + By^2 = C</me>
 where <m>A</m> and <m>B</m> have <em>opposite</em> signs and <m>C \ne 0</m>. As with ellipses, it is best to rewrite the equation in standard form in order to graph it.</p>
 
-<example><statement><p>Write the equation <m>~4y^2-x^2=16~</m> in standard form and describe the important features of its graph. <m>~\alert{\text{[TK]}}</m></p></statement>
+<example><statement><p>Write the equation <m>~4y^2-x^2=16~</m> in standard form and describe the important features of its graph.</p></statement>
     
 <solution><p>We first divide each side by 16 to obtain
         <me>\frac{y^2}{4} - \dfrac{x^2}{16} = 1\quad\text{ or } \quad \frac{y^2}{2^2} - \dfrac{x^2}{4^2} = 1</me></p>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of writing in standard form, see <xref ref="tkQuadStdForm" text="custom"> Section 9.4.1 </xref> of the Toolkit.</p></aside>
     <sidebyside widths="53% 40%" margins="0% 5%" valigns="middle middle">
     <p>The graph is a central hyperbola with <m>y</m>-intercepts <m>2</m> and <m>-2</m>, as shown in the figure. The slopes of the asymptotes are given by
         <me>\pm \frac{b}{a}=\pm \frac{2}{4}=\pm \frac{1}{2}</me>
@@ -274,8 +275,6 @@ where <m>A</m> and <m>B</m> have <em>opposite</em> signs and <m>C \ne 0</m>. As 
                 \node at (3.3,4.9) {$4y^2-x^2=16$};
                 \end{tikzpicture}]]>
             </latex-image></image></sidebyside></solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of writing in standard form, see <xref ref="tkQuadStdForm" text="custom"> Section 9.4.1 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 2</title>
 <webwork><pg-code>
@@ -689,7 +688,7 @@ There are two points with <m>x=2</m>, namely <m>\left(2, \sqrt{5}\right)</m> and
 
 <example><statement><p><ol marker="a.">
         <li><p>Graph <m>~\dfrac{(x-3)^2}{8} - \dfrac{(y+2)^2}{10} = 1</m></p></li>
-        <li><p>Find the equations of the asymptotes. <m>~\alert{\text{[TK]}}</m></p></li>
+        <li><p>Find the equations of the asymptotes.</p></li>
     </ol></p></statement>
 
 <solution><p><ol marker="a.">

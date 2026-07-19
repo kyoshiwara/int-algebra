@@ -114,14 +114,13 @@ Taking the (positive) square root of each side of this equation gives us the <te
         <li><p>The distance between two points is always a positive number (or zero).</p></li>
     </ol></p></statement></exercise>
 
-<example xml:id="example-distance-betw-points"><statement><p>Find the distance between <m>(2,-1)</m> and <m>(4,3)</m>. <m>~\alert{\text{[TK]}}</m></p></statement>
+<example xml:id="example-distance-betw-points"><statement><p>Find the distance between <m>(2,-1)</m> and <m>(4,3)</m>. </p>
+    <aside><p><m>\alert{\text{[TK]}}~~</m>To review working with radicals, see <xref ref="tkRadDist" text="custom"> Section 9.2.1 </xref> of the Toolkit.</p></aside></statement>
     
 <solution><p>Substitute <m>(2,-1)</m> for <m>(x_1,y_1)</m> and <m>(4,3)</m> for <m>(x_2,y_2)</m> in the distance formula to obtain
             <md><mrow>d \amp = \sqrt{(x_2-x_1)^2+(y_2-y_1)^2}</mrow>
                 <mrow>\amp = \sqrt{(4-2)^2+\left[3-(-1)\right]^2}</mrow>
                 <mrow>\amp = \sqrt{4+16} =\sqrt{20} \approx 4.47 </mrow></md></p></solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>To review working with radicals, see <xref ref="tkRadDist" text="custom"> Section 9.2.1 </xref> of the Toolkit.</p></aside>
 
 <p>It doesn't matter which point we call <m>P_1</m>  and which is <m>P_2</m>. We obtain the same answer in the previous Example if we switch the two points and use <m>(4,3)</m> for <m>P_1</m> and <m>(2,-1)</m> for <m>P_2</m>:
     <md><mrow>d \amp = \sqrt{(2-4)^2+[(-1)-3]^2}</mrow>
@@ -328,8 +327,7 @@ Thus, the equation for a circle of radius <m>r</m> centered at the origin is
         <me>\blert{(x-h)^2+(y-k)^2=r^2}</me></p>
 </assemblage>
 
-<example><statement><p>Find a point with <m>x</m>-coordinate <m>-3</m> that lies on the circle <m>(x+2)^2+(y-4)^2=5</m>. <m>~\alert{\text{[TK]}}</m>
-</p></statement>
+<example><statement><p>Find a point with <m>x</m>-coordinate <m>-3</m> that lies on the circle <m>(x+2)^2+(y-4)^2=5</m>. </p></statement>
 
 <solution><p>We substitute <m>x=\alert{-3}</m> into the equation, and solve for <m>y</m>.
     <md><mrow>(\alert{-3}+2)^2+(y-4)^2 \amp = 5 \amp \amp \blert{\text{Simplify.}}</mrow>
@@ -533,12 +531,13 @@ or
 
 <example><statement><p>Write the equation of the circle
             <md><mrow>x^2+y^2+8x-2y+6=0</mrow></md>
-in standard form, and graph the equation.  <m>~\alert{\text{[TK]}}</m></p></statement>
+in standard form, and graph the equation.</p></statement>
     
 <solution><p>We prepare to complete the square in both variables by writing the equation as
         <me>(x^2+8x+<fillin characters="3"/>)+(y^2-2y+<fillin characters="3"/>)=-6</me>
 We complete the square in <m>x</m> by adding 16 to each side of the equation, and complete the square in <m>y</m> by adding 1 to each side, to get
             <me>(x^2+8x+\alert{16})+(y^2-2y+\alert{1})=-6+\alert{16}+\alert{1}</me></p>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>To review completing the square, see <xref ref="tkCompSq" text="custom"> Section 9.2.3 </xref> of the Toolkit.</p></aside>
         <sidebyside widths="55% 32%" margins="0% 5%" valigns="middle middle">
 <p>from which we obtain the standard form,
             <me>(x+4)^2+(y-1)^2=11</me>
@@ -562,8 +561,6 @@ Thus, the circle has its center at <m>(-4,1)</m>, and its radius is <m>\sqrt{11}
             \end{tikzpicture}]]>
             </latex-image></image></sidebyside>
 </solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>To review completing the square, see <xref ref="tkCompSq" text="custom"> Section 9.2.3 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>QuickCheck 4</title>
 <webwork><pg-code>

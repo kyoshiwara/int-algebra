@@ -384,7 +384,7 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
             <md><mrow>x = 2(\alert{28}) = 56</mrow></md>
     The solution to the system is <m>x = 56</m>, <m>y = 28</m>. Staci should order 56 standard sleeping bags and 28 down-filled bags.</p></solution></example>
 
-<p>In the next Exercise, we'll use the formula <m>I=Pr</m> for calculating the interest, <m>I</m>, earned on an investment. <m>~\alert{\text{[TK]}}</m></p>
+<p>In the next Exercise, we'll use the formula <m>I=Pr</m> for calculating the interest, <m>I</m>, earned on an investment.</p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review the interest formula, see <xref ref="tkInterest" text="custom"> Section 2.3.1 </xref> of the Toolkit.</p></aside>
 
@@ -418,7 +418,7 @@ The solution of the system is the point <m>(4, -1)</m>.</p></solution></example>
 </ol></p></statement>
 <answer>Jerry invested $1100 at 4% innterest and $900 at 9% interest.</answer></exercise>
 
-<p>A useful application of linear systems involves mixtures. In the next Example, we use the percent formula <m>P=rW</m>. <m>~\alert{\text{[TK]}}</m>  For instance, suppose that 35% of a class of 60 students are math majors. Then the number of math majors is   
+<p>A useful application of linear systems involves mixtures. In the next Example, we use the percent formula <m>P=rW</m>. For instance, suppose that 35% of a class of 60 students are math majors. Then the number of math majors is   
     <md><mrow>\text{Part} \amp = \text{Percent rate} \times \text{Whole}</mrow>
         <mrow>\text{Number of math majors} \amp = 0.35 \times 60 = 21</mrow></md></p>
 

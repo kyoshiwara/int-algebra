@@ -206,7 +206,7 @@ We can also apply the two functions in the opposite order, so that
     <li><p>Again, because <m>\log {(x)}</m> and <m>10^x</m> are inverse functions, <m>10^{\log{(0.6)}} = 0.6</m>. You can verify the result on your calculator by first computing <m>\log {(0.6)}</m> and then computing <m>10</m> to the result.</p></li>
 </ol></p></solution></example>
 
-<example><statement><p><m>f(x)=\log_6 {(x)}~</m> and <m>g(x)</m> is its inverse function.  <m>~\alert{\text{[TK]}}</m>
+<example><statement><p><m>f(x)=\log_6 {(x)}~</m> and <m>g(x)</m> is its inverse function.  
 <ol marker="a.">
     <li>What is <m>~g</m>?</li>
     <li>Evaluate and simplify <m>~f\left(g(4)\right)</m></li>
@@ -216,10 +216,9 @@ We can also apply the two functions in the opposite order, so that
 <solution><p><ol marker="a.">
     <li><p>The inverse of a logartihmic function is the exponential function with the same base, so <m>~g(x) = 6^x</m>.</p></li>
     <li><p>First compute <m>g(4) = 6^4</m>. Then <m>~f(g(4)) = f(6^4) = \log_6 {(6^4)} = 4</m>.</p></li>
-    <li><p>First compute <m>f(5) = \log_6 {(5)}</m>. Then <m>~g(\log_6 {(5)}) = 6^{\log_6 {(5)}} = 5</m></p></li>
+    <li><p>First compute <m>f(5) = \log_6 {(5)}</m>. Then <m>~g(\log_6 {(5)}) = 6^{\log_6 {(5)}} = 5</m></p>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>To see more examples using function notation, see <xref ref="tkUseFncnNot" text="custom"> Section 10.1.2 </xref> of the Toolkit.</p></aside></li>
 </ol></p></solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>To see more examples using function notation, see <xref ref="tkUseFncnNot" text="custom"> Section 10.1.2 </xref> of the Toolkit.</p></aside>
 
 <exercise component="webwork"><title>Practice 1</title>
 <webwork>
@@ -828,7 +827,7 @@ is a log equation.</p>
     <me>\blert{y = \log_b {(x)}}~~~ \text{ if and only if }~~~ \blert{ x = b^y}</me>
 </p></assemblage>
 
-<example><statement><p>Solve <m>~\log_4{(2x-8)}=3</m>.</p></statement>
+<example><statement><p>Solve the equation <m>~\log_4{(2x-8)}=3</m>.</p></statement>
 		
 <solution><p>We use the conversion equations to write the equation in exponential form.
 	<md><mrow>2x-8 \amp = 4^3 \amp \amp \blert{\text{Evaluate the power.}}</mrow>
@@ -848,18 +847,19 @@ The solution is 36.</p></solution></example>
 </webwork></exercise>
 
 <exercise component="main"> <title>Practice 6</title>
-<statement><p>Solve <m>~\log_5{(5-3x)} = 3</m></p></statement>
+<statement><p>Solve the equation <m>~\log_5{(5-3x)} = 3</m></p></statement>
     <answer><p><m>x=-40</m></p></answer></exercise>
 
 <p>If an equation contains more than one log, we must first combine any expressions involving logs into a single logarithm.</p>
 
-<example><statement><p>Solve <m>~~\log_{10}{(x + 1)} + \log_{10}{(x - 2)}= 1</m>.   </p></statement>
+<example><statement><p>Solve the equation <m>~~\log_{10}{(x + 1)} + \log_{10}{(x - 2)}= 1</m>.   </p></statement>
 
 <solution><p>We use Property (1) of logarithms (see <xref ref="properties-of-logarithms" text="custom">Properties of Logarithms</xref>) to rewrite the left-hand side as a single logarithm:
 	<me>\log_{10}{(x + 1)(x - 2)} = 1</me>
 Once the left-hand side is expressed as a single logarithm, we can rewrite the equation in exponential form as
-	<me>(x + 1)(x - 2) = 10^1</me>
-Simplifying the right side gives us a quadratic equation to solve.
+	<me>(x + 1)(x - 2) = 10^1</me></p>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>to review using the properties of logs, see <xref ref="tkUseLogProps" text="custom"> Section 10.1.3 </xref> of the Toolkit.</p></aside>
+<p>Simplifying the right side gives us a quadratic equation to solve.
 	<md><mrow>x^2 - x - 2 \amp = 10 \amp \amp \blert{\text{Subtract 10 from both sides.}}</mrow>
 		<mrow>x^2 - x - 12 \amp = 0 \amp \amp \blert{\text{Factor the left side.}}</mrow>
 		<mrow>(x - 4)(x + 3) \amp= 0 \amp \amp \blert{\text{Apply the zero-factor principle.}}</mrow></md>
@@ -870,8 +870,6 @@ We find <m>x = 4</m> or <m>x = -3</m>.  But let us check both of these values in
 so <m>x=4</m> is a solution.</p>
 
 <p>But <m>x = -3</m> is not a solution of the original equation, because neither <m>\log_{10}{(x + 1)}</m> nor <m>\log_{10}{(x - 2)}</m> is defined for <m>x = -3</m>. (Remember that we cannot take a logarithm of a negative number or zero.) We say that the apparent solution <m>x=-3</m> is <term>extraneous</term>, and the only solution of the original equation is <m>4</m>.<idx>extraneous solution</idx></p></solution></example>
-
-<aside><p><m>\alert{\text{[TK]}}~~</m>to review using the properties of logs, see <xref ref="tkUseLogProps" text="custom"> Section 10.1.3 </xref> of the Toolkit.</p></aside>
 
 <p><term>Extraneous solutions</term> can arise whenever we solve a logarithmic equation, especially if there is more than one apparent solution. Therefore, we should always check that a possible solution does not cause one of the logarithms to be undefined.</p>
 

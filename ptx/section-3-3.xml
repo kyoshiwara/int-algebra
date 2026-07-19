@@ -524,15 +524,14 @@ rectangle? What is its height?</p></li>
  <example><statement><p>Describe the graph of the equation
 	<me>y = 2x^2 + 8x</me></p></statement>
 
-<solution><p>The graph in the standard window is shown below. We see that the axis of symmetry for this parabola is not the <m>y</m>-axis: the graph is shifted to the left, compared to the basic parabola. We find the <m>y</m>-intercepts of the graph by setting <m>y</m> equal to zero: <m>~\alert{\text{[TK]}}</m> 
+<solution><p>The graph in the standard window is shown below. We see that the axis of symmetry for this parabola is not the <m>y</m>-axis: the graph is shifted to the left, compared to the basic parabola. We find the <m>y</m>-intercepts of the graph by setting <m>y</m> equal to zero:  
     <md><mrow>0 \amp= 2x^2 + 8x</mrow>
         <mrow>\amp= 2x(x + 4)</mrow></md>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>To review solving quadratic equations, see <xref ref="tkSolvQuadEqn" text="custom"> Section 3.3.2 </xref> of the Toolkit.</p></aside>
 The solutions of this equation are <m>0</m> and <m>-4</m>, so the <m>x</m>-intercepts are the points <m>(0, 0)</m> and <m>(-4, 0)</m>.</p>
 <image width="35%" source="images/fig-GC-horizontally-shifted-parabola"  ><description>shifted parabola</description></image></solution></example>
 
-<aside><p><m>\alert{\text{[TK]}}~~</m>To review solving quadratic equations, see <xref ref="tkSolvQuadEqn" text="custom"> Section 3.3.2 </xref> of the Toolkit.</p></aside>
-
-<p>We can find the vertex of the graph by using the symmetry of the parabola. The <m>x</m>-coordinate of the vertex lies exactly half-way between the <m>x</m>-intercepts, so we average their <m>x</m>-coordinates to find: <m>~\alert{\text{[TK]}}</m>
+<p>We can find the vertex of the graph by using the symmetry of the parabola. The <m>x</m>-coordinate of the vertex lies exactly half-way between the <m>x</m>-intercepts, so we average their <m>x</m>-coordinates to find: 
 	<me>x=\frac{1}{2}[0 + (-4)] = -2</me></p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>To review the average of two numbers, see <xref ref="tkAvg" text="custom"> Section 3.3.1 </xref> of the Toolkit.</p></aside>
@@ -634,7 +633,7 @@ Now we have a formula for the <m>x</m>-coordinate of the vertex.</p>
 	<p>For the graph of <m>y = ax^2 + bx</m>, the <m>x</m>-coordinate of the vertex is
 		<me>\blert{x_v=\frac{-b}{2a}}</me></p></assemblage>
 
-<p>We find the <m>y</m>-coordinate of the vertex by substituting its <m>x</m>-coordinate into the equation for the parabola. <m>~\alert{\text{[TK]}}~~</m></p>
+<p>We find the <m>y</m>-coordinate of the vertex by substituting its <m>x</m>-coordinate into the equation for the parabola. </p>
 
 <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of finding points on a parabola, see <xref ref="tkParabPts" text="custom"> Section 3.3.3 </xref> of the Toolkit.</p></aside>
 
