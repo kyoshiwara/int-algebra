@@ -177,10 +177,11 @@ After expanding the left side and collecting like terms, we arrive at a quadrati
             <md><mrow>x^2+y^2 \amp=5</mrow>
                 <mrow>xy\amp=2</mrow></md></p></statement>
 
-<solution><sidebyside widths="60% 35%" margins="0% 0%" valigns="middle middle">
+<solution>
+        <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of using substitution, see <xref ref="tkSubst" text="custom"> Section 9.5.3 </xref> of the Toolkit.</p></aside>
+        <sidebyside widths="60% 35%" margins="0% 0%" valigns="middle middle">
 <p>We will use substitution to solve the system. We solve the easier of the two equations (the second equation) for <m>y</m> to obtain <m>y =\dfrac{2}{x}</m>. Then we substitute <m>\dfrac{2}{x} </m> for <m>y</m> in the first equation to find
             <me>x^2+\left(\frac{2}{x} \right)^2=5 \quad\text{ or }\quad x^2+\frac{4}{x^2} =5  </me></p>
-        <aside><p><m>\alert{\text{[TK]}}~~</m>For more examples of using substitution, see <xref ref="tkSubst" text="custom"> Section 9.5.3 </xref> of the Toolkit.</p></aside>
         <image xml:id="fig-example-9-5-3"><description>circle and hyperbola</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%

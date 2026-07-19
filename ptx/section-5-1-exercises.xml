@@ -8,7 +8,7 @@
     
 <subexercises><title>Warm Up</title>
 
-<exercisegroup cols="2"><introduction><p>For Problems 1-4, evaluate.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>4, evaluate.</p></introduction>
 
 <exercise number="1"><statement><p><m>2x-x^2~~~</m> for <m>x=-4</m></p></statement>
 <answer><p><m>-24</m></p></answer></exercise>
@@ -21,8 +21,8 @@
 <exercise number="4"><statement><p><m>-t^3+3t^2~~~</m> for <m>t=-2</m></p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>For Problems 5-8, solve.</p>
-<aside><p><m>\alert{\text{[TK]}}~~</m><p>To review solving nonlinear equations, see <xref ref="tkNonLinEqn" text="custom"> Section 5.1.2 </xref> of the Toolkit.</p></p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>8, solve.</p>
+<aside><p><m>\alert{\text{[TK]}}~~</m> To review solving nonlinear equations, see <xref ref="tkNonLinEqn" text="custom"> Section 5.1.2 </xref> of the Toolkit.</p></aside></introduction>
 
 <exercise number="5"><statement><p><m>4-5x-2x^2=1</m></p></statement>
 <answer><p><m>-3, \dfrac{1}{2}</m></p></answer></exercise>
